@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_srv
+
+Name: rqt_srv
+Description: Description of rqt_srv
+Version: 0.4.9
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

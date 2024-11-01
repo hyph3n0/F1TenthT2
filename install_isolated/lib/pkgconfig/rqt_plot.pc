@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rqt_plot
+Description: Description of rqt_plot
+Version: 0.4.13
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

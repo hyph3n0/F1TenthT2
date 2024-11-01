@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: urdf
+Description: Description of urdf
+Version: 1.13.2
+Cflags: -I${prefix}/include -I/usr/include -I/usr/lib/aarch64-linux-gnu/urdfdom/cmake/../../../../include
+Libs: -L${prefix}/lib -lurdf /usr/lib/aarch64-linux-gnu/liburdfdom_sensor.so /usr/lib/aarch64-linux-gnu/liburdfdom_model_state.so /usr/lib/aarch64-linux-gnu/liburdfdom_model.so /usr/lib/aarch64-linux-gnu/liburdfdom_world.so /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0 /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0 /usr/lib/aarch64-linux-gnu/libtinyxml.so /usr/lib/aarch64-linux-gnu/libtinyxml2.so
+Requires: pluginlib rosconsole_bridge roscpp

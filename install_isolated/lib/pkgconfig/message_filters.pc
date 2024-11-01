@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.17.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmessage_filters
+Requires: roscpp rosconsole

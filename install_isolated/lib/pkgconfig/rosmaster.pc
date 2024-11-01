@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rosmaster
+Description: Description of rosmaster
+Version: 1.17.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

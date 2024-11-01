@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rqt_moveit
+Description: Description of rqt_moveit
+Version: 0.5.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

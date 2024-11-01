@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: angles
+Description: Description of angles
+Version: 1.9.13
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

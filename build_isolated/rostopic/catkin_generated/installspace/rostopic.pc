@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rostopic
+Description: Description of rostopic
+Version: 1.17.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/actionlib
+
+Name: actionlib
+Description: Description of actionlib
+Version: 1.14.0
+Cflags: -I/home/f1tenthteam2/pleasework/devel_isolated/actionlib/include -I/home/f1tenthteam2/pleasework/src/actionlib/actionlib/include -I/usr/include
+Libs: -L${prefix}/lib -lactionlib /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
+Requires: actionlib_msgs message_runtime roscpp std_msgs

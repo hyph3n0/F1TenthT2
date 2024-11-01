@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/f1tenthteam2/pleasework/src/rosconsole/cmake/check_log4cxx_requires_cxx17/main.cpp
+log4cxx/boost-std-configuration.h
+/home/f1tenthteam2/pleasework/src/rosconsole/cmake/check_log4cxx_requires_cxx17/log4cxx/boost-std-configuration.h
+

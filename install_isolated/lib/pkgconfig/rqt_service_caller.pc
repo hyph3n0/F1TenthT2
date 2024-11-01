@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rqt_service_caller
+Description: Description of rqt_service_caller
+Version: 0.4.10
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

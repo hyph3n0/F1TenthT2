@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/check_log4cxx_requires_cxx17.dir/main.cpp.o -o check_log4cxx_requires_cxx17 

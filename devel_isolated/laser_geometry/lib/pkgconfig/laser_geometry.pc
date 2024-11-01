@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry
+
+Name: laser_geometry
+Description: Description of laser_geometry
+Version: 1.6.7
+Cflags: -I/home/f1tenthteam2/pleasework/src/laser_geometry/include -I/usr/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -llaser_geometry /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
+Requires: tf tf2

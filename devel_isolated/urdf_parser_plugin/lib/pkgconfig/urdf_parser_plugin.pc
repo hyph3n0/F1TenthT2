@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/urdf_parser_plugin
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.13.2
+Cflags: -I/home/f1tenthteam2/pleasework/src/urdf/urdf_parser_plugin/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: 

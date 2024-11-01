@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: bondpy
+Description: Description of bondpy
+Version: 1.8.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

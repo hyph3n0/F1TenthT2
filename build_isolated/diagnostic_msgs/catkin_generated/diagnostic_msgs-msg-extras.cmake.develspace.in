@@ -1,0 +1,2 @@
+set(diagnostic_msgs_MESSAGE_FILES "/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg;/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg;/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg")
+set(diagnostic_msgs_SERVICE_FILES "/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/AddDiagnostics.srv;/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv")

@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: webkit_dependency
+Description: Description of webkit_dependency
+Version: 1.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

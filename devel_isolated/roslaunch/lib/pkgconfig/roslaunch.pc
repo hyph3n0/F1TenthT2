@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/roslaunch
+
+Name: roslaunch
+Description: Description of roslaunch
+Version: 1.17.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

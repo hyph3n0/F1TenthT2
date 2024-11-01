@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: xacro
+Description: Description of xacro
+Version: 1.14.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

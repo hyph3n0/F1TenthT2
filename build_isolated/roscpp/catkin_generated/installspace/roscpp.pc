@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: roscpp
+Description: Description of roscpp
+Version: 1.17.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib -lroscpp /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0 /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0 /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
+Requires: cpp_common message_runtime rosconsole roscpp_serialization roscpp_traits rosgraph_msgs rostime std_msgs xmlrpcpp

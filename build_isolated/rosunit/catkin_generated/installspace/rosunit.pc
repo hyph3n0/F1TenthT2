@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: rosunit
+Description: Description of rosunit
+Version: 1.15.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
