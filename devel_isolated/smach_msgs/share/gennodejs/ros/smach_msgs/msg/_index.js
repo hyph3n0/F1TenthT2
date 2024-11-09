@@ -1,12 +1,12 @@
 
 "use strict";
 
-let SmachContainerStructure = require('./SmachContainerStructure.js');
-let SmachContainerInitialStatusCmd = require('./SmachContainerInitialStatusCmd.js');
 let SmachContainerStatus = require('./SmachContainerStatus.js');
+let SmachContainerInitialStatusCmd = require('./SmachContainerInitialStatusCmd.js');
+let SmachContainerStructure = require('./SmachContainerStructure.js');
 
 module.exports = {
-  SmachContainerStructure: SmachContainerStructure,
-  SmachContainerInitialStatusCmd: SmachContainerInitialStatusCmd,
   SmachContainerStatus: SmachContainerStatus,
+  SmachContainerInitialStatusCmd: SmachContainerInitialStatusCmd,
+  SmachContainerStructure: SmachContainerStructure,
 };

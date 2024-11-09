@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DROSCONSOLE_BACKEN
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/pluginlib/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/ros/roslib/include -I/home/f1tenthteam2/pleasework/src/rospack/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -I/home/f1tenthteam2/pleasework/src/class_loader/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
 
-CXX_FLAGS = -std=c++17 -DGTEST_HAS_PTHREAD=1 -std=gnu++17
+CXX_FLAGS = -std=c++17 -DGTEST_HAS_PTHREAD=1
 

@@ -1,12 +1,12 @@
 
 "use strict";
 
+let NodeletList = require('./NodeletList.js')
 let NodeletLoad = require('./NodeletLoad.js')
 let NodeletUnload = require('./NodeletUnload.js')
-let NodeletList = require('./NodeletList.js')
 
 module.exports = {
+  NodeletList: NodeletList,
   NodeletLoad: NodeletLoad,
   NodeletUnload: NodeletUnload,
-  NodeletList: NodeletList,
 };

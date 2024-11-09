@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_REGEX_DYN_LINK 
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
 
-CXX_FLAGS = -Wall -Wextra -DGTEST_HAS_PTHREAD=1 -std=gnu++17
+CXX_FLAGS = -Wall -Wextra -DGTEST_HAS_PTHREAD=1
 

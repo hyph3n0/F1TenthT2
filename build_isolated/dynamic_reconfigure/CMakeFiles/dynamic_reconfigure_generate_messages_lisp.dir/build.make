@@ -85,24 +85,24 @@ CMakeFiles/dynamic_reconfigure_generate_messages_lisp: /home/f1tenthteam2/please
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/Config.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from dynamic_reconfigure/Config.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg -Idynamic_reconfigure:/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p dynamic_reconfigure -o /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg/ConfigDescription.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from dynamic_reconfigure/ConfigDescription.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg -Idynamic_reconfigure:/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p dynamic_reconfigure -o /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/msg
 
@@ -144,12 +144,12 @@ CMakeFiles/dynamic_reconfigure_generate_messages_lisp: /home/f1tenthteam2/please
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv/Reconfigure.lisp: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from dynamic_reconfigure/Reconfigure.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv -Idynamic_reconfigure:/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p dynamic_reconfigure -o /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/share/common-lisp/ros/dynamic_reconfigure/srv
 

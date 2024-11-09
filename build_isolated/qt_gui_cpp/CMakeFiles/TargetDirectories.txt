@@ -51,7 +51,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp/CMakeFiles/install.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp/CMakeFiles/install/local.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp/CMakeFiles/install/strip.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp_shiboken/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp_shiboken/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/src/qt_gui_cpp_shiboken/CMakeFiles/rebuild_cache.dir

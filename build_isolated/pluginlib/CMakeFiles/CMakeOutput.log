@@ -500,3 +500,20 @@ gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/plugin
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec6a2/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_ec6a2.dir/build.make CMakeFiles/cmTC_ec6a2.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ec6a2.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX11  -std=c++11 -o CMakeFiles/cmTC_ec6a2.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ec6a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec6a2.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_ec6a2.dir/src.cxx.o -o cmTC_ec6a2 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/pluginlib/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

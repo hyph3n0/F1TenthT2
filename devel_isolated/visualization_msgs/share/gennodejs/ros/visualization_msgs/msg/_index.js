@@ -1,26 +1,26 @@
 
 "use strict";
 
-let Marker = require('./Marker.js');
-let InteractiveMarkerFeedback = require('./InteractiveMarkerFeedback.js');
-let InteractiveMarkerPose = require('./InteractiveMarkerPose.js');
 let MarkerArray = require('./MarkerArray.js');
-let InteractiveMarkerUpdate = require('./InteractiveMarkerUpdate.js');
 let MenuEntry = require('./MenuEntry.js');
-let InteractiveMarker = require('./InteractiveMarker.js');
+let InteractiveMarkerUpdate = require('./InteractiveMarkerUpdate.js');
+let InteractiveMarkerFeedback = require('./InteractiveMarkerFeedback.js');
 let InteractiveMarkerControl = require('./InteractiveMarkerControl.js');
+let Marker = require('./Marker.js');
 let InteractiveMarkerInit = require('./InteractiveMarkerInit.js');
+let InteractiveMarkerPose = require('./InteractiveMarkerPose.js');
 let ImageMarker = require('./ImageMarker.js');
+let InteractiveMarker = require('./InteractiveMarker.js');
 
 module.exports = {
-  Marker: Marker,
-  InteractiveMarkerFeedback: InteractiveMarkerFeedback,
-  InteractiveMarkerPose: InteractiveMarkerPose,
   MarkerArray: MarkerArray,
-  InteractiveMarkerUpdate: InteractiveMarkerUpdate,
   MenuEntry: MenuEntry,
-  InteractiveMarker: InteractiveMarker,
+  InteractiveMarkerUpdate: InteractiveMarkerUpdate,
+  InteractiveMarkerFeedback: InteractiveMarkerFeedback,
   InteractiveMarkerControl: InteractiveMarkerControl,
+  Marker: Marker,
   InteractiveMarkerInit: InteractiveMarkerInit,
+  InteractiveMarkerPose: InteractiveMarkerPose,
   ImageMarker: ImageMarker,
+  InteractiveMarker: InteractiveMarker,
 };

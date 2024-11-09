@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_CHRONO_DYN_LINK -DBOOST_FILESYSTEM_DYN_
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/devel_isolated/roscpp/include -I/home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include -I/home/f1tenthteam2/pleasework/devel_isolated/roscpp/include/ros -I/home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include -I/home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include/xmlrpcpp -I/home/f1tenthteam2/pleasework/devel_isolated/rosgraph_msgs/include -I/home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include -I/home/f1tenthteam2/pleasework/src/std_msgs/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -I/home/f1tenthteam2/pleasework/build_isolated/roscpp
 
-CXX_FLAGS = -fPIC -Wall -Wextra -std=gnu++17
+CXX_FLAGS = -fPIC -Wall -Wextra
 

@@ -171,7 +171,7 @@ src/qt_gui_cpp/clean: src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/clean
 # Directory level rules for directory src/qt_gui_cpp_shiboken
 
 # Recursive "all" directory target.
-src/qt_gui_cpp_shiboken/all: src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/all
+src/qt_gui_cpp_shiboken/all:
 .PHONY : src/qt_gui_cpp_shiboken/all
 
 # Recursive "preinstall" directory target.
@@ -179,7 +179,7 @@ src/qt_gui_cpp_shiboken/preinstall:
 .PHONY : src/qt_gui_cpp_shiboken/preinstall
 
 # Recursive "clean" directory target.
-src/qt_gui_cpp_shiboken/clean: src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/clean
+src/qt_gui_cpp_shiboken/clean:
 .PHONY : src/qt_gui_cpp_shiboken/clean
 
 #=============================================================================
@@ -483,32 +483,6 @@ qt_gui_cpp: src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/rule
 src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/build.make src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/clean
 .PHONY : src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/clean
-
-#=============================================================================
-# Target rules for target src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir
-
-# All Build rule for target.
-src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/all: src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/all
-	$(MAKE) $(MAKESILENT) -f src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build.make src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build.make src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target qt_gui_cpp_shiboken"
-.PHONY : src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/all
-
-# Build rule for subdir invocation for target.
-src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/CMakeFiles 31
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/CMakeFiles 0
-.PHONY : src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/rule
-
-# Convenience name for target.
-qt_gui_cpp_shiboken: src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/rule
-.PHONY : qt_gui_cpp_shiboken
-
-# clean rule for target.
-src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build.make src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/clean
-.PHONY : src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/clean
 
 #=============================================================================
 # Target rules for target src/qt_gui_cpp_sip/CMakeFiles/libqt_gui_cpp_sip.dir

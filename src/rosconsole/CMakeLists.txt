@@ -7,7 +7,7 @@ endif()
 
 find_package(catkin REQUIRED COMPONENTS cpp_common rostime rosunit)
 
-find_package(Boost REQUIRED COMPONENTS regex system thread)
+find_package(Boost COMPONENTS regex system thread)
 
 # select rosconsole backend
 set(ROSCONSOLE_BACKEND "" CACHE STRING "Type of rosconsole backend, one of 'log4cxx', 'glog', 'print'")
@@ -23,12 +23,6 @@ if(ROSCONSOLE_BACKEND STREQUAL "" OR ROSCONSOLE_BACKEND STREQUAL "log4cxx")
     list(APPEND rosconsole_backend_INCLUDE_DIRS ${LOG4CXX_INCLUDE_DIRS})
     list(APPEND rosconsole_backend_LIBRARIES rosconsole_log4cxx rosconsole_backend_interface ${LOG4CXX_LIBRARIES})
     set(ROSCONSOLE_BACKEND "log4cxx")
-    try_compile(LOG4CXX_REQUIRES_CXX17
-      "${CMAKE_BINARY_DIR}/check_log4cxx_requires_cxx17"
-      "${CMAKE_CURRENT_SOURCE_DIR}/cmake/check_log4cxx_requires_cxx17"
-      check_log4cxx_requires_cxx17
-    )
-    message(STATUS "log4cxx requires C++17: ${LOG4CXX_REQUIRES_CXX17}")
   elseif(ROSCONSOLE_BACKEND STREQUAL "log4cxx")
     message(FATAL_ERROR "Couldn't find log4cxx library")
   endif()

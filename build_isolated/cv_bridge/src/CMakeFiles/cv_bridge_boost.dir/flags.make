@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_PYTHON_DYN_LINK -DPYTHON3 -DROSCONSOLE_
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/vision_opencv/cv_bridge/include -I/home/f1tenthteam2/pleasework/devel_isolated/sensor_msgs/include -I/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/include -I/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/include -I/home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include -I/home/f1tenthteam2/pleasework/src/std_msgs/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -I/home/f1tenthteam2/pleasework/src/vision_opencv/cv_bridge/src/. -I/usr/include/python3.10 -I/usr/lib/python3/dist-packages/numpy/core/include -isystem /usr/include/opencv4
 
-CXX_FLAGS = -fPIC -std=gnu++17
+CXX_FLAGS = -fPIC
 

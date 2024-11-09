@@ -315,19 +315,6 @@ qt_gui_cpp/fast:
 .PHONY : qt_gui_cpp/fast
 
 #=============================================================================
-# Target rules for targets named qt_gui_cpp_shiboken
-
-# Build rule for target.
-qt_gui_cpp_shiboken: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qt_gui_cpp_shiboken
-.PHONY : qt_gui_cpp_shiboken
-
-# fast build rule for target.
-qt_gui_cpp_shiboken/fast:
-	$(MAKE) $(MAKESILENT) -f src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build.make src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/build
-.PHONY : qt_gui_cpp_shiboken/fast
-
-#=============================================================================
 # Target rules for targets named libqt_gui_cpp_sip
 
 # Build rule for target.
@@ -365,7 +352,6 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... qt_gui_cpp"
-	@echo "... qt_gui_cpp_shiboken"
 .PHONY : help
 
 

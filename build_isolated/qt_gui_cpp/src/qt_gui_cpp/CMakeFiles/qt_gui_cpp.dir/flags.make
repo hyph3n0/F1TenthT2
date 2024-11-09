@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/qt_gui_core/qt_gui_cpp/include -I/home/f1tenthteam2/pleasework/src/pluginlib/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/ros/roslib/include -I/home/f1tenthteam2/pleasework/src/rospack/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -I/home/f1tenthteam2/pleasework/src/class_loader/include -I/home/f1tenthteam2/pleasework/src/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp/qt_gui_cpp -I/usr/include/python3.10 -I/home/f1tenthteam2/pleasework/src/qt_gui_core/qt_gui_cpp/include/qt_gui_cpp -I/home/f1tenthteam2/pleasework/src/qt_gui_core/qt_gui_cpp/src/qt_gui_cpp -isystem /usr/include/aarch64-linux-gnu/qt5 -isystem /usr/include/aarch64-linux-gnu/qt5/QtWidgets -isystem /usr/include/aarch64-linux-gnu/qt5/QtGui -isystem /usr/include/aarch64-linux-gnu/qt5/QtCore -isystem /usr/lib/aarch64-linux-gnu/qt5/mkspecs/linux-g++
 
-CXX_FLAGS =  -fPIC -fPIC -fPIC -std=gnu++17
+CXX_FLAGS =  -fPIC -fPIC -fPIC
 

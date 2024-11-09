@@ -109,7 +109,7 @@ tf_conversions_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: CMakeFiles/tf_conversions.dir/src/tf_eigen.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: CMakeFiles/tf_conversions.dir/build.make
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /home/f1tenthteam2/pleasework/devel_isolated/kdl_conversions/lib/libkdl_conversions.so
-/home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /home/f1tenthteam2/pleasework/devel_isolated/tf/lib/libtf.so
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/tf_conversions/lib/libtf_conversions.so: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so

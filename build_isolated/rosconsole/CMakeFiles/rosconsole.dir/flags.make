@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_REGEX_DYN_LINK 
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include
 
-CXX_FLAGS = -fPIC -Wall -Wextra -std=gnu++17
+CXX_FLAGS = -fPIC -Wall -Wextra
 

@@ -13,11 +13,3 @@ if("log4cxx" STREQUAL "log4cxx")
 endif()
 
 cmake_policy(POP)
-
-if("log4cxx" STREQUAL "log4cxx" AND "TRUE")
-  if(NOT DEFINED CMAKE_CXX_STANDARD OR "${CMAKE_CXX_STANDARD}" LESS 17)
-    message(STATUS "rosconsole is upgrading C++ standard to C++17")
-    set(CMAKE_CXX_STANDARD 17)
-  endif()
-  set(CMAKE_CXX_STANDARD_REQUIRED ON)
-endif()

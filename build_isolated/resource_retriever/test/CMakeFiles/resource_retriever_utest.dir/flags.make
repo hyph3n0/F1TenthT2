@@ -6,5 +6,5 @@ CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKA
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/resource_retriever/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/ros/roslib/include -I/home/f1tenthteam2/pleasework/src/rospack/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
 
-CXX_FLAGS = -std=c++17 -DGTEST_HAS_PTHREAD=1 -std=gnu++17
+CXX_FLAGS = -std=c++17 -DGTEST_HAS_PTHREAD=1
 

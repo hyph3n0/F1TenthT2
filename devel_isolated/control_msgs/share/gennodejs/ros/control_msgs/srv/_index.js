@@ -1,10 +1,10 @@
 
 "use strict";
 
-let QueryTrajectoryState = require('./QueryTrajectoryState.js')
 let QueryCalibrationState = require('./QueryCalibrationState.js')
+let QueryTrajectoryState = require('./QueryTrajectoryState.js')
 
 module.exports = {
-  QueryTrajectoryState: QueryTrajectoryState,
   QueryCalibrationState: QueryCalibrationState,
+  QueryTrajectoryState: QueryTrajectoryState,
 };

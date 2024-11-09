@@ -164,7 +164,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkdl_conversions.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkdl_conversions.so"
-         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:"
+         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libkdl_conversions.so")

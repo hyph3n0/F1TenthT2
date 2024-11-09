@@ -348,7 +348,7 @@ PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 PYTHON_VERSION:STRING=3
 
 //The directory containing a CMake configuration file for PySide2.
-PySide2_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/PySide2-5.15.2
+PySide2_DIR:PATH=PySide2_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Core.
 Qt5Core_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Qt5Core
@@ -365,11 +365,14 @@ RT_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.a
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
+//Path to a program.
+SIP_EXECUTABLE:FILEPATH=SIP_EXECUTABLE-NOTFOUND
+
 //Name of the computer/site where compile is being run
 SITE:STRING=f1tenthteam2-desktop
 
 //The directory containing a CMake configuration file for Shiboken2.
-Shiboken2_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/Shiboken2-5.15.2
+Shiboken2_DIR:PATH=Shiboken2_DIR-NOTFOUND
 
 //Path to a file.
 TinyXML_INCLUDE_DIR:PATH=/usr/include

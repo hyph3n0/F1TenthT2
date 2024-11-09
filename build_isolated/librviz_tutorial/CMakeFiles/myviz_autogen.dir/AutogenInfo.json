@@ -87,6 +87,8 @@
 		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets.cmake",
 		"/usr/lib/aarch64-linux-gnu/cmake/GTest/GTestTargets-none.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/GTest/GMockTargets.cmake",
+		"/usr/lib/aarch64-linux-gnu/cmake/GTest/GMockTargets-none.cmake",
 		"/home/f1tenthteam2/pleasework/src/catkin/cmake/test/nosetests.cmake",
 		"/home/f1tenthteam2/pleasework/src/catkin/cmake/tools/doxygen.cmake",
 		"/home/f1tenthteam2/pleasework/src/catkin/cmake/tools/libraries.cmake",

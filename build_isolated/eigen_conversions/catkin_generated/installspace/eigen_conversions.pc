@@ -3,6 +3,6 @@ prefix=/home/f1tenthteam2/pleasework/install_isolated
 Name: eigen_conversions
 Description: Description of eigen_conversions
 Version: 1.13.2
-Cflags: -I${prefix}/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -leigen_conversions -lorocos-kdl
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/usr/local/include
+Libs: -L${prefix}/lib -leigen_conversions /usr/local/lib/liborocos-kdl.so.1.5.1
 Requires: geometry_msgs std_msgs

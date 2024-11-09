@@ -425,8 +425,8 @@ CMakeFiles/run_tests_qt_dotgraph_nosetests_test.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/all: CMakeFiles/clean_test_results_qt_dotgraph.dir/all
+CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/build.make CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/build.make CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles --progress-num= "Built target _run_tests_qt_dotgraph_nosetests_test"

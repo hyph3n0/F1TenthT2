@@ -111,7 +111,7 @@ amcl_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /usr/lib/aarch64-linux-gnu/liblz4.so
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /home/f1tenthteam2/pleasework/devel_isolated/topic_tools/lib/libtopic_tools.so
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
-/home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /usr/local/lib/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/amcl/lib/amcl/amcl: /home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so

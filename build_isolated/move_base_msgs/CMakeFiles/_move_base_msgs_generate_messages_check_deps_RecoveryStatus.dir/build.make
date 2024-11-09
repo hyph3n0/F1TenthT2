@@ -67,7 +67,7 @@ include CMakeFiles/_move_base_msgs_generate_messages_check_deps_RecoveryStatus.d
 include CMakeFiles/_move_base_msgs_generate_messages_check_deps_RecoveryStatus.dir/progress.make
 
 CMakeFiles/_move_base_msgs_generate_messages_check_deps_RecoveryStatus:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py move_base_msgs /home/f1tenthteam2/pleasework/src/navigation_msgs/move_base_msgs/msg/RecoveryStatus.msg geometry_msgs/Quaternion:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/PoseStamped
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py move_base_msgs /home/f1tenthteam2/pleasework/src/navigation_msgs/move_base_msgs/msg/RecoveryStatus.msg std_msgs/Header:geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/PoseStamped
 
 _move_base_msgs_generate_messages_check_deps_RecoveryStatus: CMakeFiles/_move_base_msgs_generate_messages_check_deps_RecoveryStatus
 _move_base_msgs_generate_messages_check_deps_RecoveryStatus: CMakeFiles/_move_base_msgs_generate_messages_check_deps_RecoveryStatus.dir/build.make

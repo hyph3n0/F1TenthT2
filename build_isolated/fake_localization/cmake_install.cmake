@@ -164,7 +164,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fake_localization/fake_localization")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fake_localization/fake_localization"
-         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib:/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib:/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:"
+         OLD_RPATH "/usr/local/lib:/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib:/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib:/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fake_localization/fake_localization")

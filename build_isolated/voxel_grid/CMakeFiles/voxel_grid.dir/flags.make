@@ -6,5 +6,5 @@ CXX_DEFINES = -DHAVE_SYS_TIME_H -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/src/navigation/voxel_grid/include -I/home/f1tenthteam2/pleasework/devel_isolated/roscpp/include -I/home/f1tenthteam2/pleasework/devel_isolated/roscpp/include/ros -I/home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include -I/home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include -I/home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include/xmlrpcpp -I/home/f1tenthteam2/pleasework/devel_isolated/rosgraph_msgs/include -I/home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include -I/home/f1tenthteam2/pleasework/src/std_msgs/include -I/home/f1tenthteam2/pleasework/src/rosconsole/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include -I/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include
 
-CXX_FLAGS = -fPIC -std=gnu++17
+CXX_FLAGS = -fPIC
 

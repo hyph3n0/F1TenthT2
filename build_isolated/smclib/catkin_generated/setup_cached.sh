@@ -7,3 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/smclib:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/smclib/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/smclib/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/smclib/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/smclib/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/bond_core/smclib:$ROS_PACKAGE_PATH"

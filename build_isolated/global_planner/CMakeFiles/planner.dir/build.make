@@ -109,7 +109,7 @@ planner_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
-/home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /usr/local/lib/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/global_planner/lib/global_planner/planner: /home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so

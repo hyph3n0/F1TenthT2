@@ -19,7 +19,7 @@ add_custom_target(stereo_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg" NAME_WE)
 add_custom_target(_stereo_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "stereo_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg" "std_msgs/Header:sensor_msgs/Image:sensor_msgs/RegionOfInterest"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "stereo_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg" "sensor_msgs/Image:std_msgs/Header:sensor_msgs/RegionOfInterest"
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_stereo_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(stereo_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/stereo_msgs
 )
 
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS stereo_msgs_generate_messages_cpp)
 _generate_msg_eus(stereo_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/stereo_msgs
 )
 
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS stereo_msgs_generate_messages_eus)
 _generate_msg_lisp(stereo_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/stereo_msgs
 )
 
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS stereo_msgs_generate_messages_lisp)
 _generate_msg_nodejs(stereo_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/stereo_msgs
 )
 
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS stereo_msgs_generate_messages_nodej
 _generate_msg_py(stereo_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/stereo_msgs/msg/DisparityImage.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/Image.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/RegionOfInterest.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/stereo_msgs
 )
 

@@ -99,7 +99,7 @@ mux_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
-/home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /usr/local/lib/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/libinteractive_markers.so
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/f1tenth_simulator/lib/f1tenth_simulator/mux: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so

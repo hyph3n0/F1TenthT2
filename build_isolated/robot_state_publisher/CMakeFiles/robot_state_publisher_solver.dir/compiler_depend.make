@@ -165,8 +165,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/kdl/frames_io.hpp \
-  /usr/include/kdl/utilities/utility_io.h \
+  /usr/local/include/kdl/frames_io.hpp \
+  /usr/local/include/kdl/utilities/utility_io.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -214,10 +214,10 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
-  /usr/include/kdl/frames.hpp \
-  /usr/include/kdl/utilities/kdl-config.h \
-  /usr/include/kdl/utilities/utility.h \
-  /usr/include/kdl/utilities/kdl-config.h \
+  /usr/local/include/kdl/frames.hpp \
+  /usr/local/include/kdl/utilities/kdl-config.h \
+  /usr/local/include/kdl/utilities/utility.h \
+  /usr/local/include/kdl/utilities/kdl-config.h \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/cmath \
@@ -245,19 +245,7 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/kdl/frames.inl \
-  /usr/include/kdl/jntarray.hpp \
-  /usr/include/kdl/jacobian.hpp \
-  /usr/include/eigen3/Eigen/Core \
-  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
-  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
-  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
-  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_neon.h \
-  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h \
-  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h \
-  /usr/include/c++/11/complex \
-  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
-  /usr/include/c++/11/cstddef \
+  /usr/local/include/kdl/utilities/hash_combine.h \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/refwrap.h \
   /usr/include/c++/11/bits/std_function.h \
@@ -276,6 +264,19 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /usr/include/c++/11/bits/stl_heap.h \
   /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/local/include/kdl/frames.inl \
+  /usr/local/include/kdl/jntarray.hpp \
+  /usr/local/include/kdl/jacobian.hpp \
+  /usr/include/eigen3/Eigen/Core \
+  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_neon.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h \
+  /usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h \
+  /usr/include/c++/11/complex \
+  /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+  /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -894,7 +895,7 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /home/f1tenthteam2/pleasework/src/geometry2/tf2/include/tf2/transform_datatypes.h \
   /home/f1tenthteam2/pleasework/src/geometry2/tf2/include/tf2/exceptions.h \
   /home/f1tenthteam2/pleasework/src/geometry2/tf2/include/tf2/impl/convert.h \
-  /usr/include/kdl/frames.hpp \
+  /usr/local/include/kdl/frames.hpp \
   /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/include/geometry_msgs/PointStamped.h \
   /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/include/geometry_msgs/Point.h \
   /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/include/geometry_msgs/TwistStamped.h \
@@ -1445,25 +1446,23 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
   /home/f1tenthteam2/pleasework/src/geometry2/tf2_ros/include/tf2_ros/static_transform_broadcaster.h \
   /home/f1tenthteam2/pleasework/devel_isolated/tf2_msgs/include/tf2_msgs/TFMessage.h \
   /home/f1tenthteam2/pleasework/src/geometry2/tf2_ros/include/tf2_ros/transform_broadcaster.h \
-  /usr/include/kdl/segment.hpp \
-  /usr/include/kdl/rigidbodyinertia.hpp \
-  /usr/include/kdl/rotationalinertia.hpp \
-  /usr/include/kdl/joint.hpp \
-  /usr/include/kdl/tree.hpp \
-  /usr/include/kdl/config.h \
-  /usr/include/kdl/segment.hpp \
-  /usr/include/kdl/chain.hpp
+  /usr/local/include/kdl/segment.hpp \
+  /usr/local/include/kdl/rigidbodyinertia.hpp \
+  /usr/local/include/kdl/rotationalinertia.hpp \
+  /usr/local/include/kdl/joint.hpp \
+  /usr/local/include/kdl/tree.hpp \
+  /usr/local/include/kdl/config.h \
+  /usr/local/include/kdl/segment.hpp \
+  /usr/local/include/kdl/chain.hpp
 
 
-/usr/include/kdl/chain.hpp:
+/usr/local/include/kdl/config.h:
 
-/usr/include/kdl/tree.hpp:
+/usr/local/include/kdl/tree.hpp:
 
-/usr/include/kdl/rotationalinertia.hpp:
+/usr/local/include/kdl/rotationalinertia.hpp:
 
-/usr/include/kdl/rigidbodyinertia.hpp:
-
-/usr/include/kdl/segment.hpp:
+/usr/local/include/kdl/rigidbodyinertia.hpp:
 
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_msgs/include/tf2_msgs/TFMessage.h:
 
@@ -1522,8 +1521,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/iterator/advance.hpp:
 
 /usr/include/boost/type_traits/has_plus_assign.hpp:
-
-/usr/include/boost/type_traits/make_void.hpp:
 
 /usr/include/boost/type_traits/detail/has_binary_operator.hpp:
 
@@ -1877,11 +1874,17 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
 
+/usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:
+
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
 /usr/include/boost/mpl/pop_back_fwd.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_spec.hpp:
+
+/usr/include/boost/preprocessor/repeat.hpp:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/boost/preprocessor/logical/bool.hpp:
 
@@ -1902,6 +1905,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/mpl/long.hpp:
 
 /usr/include/boost/preprocessor/config/config.hpp:
+
+/usr/local/include/kdl/utilities/kdl-config.h:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
@@ -1975,8 +1980,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/c++/11/bits/locale_facets.h:
 
-/usr/include/kdl/config.h:
-
 /usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/boost/mpl/O1_size.hpp:
@@ -2005,6 +2008,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/bind/bind_cc.hpp:
 
+/usr/include/aarch64-linux-gnu/sys/time.h:
+
 /usr/include/eigen3/Eigen/src/Core/Reverse.h:
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
@@ -2027,11 +2032,11 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/kdl/utilities/utility.h:
-
 /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h:
 
 /usr/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/usr/local/include/kdl/jntarray.hpp:
 
 /usr/include/boost/mpl/aux_/na_spec.hpp:
 
@@ -2155,8 +2160,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
-/usr/include/kdl/joint.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
@@ -2221,6 +2224,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/thread/thread_time.hpp:
 
+/usr/local/include/kdl/frames.hpp:
+
 /usr/include/boost/type_traits/is_complete.hpp:
 
 /usr/include/boost/math/policies/error_handling.hpp:
@@ -2244,8 +2249,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/type_index/type_index_facade.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
-
-/usr/include/boost/preprocessor/tuple/eat.hpp:
 
 /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include/ros/serialization.h:
 
@@ -2333,6 +2336,42 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/strings.h:
 
+/usr/include/boost/math/special_functions/sign.hpp:
+
+/usr/include/boost/predef/architecture/alpha.h:
+
+/usr/include/c++/11/complex:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
+/usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h:
+
+/usr/include/boost/predef/library.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/eigen3/Eigen/src/Core/Ref.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h:
+
+/usr/include/boost/mpl/bind_fwd.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+
+/usr/include/boost/mpl/contains.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/util/Macros.h:
+
+/usr/include/boost/preprocessor/logical/compl.hpp:
+
+/usr/local/include/kdl/jacobian.hpp:
+
+/usr/include/c++/11/string:
+
+/usr/local/include/kdl/frames.inl:
+
 /usr/include/boost/mpl/vector/aux_/back.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
@@ -2355,46 +2394,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/c++/11/bits/stl_algo.h:
 
-/usr/include/kdl/frames_io.hpp:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/boost/math/special_functions/round.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/boost/type_traits/is_enum.hpp:
-
-/usr/include/boost/type_traits/detail/config.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/boost/mpl/aux_/reverse_fold_impl.hpp:
-
-/usr/include/boost/mpl/aux_/size_impl.hpp:
-
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-/usr/include/c++/11/unordered_map:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
-
 /usr/include/boost/math/tools/config.hpp:
 
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
@@ -2409,13 +2408,13 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
-
 /usr/include/urdf_model/pose.h:
 
 /usr/include/boost/predef/library/c/_prefix.h:
 
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
+
+/usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
@@ -2427,21 +2426,19 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/boost/preprocessor/control/expr_iif.hpp:
+
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h:
 
-/usr/include/boost/math/special_functions/sign.hpp:
-
-/usr/include/boost/predef/architecture/alpha.h:
-
-/usr/include/c++/11/complex:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
-
-/usr/include/boost/smart_ptr/detail/local_counted_base.hpp:
-
 /usr/include/aarch64-linux-gnu/bits/endian.h:
+
+/usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/bits/localefwd.h:
 
@@ -2591,19 +2588,21 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/static_assert.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/environments.h:
-
-/home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/this_node.h:
-
-/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
-
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/boost/type_traits/make_void.hpp:
+
+/usr/local/include/kdl/utilities/utility_io.h:
+
+/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
+
+/usr/include/eigen3/Eigen/Core:
 
 /usr/include/boost/mpl/limits/vector.hpp:
 
@@ -2643,8 +2642,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/thread/mutex.hpp:
 
-/usr/include/c++/11/string:
-
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/boost/mpl/aux_/has_type.hpp:
@@ -2661,9 +2658,11 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/c++/11/bits/range_access.h:
 
-/usr/include/c++/11/cstddef:
-
 /usr/include/c++/11/debug/debug.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
 
 /usr/include/features-time64.h:
 
@@ -2672,10 +2671,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
-
-/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
-
-/usr/include/boost/preprocessor/repeat.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
@@ -2717,9 +2712,7 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
 
-/usr/include/c++/11/bits/unordered_map.h:
-
-/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/exception.h:
+/usr/include/c++/11/cstddef:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -2728,6 +2721,10 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/predef/library/std/stlport.h:
 
 /usr/include/eigen3/Eigen/src/Core/Transpose.h:
+
+/usr/local/include/kdl/utilities/hash_combine.h:
+
+/usr/include/c++/11/typeinfo:
 
 /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/message.h:
 
@@ -2746,6 +2743,16 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/mpl/aux_/config/eti.hpp:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/boost/math/special_functions/round.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/boost/type_traits/is_enum.hpp:
+
+/usr/include/boost/type_traits/detail/config.hpp:
 
 /usr/include/boost/preprocessor/array/elem.hpp:
 
@@ -2869,11 +2876,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_bf16.h:
+/usr/include/c++/11/initializer_list:
 
-/usr/include/boost/predef/library.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/11/iosfwd:
 
 /usr/include/c++/11/bits/functexcept.h:
 
@@ -2886,10 +2891,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/c++/11/bits/locale_classes.tcc:
 
 /usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/typeinfo:
-
-/usr/include/kdl/utilities/utility_io.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
@@ -2918,6 +2919,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/config/no_tr1/complex.hpp:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/eigen3/Eigen/src/Core/Swap.h:
 
@@ -2959,10 +2962,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/smart_ptr/allocate_shared_array.hpp:
 
-/usr/include/c++/11/initializer_list:
-
-/usr/include/c++/11/iosfwd:
-
 /usr/include/boost/preprocessor/facilities/empty.hpp:
 
 /usr/include/c++/11/bits/basic_ios.tcc:
@@ -2978,12 +2977,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/boost/date_time/gregorian/greg_ymd.hpp:
-
-/usr/include/boost/preprocessor/seq/detail/is_empty.hpp:
-
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/c++/11/ext/string_conversions.h:
 
 /usr/include/boost/predef/os/beos.h:
 
@@ -3007,20 +3000,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
-/usr/include/kdl/jacobian.hpp:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/usr/include/boost/preprocessor/list/adt.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
-
-/usr/include/boost/mpl/aux_/type_wrapper.hpp:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
-/usr/include/boost/mpl/less_equal.hpp:
-
 /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
 
 /usr/include/boost/mpl/aux_/config/adl.hpp:
@@ -3042,10 +3021,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/range/reverse_iterator.hpp:
 
 /usr/include/c++/11/bits/std_abs.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/Macros.h:
-
-/usr/include/boost/preprocessor/logical/compl.hpp:
 
 /usr/include/boost/shared_ptr.hpp:
 
@@ -3069,6 +3044,20 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/core/allocator_access.hpp:
 
+/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/ctype.h:
+
+/usr/include/c++/11/locale:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
 /usr/include/boost/mpl/same_as.hpp:
 
 /usr/include/c++/11/bits/sstream.tcc:
@@ -3087,31 +3076,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/integer.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:
+/usr/local/include/kdl/frames_io.hpp:
 
-/usr/include/boost/mpl/contains.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/11/locale:
-
-/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
-
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
-
-/usr/include/eigen3/Eigen/Core:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
-
-/usr/include/c++/11/bits/algorithmfwd.h:
-
-/usr/include/c++/11/bits/basic_string.tcc:
+/usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /usr/include/boost/core/use_default.hpp:
 
@@ -3123,6 +3090,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include/ros/serialized_message.h:
 
+/usr/local/include/kdl/segment.hpp:
+
 /usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/utility:
@@ -3131,13 +3100,29 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/function_equal.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
 /usr/include/boost/mpl/vector/aux_/size.hpp:
 
 /usr/include/boost/ref.hpp:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/usr/include/boost/preprocessor/list/adt.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
+
+/usr/include/boost/mpl/aux_/type_wrapper.hpp:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
+/usr/include/boost/mpl/less_equal.hpp:
+
+/usr/include/boost/preprocessor/tuple/eat.hpp:
+
+/usr/local/include/kdl/utilities/utility.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
@@ -3154,10 +3139,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h:
 
 /usr/include/c++/11/stdexcept:
-
-/usr/include/aarch64-linux-gnu/sys/time.h:
-
-/usr/include/kdl/jntarray.hpp:
 
 /usr/include/boost/mpl/aux_/static_cast.hpp:
 
@@ -3233,19 +3214,7 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/mpl/aux_/fold_impl.hpp:
 
-/usr/include/c++/11/bits/locale_facets_nonio.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
-
 /usr/include/c++/11/ctime:
-
-/usr/include/boost/chrono/detail/system.hpp:
-
-/usr/include/boost/predef/detail/test.h:
-
-/usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/boost/cstdint.hpp:
 
@@ -3268,14 +3237,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/clock_t.h:
-
-/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include/ros/duration.h:
-
-/usr/include/boost/type_traits/is_destructible.hpp:
-
-/usr/include/boost/type_traits/add_rvalue_reference.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/locale_t.h:
 
@@ -3307,7 +3268,19 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/c++/11/new:
 
-/usr/include/boost/mpl/vector/aux_/begin_end.hpp:
+/home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/this_node.h:
+
+/usr/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
+
+/usr/include/aarch64-linux-gnu/bits/environments.h:
+
+/usr/include/boost/preprocessor/seq/detail/is_empty.hpp:
+
+/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+/usr/include/c++/11/ext/string_conversions.h:
 
 /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/service_callback_helper.h:
 
@@ -3343,11 +3316,43 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h:
 
-/usr/include/eigen3/Eigen/src/Core/Ref.h:
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
-/usr/lib/gcc/aarch64-linux-gnu/11/include/arm_fp16.h:
+/usr/include/c++/11/bits/refwrap.h:
 
-/usr/include/boost/mpl/bind_fwd.hpp:
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include/ros/duration.h:
+
+/usr/include/boost/type_traits/add_rvalue_reference.hpp:
+
+/usr/include/boost/type_traits/is_destructible.hpp:
+
+/usr/include/boost/chrono/detail/system.hpp:
+
+/usr/include/boost/predef/detail/test.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/exception.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/boost/type_traits/is_arithmetic.hpp:
+
+/usr/include/boost/mpl/aux_/size_impl.hpp:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/boost/mpl/aux_/reverse_fold_impl.hpp:
+
+/usr/include/boost/mpl/bool_fwd.hpp:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
 
 /usr/include/boost/preprocessor/logical/bitand.hpp:
 
@@ -3553,9 +3558,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
 
-/usr/include/c++/11/vector:
-
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/vector:
 
 /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp:
 
@@ -3717,9 +3722,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/thread/lockable_traits.hpp:
 
-/usr/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h:
-
 /usr/include/c++/11/cwchar:
+
+/usr/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h:
 
 /usr/include/boost/mpl/vector/aux_/clear.hpp:
 
@@ -3785,6 +3790,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
+/usr/include/boost/mpl/vector/aux_/begin_end.hpp:
+
 /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp:
 
 /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
@@ -3794,8 +3801,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
-
-/usr/include/kdl/frames.inl:
 
 /usr/include/boost/mpl/negate.hpp:
 
@@ -3821,9 +3826,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/core/ref.hpp:
 
-/usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
-
 /usr/include/boost/date_time/time_duration.hpp:
+
+/usr/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
 
 /usr/include/boost/mpl/comparison.hpp:
 
@@ -3865,8 +3870,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/system/detail/system_category_posix.hpp:
 
-/usr/include/kdl/utilities/kdl-config.h:
-
 /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
 
 /usr/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
@@ -3894,6 +3897,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/type_traits/is_void.hpp:
 
 /usr/include/boost/array.hpp:
+
+/usr/local/include/kdl/chain.hpp:
 
 /usr/include/boost/concept/detail/concept_def.hpp:
 
@@ -4105,9 +4110,9 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
 
-/usr/include/boost/smart_ptr/shared_array.hpp:
-
 /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/boost/smart_ptr/shared_array.hpp:
 
 /usr/include/boost/core/pointer_traits.hpp:
 
@@ -4144,6 +4149,8 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/c++/11/stdlib.h:
 
 /usr/include/boost/config/no_tr1/functional.hpp:
+
+/usr/local/include/kdl/joint.hpp:
 
 /usr/include/boost/function/function_base.hpp:
 
@@ -4267,8 +4274,6 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 
 /usr/include/boost/date_time/compiler_config.hpp:
 
-/usr/include/kdl/frames.hpp:
-
 /usr/include/boost/date_time/posix_time/ptime.hpp:
 
 /usr/include/boost/date_time/posix_time/posix_time_system.hpp:
@@ -4328,5 +4333,3 @@ CMakeFiles/robot_state_publisher_solver.dir/src/robot_state_publisher.cpp.o: /ho
 /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
 /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
-
-/usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:

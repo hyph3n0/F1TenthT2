@@ -115,7 +115,7 @@ color_editor_test_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /home/f1tenthteam2/pleasework/devel_isolated/tf/lib/libtf.so
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /home/f1tenthteam2/pleasework/devel_isolated/resource_retriever/lib/libresource_retriever.so
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
-/home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /usr/local/lib/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/rviz/lib/rviz/color_editor_test: /home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so

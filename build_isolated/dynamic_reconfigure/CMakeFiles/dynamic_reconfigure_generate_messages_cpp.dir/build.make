@@ -86,25 +86,25 @@ CMakeFiles/dynamic_reconfigure_generate_messages_cpp: /home/f1tenthteam2/pleasew
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Config.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dynamic_reconfigure/Config.msg"
 	cd /home/f1tenthteam2/pleasework/src/dynamic_reconfigure && /home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg -Idynamic_reconfigure:/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p dynamic_reconfigure -o /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure -e /home/f1tenthteam2/pleasework/src/gencpp/scripts
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/ConfigDescription.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dynamic_reconfigure/ConfigDescription.msg"
 	cd /home/f1tenthteam2/pleasework/src/dynamic_reconfigure && /home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg -Idynamic_reconfigure:/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p dynamic_reconfigure -o /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure -e /home/f1tenthteam2/pleasework/src/gencpp/scripts
@@ -142,12 +142,12 @@ CMakeFiles/dynamic_reconfigure_generate_messages_cpp: /home/f1tenthteam2/pleasew
 
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg
-/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg
+/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/msg.h.template
 /home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include/dynamic_reconfigure/Reconfigure.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/dynamic_reconfigure/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dynamic_reconfigure/Reconfigure.srv"

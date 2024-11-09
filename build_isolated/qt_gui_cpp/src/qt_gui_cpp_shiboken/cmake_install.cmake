@@ -42,26 +42,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp" TYPE SHARED_LIBRARY FILES "/home/f1tenthteam2/pleasework/devel_isolated/qt_gui_cpp/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so"
-         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/qt_gui_cpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib:/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-

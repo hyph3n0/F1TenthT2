@@ -7,3 +7,8 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/interactive_marker_tutorials:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/interactive_marker_tutorials/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/interactive_marker_tutorials/lib/pkgconfig:$PKG_CONFIG_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/interactive_marker_tutorials/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/visualization_tutorials/interactive_marker_tutorials:$ROS_PACKAGE_PATH"

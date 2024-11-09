@@ -7,6 +7,7 @@
 ;;
 (ros::load-ros-package "ackermann_msgs")
 (ros::load-ros-package "actionlib_msgs")
+(ros::load-ros-package "diagnostic_msgs")
 (ros::load-ros-package "geometry_msgs")
 (ros::load-ros-package "nav_msgs")
 (ros::load-ros-package "roscpp")

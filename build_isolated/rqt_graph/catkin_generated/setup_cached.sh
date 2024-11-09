@@ -7,3 +7,10 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph/lib:$LD_LIBRARY_PATH"
+export PATH="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph/bin:$PATH"
+export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/rqt_graph/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/rqt_graph:$ROS_PACKAGE_PATH"

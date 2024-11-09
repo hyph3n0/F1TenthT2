@@ -6,5 +6,5 @@ CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKA
 
 CXX_INCLUDES = -I/home/f1tenthteam2/pleasework/devel_isolated/dynamic_reconfigure/include -I/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/include -isystem /home/f1tenthteam2/pleasework/devel_isolated/roscpp/include -isystem /home/f1tenthteam2/pleasework/devel_isolated/roscpp/include/ros -isystem /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include -isystem /home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include -isystem /home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include/xmlrpcpp -isystem /home/f1tenthteam2/pleasework/devel_isolated/rosgraph_msgs/include -isystem /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include -isystem /home/f1tenthteam2/pleasework/src/std_msgs/include -isystem /home/f1tenthteam2/pleasework/src/rosconsole/include -isystem /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_serialization/include -isystem /home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include -isystem /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include -isystem /home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest
 
-CXX_FLAGS = -DGTEST_HAS_PTHREAD=1 -std=gnu++17
+CXX_FLAGS = -DGTEST_HAS_PTHREAD=1
 
