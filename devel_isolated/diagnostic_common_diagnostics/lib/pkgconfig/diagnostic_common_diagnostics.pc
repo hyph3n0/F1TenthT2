@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_common_diagnostics
-
-Name: diagnostic_common_diagnostics
-Description: Description of diagnostic_common_diagnostics
-Version: 1.11.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

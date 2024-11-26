@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/librviz_tutorial
-
-Name: librviz_tutorial
-Description: Description of librviz_tutorial
-Version: 0.11.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/tf_conversions
-
-Name: tf_conversions
-Description: Description of tf_conversions
-Version: 1.13.2
-Cflags: -I/home/f1tenthteam2/pleasework/src/geometry/tf_conversions/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -ltf_conversions -lorocos-kdl
-Requires: geometry_msgs kdl_conversions tf

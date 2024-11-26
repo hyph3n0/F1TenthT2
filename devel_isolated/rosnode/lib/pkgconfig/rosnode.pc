@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rosnode
-
-Name: rosnode
-Description: Description of rosnode
-Version: 1.17.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

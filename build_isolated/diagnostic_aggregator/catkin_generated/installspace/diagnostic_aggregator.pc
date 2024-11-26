@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: diagnostic_aggregator
-Description: Description of diagnostic_aggregator
-Version: 1.11.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -ldiagnostic_aggregator
-Requires: diagnostic_msgs pluginlib roscpp rospy xmlrpcpp bondcpp

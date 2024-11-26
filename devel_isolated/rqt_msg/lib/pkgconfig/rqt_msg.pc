@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_msg
-
-Name: rqt_msg
-Description: Description of rqt_msg
-Version: 0.4.10
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

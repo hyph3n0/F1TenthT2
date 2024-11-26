@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_updater
-
-Name: diagnostic_updater
-Description: Description of diagnostic_updater
-Version: 1.11.0
-Cflags: -I/home/f1tenthteam2/pleasework/src/diagnostics/diagnostic_updater/include
-Libs: -L${prefix}/lib -ldiagnostic_updater
-Requires: diagnostic_msgs roscpp std_msgs

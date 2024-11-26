@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rosbag_migration_rule
-
-Name: rosbag_migration_rule
-Description: Description of rosbag_migration_rule
-Version: 1.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
