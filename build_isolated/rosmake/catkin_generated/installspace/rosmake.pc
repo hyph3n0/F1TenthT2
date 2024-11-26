@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: rosmake
-Description: Description of rosmake
-Version: 1.15.8
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

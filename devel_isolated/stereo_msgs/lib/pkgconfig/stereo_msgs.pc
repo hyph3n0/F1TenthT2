@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/stereo_msgs
-
-Name: stereo_msgs
-Description: Description of stereo_msgs
-Version: 1.13.1
-Cflags: -I/home/f1tenthteam2/pleasework/devel_isolated/stereo_msgs/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime sensor_msgs std_msgs

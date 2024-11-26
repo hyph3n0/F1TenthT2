@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: gl_dependency
-Description: Description of gl_dependency
-Version: 1.1.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

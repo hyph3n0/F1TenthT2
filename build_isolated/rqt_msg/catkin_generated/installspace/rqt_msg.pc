@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: rqt_msg
-Description: Description of rqt_msg
-Version: 0.4.10
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

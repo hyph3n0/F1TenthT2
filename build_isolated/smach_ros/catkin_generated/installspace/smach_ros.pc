@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: smach_ros
-Description: Description of smach_ros
-Version: 2.5.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: rospy rostopic std_msgs std_srvs actionlib actionlib_msgs smach smach_msgs

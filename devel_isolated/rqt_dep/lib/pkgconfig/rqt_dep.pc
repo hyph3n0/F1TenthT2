@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_dep
-
-Name: rqt_dep
-Description: Description of rqt_dep
-Version: 0.4.12
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

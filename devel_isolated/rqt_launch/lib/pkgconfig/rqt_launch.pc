@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_launch
-
-Name: rqt_launch
-Description: Description of rqt_launch
-Version: 0.4.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

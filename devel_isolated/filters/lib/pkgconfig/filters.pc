@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/filters
-
-Name: filters
-Description: Description of filters
-Version: 1.9.2
-Cflags: -I/home/f1tenthteam2/pleasework/src/filters/include -I/usr/include
-Libs: -L${prefix}/lib -lmean -lparams -lincrement -lmedian -ltransfer_function
-Requires: roslib roscpp rosconsole pluginlib

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/self_test
-
-Name: self_test
-Description: Description of self_test
-Version: 1.11.0
-Cflags: -I/home/f1tenthteam2/pleasework/src/diagnostics/self_test/include
-Libs: -L${prefix}/lib 
-Requires: diagnostic_msgs diagnostic_updater roscpp

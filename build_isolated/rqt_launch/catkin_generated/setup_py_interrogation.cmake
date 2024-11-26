@@ -1,7 +1,0 @@
-set(rqt_launch_SETUP_PY_SETUP_MODULE "distutils.core")
-set(rqt_launch_SETUP_PY_VERSION "0.4.9")
-set(rqt_launch_SETUP_PY_SCRIPTS "")
-set(rqt_launch_SETUP_PY_PACKAGES "rqt_launch")
-set(rqt_launch_SETUP_PY_PACKAGE_DIRS "src/rqt_launch")
-set(rqt_launch_SETUP_PY_MODULES "")
-set(rqt_launch_SETUP_PY_MODULE_DIRS "")

@@ -1,7 +1,0 @@
--I/usr/include
--DROS_BUILD_SHARED_LIBS=1
--DROS_PACKAGE_NAME="rqt_rviz"
--DROSCONSOLE_BACKEND_LOG4CXX
--o
-/home/f1tenthteam2/pleasework/build_isolated/rqt_rviz/include/rqt_rviz/moc_rviz.cpp
-/home/f1tenthteam2/pleasework/src/rqt_rviz/include/rqt_rviz/rviz.h

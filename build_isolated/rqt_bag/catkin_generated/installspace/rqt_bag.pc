@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: rqt_bag
-Description: Description of rqt_bag
-Version: 0.5.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
