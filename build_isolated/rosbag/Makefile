@@ -614,97 +614,6 @@ encrypt/fast:
 .PHONY : encrypt/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_rosbag
-
-# Build rule for target.
-run_tests_rosbag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosbag
-.PHONY : run_tests_rosbag
-
-# fast build rule for target.
-run_tests_rosbag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosbag.dir/build.make CMakeFiles/run_tests_rosbag.dir/build
-.PHONY : run_tests_rosbag/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosbag
-
-# Build rule for target.
-_run_tests_rosbag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosbag
-.PHONY : _run_tests_rosbag
-
-# fast build rule for target.
-_run_tests_rosbag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosbag.dir/build.make CMakeFiles/_run_tests_rosbag.dir/build
-.PHONY : _run_tests_rosbag/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rosbag_nosetests
-
-# Build rule for target.
-run_tests_rosbag_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosbag_nosetests
-.PHONY : run_tests_rosbag_nosetests
-
-# fast build rule for target.
-run_tests_rosbag_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosbag_nosetests.dir/build.make CMakeFiles/run_tests_rosbag_nosetests.dir/build
-.PHONY : run_tests_rosbag_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosbag_nosetests
-
-# Build rule for target.
-_run_tests_rosbag_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosbag_nosetests
-.PHONY : _run_tests_rosbag_nosetests
-
-# fast build rule for target.
-_run_tests_rosbag_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosbag_nosetests.dir/build.make CMakeFiles/_run_tests_rosbag_nosetests.dir/build
-.PHONY : _run_tests_rosbag_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rosbag_nosetests_test
-
-# Build rule for target.
-run_tests_rosbag_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosbag_nosetests_test
-.PHONY : run_tests_rosbag_nosetests_test
-
-# fast build rule for target.
-run_tests_rosbag_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosbag_nosetests_test.dir/build.make CMakeFiles/run_tests_rosbag_nosetests_test.dir/build
-.PHONY : run_tests_rosbag_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosbag_nosetests_test
-
-# Build rule for target.
-_run_tests_rosbag_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosbag_nosetests_test
-.PHONY : _run_tests_rosbag_nosetests_test
-
-# fast build rule for target.
-_run_tests_rosbag_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosbag_nosetests_test.dir/build.make CMakeFiles/_run_tests_rosbag_nosetests_test.dir/build
-.PHONY : _run_tests_rosbag_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_rosbag
-
-# Build rule for target.
-clean_test_results_rosbag: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_rosbag
-.PHONY : clean_test_results_rosbag
-
-# fast build rule for target.
-clean_test_results_rosbag/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_rosbag.dir/build.make CMakeFiles/clean_test_results_rosbag.dir/build
-.PHONY : clean_test_results_rosbag/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -913,11 +822,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... _run_tests_rosbag"
-	@echo "... _run_tests_rosbag_nosetests"
-	@echo "... _run_tests_rosbag_nosetests_test"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_rosbag"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... roscpp_generate_messages_cpp"
@@ -931,9 +836,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... run_tests"
-	@echo "... run_tests_rosbag"
-	@echo "... run_tests_rosbag_nosetests"
-	@echo "... run_tests_rosbag_nosetests_test"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"

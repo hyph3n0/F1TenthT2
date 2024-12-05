@@ -195,8 +195,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/run_tests_angles_gtest_utest.dir/DependInfo.cmake"
   "test/CMakeFiles/_run_tests_angles_gtest_utest.dir/DependInfo.cmake"
   "test/CMakeFiles/clean_test_results_angles.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_angles_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_angles_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/DependInfo.cmake"
   )

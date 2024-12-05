@@ -92,8 +92,8 @@ turtle_tf2_broadcaster_EXTERNAL_OBJECTS =
 
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: CMakeFiles/turtle_tf2_broadcaster.dir/src/turtle_tf2_broadcaster.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: CMakeFiles/turtle_tf2_broadcaster.dir/build.make
-/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /usr/local/lib/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/turtle_tf2/turtle_tf2_broadcaster: /home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so

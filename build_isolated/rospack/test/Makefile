@@ -297,62 +297,6 @@ rospack-prepare_test/fast:
 	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/rospack-prepare_test.dir/build.make test/CMakeFiles/rospack-prepare_test.dir/build
 .PHONY : rospack-prepare_test/fast
 
-# Convenience name for target.
-test/CMakeFiles/run_tests_rospack_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_rospack_nosetests.dir/rule
-.PHONY : test/CMakeFiles/run_tests_rospack_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_rospack_nosetests: test/CMakeFiles/run_tests_rospack_nosetests.dir/rule
-.PHONY : run_tests_rospack_nosetests
-
-# fast build rule for target.
-run_tests_rospack_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_rospack_nosetests.dir/build.make test/CMakeFiles/run_tests_rospack_nosetests.dir/build
-.PHONY : run_tests_rospack_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_rospack_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_rospack_nosetests.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_rospack_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_rospack_nosetests: test/CMakeFiles/_run_tests_rospack_nosetests.dir/rule
-.PHONY : _run_tests_rospack_nosetests
-
-# fast build rule for target.
-_run_tests_rospack_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_rospack_nosetests.dir/build.make test/CMakeFiles/_run_tests_rospack_nosetests.dir/build
-.PHONY : _run_tests_rospack_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/rule
-.PHONY : test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/rule
-
-# Convenience name for target.
-run_tests_rospack_nosetests_test.test: test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/rule
-.PHONY : run_tests_rospack_nosetests_test.test
-
-# fast build rule for target.
-run_tests_rospack_nosetests_test.test/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/build.make test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/build
-.PHONY : run_tests_rospack_nosetests_test.test/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/rule
-
-# Convenience name for target.
-_run_tests_rospack_nosetests_test.test: test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/rule
-.PHONY : _run_tests_rospack_nosetests_test.test
-
-# fast build rule for target.
-_run_tests_rospack_nosetests_test.test/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/rospack && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/build.make test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/build
-.PHONY : _run_tests_rospack_nosetests_test.test/fast
-
 test/utest.o: test/utest.cpp.o
 .PHONY : test/utest.o
 
@@ -393,15 +337,11 @@ help:
 	@echo "... _run_tests_rospack"
 	@echo "... _run_tests_rospack_gtest"
 	@echo "... _run_tests_rospack_gtest_rospack-utest"
-	@echo "... _run_tests_rospack_nosetests"
-	@echo "... _run_tests_rospack_nosetests_test.test"
 	@echo "... clean_test_results_rospack"
 	@echo "... rospack-prepare_test"
 	@echo "... run_tests_rospack"
 	@echo "... run_tests_rospack_gtest"
 	@echo "... run_tests_rospack_gtest_rospack-utest"
-	@echo "... run_tests_rospack_nosetests"
-	@echo "... run_tests_rospack_nosetests_test.test"
 	@echo "... rospack-utest"
 	@echo "... test/utest.o"
 	@echo "... test/utest.i"

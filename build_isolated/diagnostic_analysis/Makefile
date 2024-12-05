@@ -627,97 +627,6 @@ topic_tools_generate_messages_py/fast:
 .PHONY : topic_tools_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_diagnostic_analysis
-
-# Build rule for target.
-run_tests_diagnostic_analysis: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_diagnostic_analysis
-.PHONY : run_tests_diagnostic_analysis
-
-# fast build rule for target.
-run_tests_diagnostic_analysis/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis.dir/build.make CMakeFiles/run_tests_diagnostic_analysis.dir/build
-.PHONY : run_tests_diagnostic_analysis/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_diagnostic_analysis
-
-# Build rule for target.
-_run_tests_diagnostic_analysis: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_diagnostic_analysis
-.PHONY : _run_tests_diagnostic_analysis
-
-# fast build rule for target.
-_run_tests_diagnostic_analysis/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis.dir/build
-.PHONY : _run_tests_diagnostic_analysis/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_diagnostic_analysis_nosetests
-
-# Build rule for target.
-run_tests_diagnostic_analysis_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_diagnostic_analysis_nosetests
-.PHONY : run_tests_diagnostic_analysis_nosetests
-
-# fast build rule for target.
-run_tests_diagnostic_analysis_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build
-.PHONY : run_tests_diagnostic_analysis_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_diagnostic_analysis_nosetests
-
-# Build rule for target.
-_run_tests_diagnostic_analysis_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_diagnostic_analysis_nosetests
-.PHONY : _run_tests_diagnostic_analysis_nosetests
-
-# fast build rule for target.
-_run_tests_diagnostic_analysis_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build
-.PHONY : _run_tests_diagnostic_analysis_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# Build rule for target.
-run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-.PHONY : run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# fast build rule for target.
-run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build
-.PHONY : run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# Build rule for target.
-_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-.PHONY : _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# fast build rule for target.
-_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build
-.PHONY : _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_diagnostic_analysis
-
-# Build rule for target.
-clean_test_results_diagnostic_analysis: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_diagnostic_analysis
-.PHONY : clean_test_results_diagnostic_analysis
-
-# fast build rule for target.
-clean_test_results_diagnostic_analysis/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_diagnostic_analysis.dir/build.make CMakeFiles/clean_test_results_diagnostic_analysis.dir/build
-.PHONY : clean_test_results_diagnostic_analysis/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -782,11 +691,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... _run_tests_diagnostic_analysis"
-	@echo "... _run_tests_diagnostic_analysis_nosetests"
-	@echo "... _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_diagnostic_analysis"
 	@echo "... diagnostic_msgs_generate_messages_cpp"
 	@echo "... diagnostic_msgs_generate_messages_eus"
 	@echo "... diagnostic_msgs_generate_messages_lisp"
@@ -805,9 +710,6 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... run_tests"
-	@echo "... run_tests_diagnostic_analysis"
-	@echo "... run_tests_diagnostic_analysis_nosetests"
-	@echo "... run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"

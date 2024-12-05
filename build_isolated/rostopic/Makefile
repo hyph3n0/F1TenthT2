@@ -341,58 +341,6 @@ clean_test_results_rostopic/fast:
 .PHONY : clean_test_results_rostopic/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_rostopic_nosetests
-
-# Build rule for target.
-run_tests_rostopic_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rostopic_nosetests
-.PHONY : run_tests_rostopic_nosetests
-
-# fast build rule for target.
-run_tests_rostopic_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rostopic_nosetests.dir/build.make CMakeFiles/run_tests_rostopic_nosetests.dir/build
-.PHONY : run_tests_rostopic_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rostopic_nosetests
-
-# Build rule for target.
-_run_tests_rostopic_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rostopic_nosetests
-.PHONY : _run_tests_rostopic_nosetests
-
-# fast build rule for target.
-_run_tests_rostopic_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostopic_nosetests.dir/build.make CMakeFiles/_run_tests_rostopic_nosetests.dir/build
-.PHONY : _run_tests_rostopic_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-
-# Build rule for target.
-run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-.PHONY : run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-
-# fast build rule for target.
-run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir/build.make CMakeFiles/run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir/build
-.PHONY : run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-
-# Build rule for target.
-_run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-.PHONY : _run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py
-
-# fast build rule for target.
-_run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir/build.make CMakeFiles/_run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir/build
-.PHONY : _run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -459,8 +407,6 @@ help:
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... _run_tests_rostopic"
-	@echo "... _run_tests_rostopic_nosetests"
-	@echo "... _run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py"
 	@echo "... _run_tests_rostopic_rostest"
 	@echo "... _run_tests_rostopic_rostest_test_rostopic.test"
 	@echo "... clean_test_results"
@@ -469,8 +415,6 @@ help:
 	@echo "... doxygen"
 	@echo "... run_tests"
 	@echo "... run_tests_rostopic"
-	@echo "... run_tests_rostopic_nosetests"
-	@echo "... run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py"
 	@echo "... run_tests_rostopic_rostest"
 	@echo "... run_tests_rostopic_rostest_test_rostopic.test"
 	@echo "... tests"

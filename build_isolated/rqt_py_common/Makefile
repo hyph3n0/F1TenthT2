@@ -484,97 +484,6 @@ rqt_py_common_genpy/fast:
 .PHONY : rqt_py_common_genpy/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_rqt_py_common
-
-# Build rule for target.
-run_tests_rqt_py_common: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rqt_py_common
-.PHONY : run_tests_rqt_py_common
-
-# fast build rule for target.
-run_tests_rqt_py_common/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rqt_py_common.dir/build.make CMakeFiles/run_tests_rqt_py_common.dir/build
-.PHONY : run_tests_rqt_py_common/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rqt_py_common
-
-# Build rule for target.
-_run_tests_rqt_py_common: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rqt_py_common
-.PHONY : _run_tests_rqt_py_common
-
-# fast build rule for target.
-_run_tests_rqt_py_common/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rqt_py_common.dir/build.make CMakeFiles/_run_tests_rqt_py_common.dir/build
-.PHONY : _run_tests_rqt_py_common/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rqt_py_common_nosetests
-
-# Build rule for target.
-run_tests_rqt_py_common_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rqt_py_common_nosetests
-.PHONY : run_tests_rqt_py_common_nosetests
-
-# fast build rule for target.
-run_tests_rqt_py_common_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rqt_py_common_nosetests.dir/build.make CMakeFiles/run_tests_rqt_py_common_nosetests.dir/build
-.PHONY : run_tests_rqt_py_common_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rqt_py_common_nosetests
-
-# Build rule for target.
-_run_tests_rqt_py_common_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rqt_py_common_nosetests
-.PHONY : _run_tests_rqt_py_common_nosetests
-
-# fast build rule for target.
-_run_tests_rqt_py_common_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rqt_py_common_nosetests.dir/build.make CMakeFiles/_run_tests_rqt_py_common_nosetests.dir/build
-.PHONY : _run_tests_rqt_py_common_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rqt_py_common_nosetests_test
-
-# Build rule for target.
-run_tests_rqt_py_common_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rqt_py_common_nosetests_test
-.PHONY : run_tests_rqt_py_common_nosetests_test
-
-# fast build rule for target.
-run_tests_rqt_py_common_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rqt_py_common_nosetests_test.dir/build.make CMakeFiles/run_tests_rqt_py_common_nosetests_test.dir/build
-.PHONY : run_tests_rqt_py_common_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rqt_py_common_nosetests_test
-
-# Build rule for target.
-_run_tests_rqt_py_common_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rqt_py_common_nosetests_test
-.PHONY : _run_tests_rqt_py_common_nosetests_test
-
-# fast build rule for target.
-_run_tests_rqt_py_common_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rqt_py_common_nosetests_test.dir/build.make CMakeFiles/_run_tests_rqt_py_common_nosetests_test.dir/build
-.PHONY : _run_tests_rqt_py_common_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_rqt_py_common
-
-# Build rule for target.
-clean_test_results_rqt_py_common: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_rqt_py_common
-.PHONY : clean_test_results_rqt_py_common
-
-# fast build rule for target.
-clean_test_results_rqt_py_common/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_rqt_py_common.dir/build.make CMakeFiles/clean_test_results_rqt_py_common.dir/build
-.PHONY : clean_test_results_rqt_py_common/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -642,11 +551,7 @@ help:
 	@echo "... _catkin_empty_exported_target"
 	@echo "... _rqt_py_common_generate_messages_check_deps_ArrayVal"
 	@echo "... _rqt_py_common_generate_messages_check_deps_Val"
-	@echo "... _run_tests_rqt_py_common"
-	@echo "... _run_tests_rqt_py_common_nosetests"
-	@echo "... _run_tests_rqt_py_common_nosetests_test"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_rqt_py_common"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... rqt_py_common_gencpp"
@@ -661,9 +566,6 @@ help:
 	@echo "... rqt_py_common_gennodejs"
 	@echo "... rqt_py_common_genpy"
 	@echo "... run_tests"
-	@echo "... run_tests_rqt_py_common"
-	@echo "... run_tests_rqt_py_common_nosetests"
-	@echo "... run_tests_rqt_py_common_nosetests_test"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"

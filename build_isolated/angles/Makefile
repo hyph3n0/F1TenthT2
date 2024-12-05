@@ -405,58 +405,6 @@ clean_test_results_angles/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_angles.dir/build.make test/CMakeFiles/clean_test_results_angles.dir/build
 .PHONY : clean_test_results_angles/fast
 
-#=============================================================================
-# Target rules for targets named run_tests_angles_nosetests
-
-# Build rule for target.
-run_tests_angles_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_angles_nosetests
-.PHONY : run_tests_angles_nosetests
-
-# fast build rule for target.
-run_tests_angles_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests.dir/build.make test/CMakeFiles/run_tests_angles_nosetests.dir/build
-.PHONY : run_tests_angles_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_angles_nosetests
-
-# Build rule for target.
-_run_tests_angles_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_angles_nosetests
-.PHONY : _run_tests_angles_nosetests
-
-# fast build rule for target.
-_run_tests_angles_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests.dir/build
-.PHONY : _run_tests_angles_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_angles_nosetests_utest.py
-
-# Build rule for target.
-run_tests_angles_nosetests_utest.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_angles_nosetests_utest.py
-.PHONY : run_tests_angles_nosetests_utest.py
-
-# fast build rule for target.
-run_tests_angles_nosetests_utest.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build
-.PHONY : run_tests_angles_nosetests_utest.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_angles_nosetests_utest.py
-
-# Build rule for target.
-_run_tests_angles_nosetests_utest.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_angles_nosetests_utest.py
-.PHONY : _run_tests_angles_nosetests_utest.py
-
-# fast build rule for target.
-_run_tests_angles_nosetests_utest.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build
-.PHONY : _run_tests_angles_nosetests_utest.py/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -474,8 +422,6 @@ help:
 	@echo "... _run_tests_angles"
 	@echo "... _run_tests_angles_gtest"
 	@echo "... _run_tests_angles_gtest_utest"
-	@echo "... _run_tests_angles_nosetests"
-	@echo "... _run_tests_angles_nosetests_utest.py"
 	@echo "... clean_test_results"
 	@echo "... clean_test_results_angles"
 	@echo "... download_extra_data"
@@ -484,8 +430,6 @@ help:
 	@echo "... run_tests_angles"
 	@echo "... run_tests_angles_gtest"
 	@echo "... run_tests_angles_gtest_utest"
-	@echo "... run_tests_angles_nosetests"
-	@echo "... run_tests_angles_nosetests_utest.py"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

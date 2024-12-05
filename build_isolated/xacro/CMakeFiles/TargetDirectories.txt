@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/run_tests_xacro.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/_run_tests_xacro.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/run_tests_xacro_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/_run_tests_xacro_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/run_tests_xacro_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/_run_tests_xacro_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/clean_test_results_xacro.dir
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/roslint.dir
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/roslint_xacro.dir
 /home/f1tenthteam2/pleasework/build_isolated/xacro/CMakeFiles/test.dir

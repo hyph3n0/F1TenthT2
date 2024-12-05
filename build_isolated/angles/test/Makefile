@@ -283,62 +283,6 @@ clean_test_results_angles/fast:
 	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_angles.dir/build.make test/CMakeFiles/clean_test_results_angles.dir/build
 .PHONY : clean_test_results_angles/fast
 
-# Convenience name for target.
-test/CMakeFiles/run_tests_angles_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_angles_nosetests.dir/rule
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_angles_nosetests: test/CMakeFiles/run_tests_angles_nosetests.dir/rule
-.PHONY : run_tests_angles_nosetests
-
-# fast build rule for target.
-run_tests_angles_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests.dir/build.make test/CMakeFiles/run_tests_angles_nosetests.dir/build
-.PHONY : run_tests_angles_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_angles_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_angles_nosetests.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_angles_nosetests: test/CMakeFiles/_run_tests_angles_nosetests.dir/rule
-.PHONY : _run_tests_angles_nosetests
-
-# fast build rule for target.
-_run_tests_angles_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests.dir/build
-.PHONY : _run_tests_angles_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule
-
-# Convenience name for target.
-run_tests_angles_nosetests_utest.py: test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : run_tests_angles_nosetests_utest.py
-
-# fast build rule for target.
-run_tests_angles_nosetests_utest.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build
-.PHONY : run_tests_angles_nosetests_utest.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule
-
-# Convenience name for target.
-_run_tests_angles_nosetests_utest.py: test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : _run_tests_angles_nosetests_utest.py
-
-# fast build rule for target.
-_run_tests_angles_nosetests_utest.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/angles && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build
-.PHONY : _run_tests_angles_nosetests_utest.py/fast
-
 utest.o: utest.cpp.o
 .PHONY : utest.o
 
@@ -379,14 +323,10 @@ help:
 	@echo "... _run_tests_angles"
 	@echo "... _run_tests_angles_gtest"
 	@echo "... _run_tests_angles_gtest_utest"
-	@echo "... _run_tests_angles_nosetests"
-	@echo "... _run_tests_angles_nosetests_utest.py"
 	@echo "... clean_test_results_angles"
 	@echo "... run_tests_angles"
 	@echo "... run_tests_angles_gtest"
 	@echo "... run_tests_angles_gtest_utest"
-	@echo "... run_tests_angles_nosetests"
-	@echo "... run_tests_angles_nosetests_utest.py"
 	@echo "... utest"
 	@echo "... utest.o"
 	@echo "... utest.i"

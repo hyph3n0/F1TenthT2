@@ -32,13 +32,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/record.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/play.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/encrypt.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/run_tests_rosbag.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/_run_tests_rosbag.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/run_tests_rosbag_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/_run_tests_rosbag_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/run_tests_rosbag_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/_run_tests_rosbag_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/clean_test_results_rosbag.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosbag/CMakeFiles/rebuild_cache.dir

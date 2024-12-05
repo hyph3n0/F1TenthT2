@@ -218,8 +218,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/run_tests_resource_retriever_gtest_resource_retriever_utest.dir/DependInfo.cmake"
   "test/CMakeFiles/_run_tests_resource_retriever_gtest_resource_retriever_utest.dir/DependInfo.cmake"
   "test/CMakeFiles/clean_test_results_resource_retriever.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/DependInfo.cmake"
   )

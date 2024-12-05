@@ -1420,58 +1420,6 @@ testBroadcaster/fast:
 .PHONY : testBroadcaster/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_tf_nosetests
-
-# Build rule for target.
-run_tests_tf_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_tf_nosetests
-.PHONY : run_tests_tf_nosetests
-
-# fast build rule for target.
-run_tests_tf_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_tf_nosetests.dir/build.make CMakeFiles/run_tests_tf_nosetests.dir/build
-.PHONY : run_tests_tf_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_tf_nosetests
-
-# Build rule for target.
-_run_tests_tf_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_tf_nosetests
-.PHONY : _run_tests_tf_nosetests
-
-# fast build rule for target.
-_run_tests_tf_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_tf_nosetests.dir/build.make CMakeFiles/_run_tests_tf_nosetests.dir/build
-.PHONY : _run_tests_tf_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_tf_nosetests_test.testPython.py
-
-# Build rule for target.
-run_tests_tf_nosetests_test.testPython.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_tf_nosetests_test.testPython.py
-.PHONY : run_tests_tf_nosetests_test.testPython.py
-
-# fast build rule for target.
-run_tests_tf_nosetests_test.testPython.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_tf_nosetests_test.testPython.py.dir/build.make CMakeFiles/run_tests_tf_nosetests_test.testPython.py.dir/build
-.PHONY : run_tests_tf_nosetests_test.testPython.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_tf_nosetests_test.testPython.py
-
-# Build rule for target.
-_run_tests_tf_nosetests_test.testPython.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_tf_nosetests_test.testPython.py
-.PHONY : _run_tests_tf_nosetests_test.testPython.py
-
-# fast build rule for target.
-_run_tests_tf_nosetests_test.testPython.py/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_tf_nosetests_test.testPython.py.dir/build.make CMakeFiles/_run_tests_tf_nosetests_test.testPython.py.dir/build
-.PHONY : _run_tests_tf_nosetests_test.testPython.py/fast
-
-#=============================================================================
 # Target rules for targets named tf_speed_test
 
 # Build rule for target.
@@ -2012,8 +1960,6 @@ help:
 	@echo "... _run_tests_tf_gtest_test_velocity"
 	@echo "... _run_tests_tf_gtest_tf_quaternion_unittest"
 	@echo "... _run_tests_tf_gtest_tf_unittest"
-	@echo "... _run_tests_tf_nosetests"
-	@echo "... _run_tests_tf_nosetests_test.testPython.py"
 	@echo "... _run_tests_tf_rostest"
 	@echo "... _run_tests_tf_rostest_test_test_broadcaster.launch"
 	@echo "... _run_tests_tf_rostest_test_test_message_filter.xml"
@@ -2057,8 +2003,6 @@ help:
 	@echo "... run_tests_tf_gtest_test_velocity"
 	@echo "... run_tests_tf_gtest_tf_quaternion_unittest"
 	@echo "... run_tests_tf_gtest_tf_unittest"
-	@echo "... run_tests_tf_nosetests"
-	@echo "... run_tests_tf_nosetests_test.testPython.py"
 	@echo "... run_tests_tf_rostest"
 	@echo "... run_tests_tf_rostest_test_test_broadcaster.launch"
 	@echo "... run_tests_tf_rostest_test_test_message_filter.xml"

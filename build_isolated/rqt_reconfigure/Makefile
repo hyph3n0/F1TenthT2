@@ -367,58 +367,6 @@ clean_test_results_rqt_reconfigure/fast:
 .PHONY : clean_test_results_rqt_reconfigure/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_rqt_reconfigure_nosetests
-
-# Build rule for target.
-run_tests_rqt_reconfigure_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rqt_reconfigure_nosetests
-.PHONY : run_tests_rqt_reconfigure_nosetests
-
-# fast build rule for target.
-run_tests_rqt_reconfigure_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rqt_reconfigure_nosetests.dir/build.make CMakeFiles/run_tests_rqt_reconfigure_nosetests.dir/build
-.PHONY : run_tests_rqt_reconfigure_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rqt_reconfigure_nosetests
-
-# Build rule for target.
-_run_tests_rqt_reconfigure_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rqt_reconfigure_nosetests
-.PHONY : _run_tests_rqt_reconfigure_nosetests
-
-# fast build rule for target.
-_run_tests_rqt_reconfigure_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rqt_reconfigure_nosetests.dir/build.make CMakeFiles/_run_tests_rqt_reconfigure_nosetests.dir/build
-.PHONY : _run_tests_rqt_reconfigure_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rqt_reconfigure_nosetests_test
-
-# Build rule for target.
-run_tests_rqt_reconfigure_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rqt_reconfigure_nosetests_test
-.PHONY : run_tests_rqt_reconfigure_nosetests_test
-
-# fast build rule for target.
-run_tests_rqt_reconfigure_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rqt_reconfigure_nosetests_test.dir/build.make CMakeFiles/run_tests_rqt_reconfigure_nosetests_test.dir/build
-.PHONY : run_tests_rqt_reconfigure_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rqt_reconfigure_nosetests_test
-
-# Build rule for target.
-_run_tests_rqt_reconfigure_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rqt_reconfigure_nosetests_test
-.PHONY : _run_tests_rqt_reconfigure_nosetests_test
-
-# fast build rule for target.
-_run_tests_rqt_reconfigure_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rqt_reconfigure_nosetests_test.dir/build.make CMakeFiles/_run_tests_rqt_reconfigure_nosetests_test.dir/build
-.PHONY : _run_tests_rqt_reconfigure_nosetests_test/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -485,8 +433,6 @@ help:
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... _run_tests_rqt_reconfigure"
-	@echo "... _run_tests_rqt_reconfigure_nosetests"
-	@echo "... _run_tests_rqt_reconfigure_nosetests_test"
 	@echo "... _run_tests_rqt_reconfigure_roslint"
 	@echo "... _run_tests_rqt_reconfigure_roslint_package"
 	@echo "... clean_test_results"
@@ -497,8 +443,6 @@ help:
 	@echo "... roslint_rqt_reconfigure"
 	@echo "... run_tests"
 	@echo "... run_tests_rqt_reconfigure"
-	@echo "... run_tests_rqt_reconfigure_nosetests"
-	@echo "... run_tests_rqt_reconfigure_nosetests_test"
 	@echo "... run_tests_rqt_reconfigure_roslint"
 	@echo "... run_tests_rqt_reconfigure_roslint_package"
 	@echo "... tests"

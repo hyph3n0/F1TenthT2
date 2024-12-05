@@ -67,7 +67,7 @@ include test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_utest.dir/com
 include test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_utest.dir/progress.make
 
 test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_utest:
-	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && ../catkin_generated/env_cached.sh /usr/bin/python /home/f1tenthteam2/pleasework/src/catkin/cmake/test/run_tests.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_utest.xml "/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/class_loader/class_loader_utest --gtest_output=xml:/home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_utest.xml"
+	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/catkin/cmake/test/run_tests.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_utest.xml "/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/class_loader/class_loader_utest --gtest_output=xml:/home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_utest.xml"
 
 _run_tests_class_loader_gtest_class_loader_utest: test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_utest
 _run_tests_class_loader_gtest_class_loader_utest: test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_utest.dir/build.make

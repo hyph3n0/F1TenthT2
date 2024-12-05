@@ -96,12 +96,12 @@
 		"/usr/src/googletest/googletest/include",
 		"/usr/src/googletest/googletest",
 		"/usr/include",
+		"/usr/local/include",
 		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/aarch64-linux-gnu/c++/11",
 		"/usr/include/c++/11/backward",
 		"/usr/lib/gcc/aarch64-linux-gnu/11/include",
-		"/usr/local/include",
 		"/usr/include/aarch64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],

@@ -67,7 +67,7 @@ include CMakeFiles/clean_test_results.dir/compiler_depend.make
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /home/f1tenthteam2/pleasework/src/catkin/cmake/test/remove_test_results.py /home/f1tenthteam2/pleasework/build_isolated/genpy/test_results
+	/usr/bin/python3 /home/f1tenthteam2/pleasework/src/catkin/cmake/test/remove_test_results.py /home/f1tenthteam2/pleasework/build_isolated/genpy/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make

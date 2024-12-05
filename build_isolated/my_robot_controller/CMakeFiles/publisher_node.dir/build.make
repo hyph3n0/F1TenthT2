@@ -92,6 +92,27 @@ publisher_node_EXTERNAL_OBJECTS =
 
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: CMakeFiles/publisher_node.dir/build.make
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/vesc_hw_interface/lib/libvesc_hw_interface.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/controller_manager/lib/libcontroller_manager.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/urdf/lib/liburdf.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/liburdfdom_sensor.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/liburdfdom_model_state.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/liburdfdom_model.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/liburdfdom_world.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libtinyxml.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/rosconsole_bridge/lib/librosconsole_bridge.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib/libnodeletlib.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib/libbondcpp.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libuuid.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/libclass_loader.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libPocoFoundation.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libdl.a
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/roslib/lib/libroslib.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/rospack/lib/librospack.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib/libroscpp.so
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0
@@ -108,6 +129,9 @@ publisher_node_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /home/f1tenthteam2/pleasework/devel_isolated/serial/lib/libserial.so
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/librt.a
+/home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: /usr/lib/aarch64-linux-gnu/libpthread.a
 /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node: CMakeFiles/publisher_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/my_robot_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/f1tenthteam2/pleasework/devel_isolated/my_robot_controller/lib/my_robot_controller/publisher_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/publisher_node.dir/link.txt --verbose=$(VERBOSE)

@@ -67,7 +67,7 @@ include test/CMakeFiles/clean_test_results_class_loader.dir/compiler_depend.make
 include test/CMakeFiles/clean_test_results_class_loader.dir/progress.make
 
 test/CMakeFiles/clean_test_results_class_loader:
-	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && /usr/bin/python /home/f1tenthteam2/pleasework/src/catkin/cmake/test/remove_test_results.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader
+	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && /usr/bin/python3 /home/f1tenthteam2/pleasework/src/catkin/cmake/test/remove_test_results.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader
 
 clean_test_results_class_loader: test/CMakeFiles/clean_test_results_class_loader
 clean_test_results_class_loader: test/CMakeFiles/clean_test_results_class_loader.dir/build.make

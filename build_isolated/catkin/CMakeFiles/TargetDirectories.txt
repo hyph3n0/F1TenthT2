@@ -3,15 +3,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/run_tests.dir
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/doxygen.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/run_tests_catkin.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/_run_tests_catkin.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/run_tests_catkin_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/_run_tests_catkin_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/run_tests_catkin_nosetests_test.local_tests.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/_run_tests_catkin_nosetests_test.local_tests.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/clean_test_results_catkin.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/run_tests_catkin_nosetests_test.unit_tests.dir
-/home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/_run_tests_catkin_nosetests_test.unit_tests.dir
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/catkin/CMakeFiles/rebuild_cache.dir

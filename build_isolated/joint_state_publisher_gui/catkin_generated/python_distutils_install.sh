@@ -24,7 +24,7 @@ echo_and_run mkdir -p "$DESTDIR/home/f1tenthteam2/pleasework/install_isolated/li
 echo_and_run /usr/bin/env \
     PYTHONPATH="/home/f1tenthteam2/pleasework/install_isolated/lib/python3/dist-packages:/home/f1tenthteam2/pleasework/build_isolated/joint_state_publisher_gui/lib/python3/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/f1tenthteam2/pleasework/build_isolated/joint_state_publisher_gui" \
-    "/usr/bin/python" \
+    "/usr/bin/python3" \
     "/home/f1tenthteam2/pleasework/src/joint_state_publisher/joint_state_publisher_gui/setup.py" \
     egg_info --egg-base /home/f1tenthteam2/pleasework/build_isolated/joint_state_publisher_gui \
     build --build-base "/home/f1tenthteam2/pleasework/build_isolated/joint_state_publisher_gui" \

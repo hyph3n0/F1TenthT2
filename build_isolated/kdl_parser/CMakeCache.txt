@@ -323,7 +323,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -362,7 +362,7 @@ UBUNTU_JAMMY:BOOL=TRUE
 _file_name:FILEPATH=/home/f1tenthteam2/pleasework/src/kdl_parser/kdl_parser/test/test_inertia_rpy.launch
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -468,7 +468,7 @@ onelib:FILEPATH=/usr/lib/aarch64-linux-gnu/liburdfdom_world.so
 onelibd:FILEPATH=onelibd-NOTFOUND
 
 //The directory containing a CMake configuration file for orocos_kdl.
-orocos_kdl_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/orocos_kdl
+orocos_kdl_DIR:PATH=/usr/local/share/orocos_kdl/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/pluginlib/share/pluginlib/cmake
@@ -716,7 +716,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_TinyXML:INTERNAL=[/usr/lib/aarch64-linux-gnu/libtin
 //Details about finding TinyXML2
 FIND_PACKAGE_MESSAGE_DETAILS_TinyXML2:INTERNAL=[/usr/lib/aarch64-linux-gnu/libtinyxml2.so][/usr/include][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/kdl_parser/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main

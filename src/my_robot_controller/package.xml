@@ -50,6 +50,7 @@
   <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
   <buildtool_depend>roscpp</buildtool_depend>
+  <buildtool_depend>vesc_hw_interface</buildtool_depend>
   
 
 

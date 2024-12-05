@@ -171,8 +171,8 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
-CMakeFiles/tests.dir/all: CMakeFiles/rostime-test_time.dir/all
 CMakeFiles/tests.dir/all: CMakeFiles/rostime-test_duration.dir/all
+CMakeFiles/tests.dir/all: CMakeFiles/rostime-test_time.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num= "Built target tests"
@@ -328,8 +328,8 @@ CMakeFiles/rostime.dir/clean:
 # Target rules for target CMakeFiles/rostime-test_duration.dir
 
 # All Build rule for target.
-CMakeFiles/rostime-test_duration.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/rostime-test_duration.dir/all: CMakeFiles/rostime.dir/all
+CMakeFiles/rostime-test_duration.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rostime-test_duration.dir/build.make CMakeFiles/rostime-test_duration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rostime-test_duration.dir/build.make CMakeFiles/rostime-test_duration.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num=13,14 "Built target rostime-test_duration"
@@ -407,8 +407,8 @@ CMakeFiles/_run_tests_rostime.dir/clean:
 # Target rules for target CMakeFiles/run_tests_rostime_gtest.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests_rostime_gtest.dir/all: CMakeFiles/run_tests_rostime_gtest_rostime-test_duration.dir/all
 CMakeFiles/run_tests_rostime_gtest.dir/all: CMakeFiles/run_tests_rostime_gtest_rostime-test_time.dir/all
+CMakeFiles/run_tests_rostime_gtest.dir/all: CMakeFiles/run_tests_rostime_gtest_rostime-test_duration.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rostime_gtest.dir/build.make CMakeFiles/run_tests_rostime_gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rostime_gtest.dir/build.make CMakeFiles/run_tests_rostime_gtest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num= "Built target run_tests_rostime_gtest"
@@ -434,8 +434,8 @@ CMakeFiles/run_tests_rostime_gtest.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_rostime_gtest.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_rostime_gtest.dir/all: CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all
 CMakeFiles/_run_tests_rostime_gtest.dir/all: CMakeFiles/_run_tests_rostime_gtest_rostime-test_time.dir/all
+CMakeFiles/_run_tests_rostime_gtest.dir/all: CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostime_gtest.dir/build.make CMakeFiles/_run_tests_rostime_gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostime_gtest.dir/build.make CMakeFiles/_run_tests_rostime_gtest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num= "Built target _run_tests_rostime_gtest"
@@ -487,9 +487,9 @@ CMakeFiles/run_tests_rostime_gtest_rostime-test_duration.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir
 
 # All Build rule for target.
+CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all: CMakeFiles/rostime-test_duration.dir/all
 CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all: CMakeFiles/clean_test_results_rostime.dir/all
 CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all: CMakeFiles/tests.dir/all
-CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/all: CMakeFiles/rostime-test_duration.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/build.make CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/build.make CMakeFiles/_run_tests_rostime_gtest_rostime-test_duration.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num= "Built target _run_tests_rostime_gtest_rostime-test_duration"
@@ -541,8 +541,8 @@ CMakeFiles/clean_test_results_rostime.dir/clean:
 # Target rules for target CMakeFiles/rostime-test_time.dir
 
 # All Build rule for target.
-CMakeFiles/rostime-test_time.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/rostime-test_time.dir/all: CMakeFiles/rostime.dir/all
+CMakeFiles/rostime-test_time.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rostime-test_time.dir/build.make CMakeFiles/rostime-test_time.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rostime-test_time.dir/build.make CMakeFiles/rostime-test_time.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostime/CMakeFiles --progress-num=15,16 "Built target rostime-test_time"

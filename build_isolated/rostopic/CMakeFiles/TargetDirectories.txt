@@ -11,10 +11,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/run_tests_rostopic_rostest_test_rostopic.test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/clean_test_results_rostopic.dir
-/home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/run_tests_rostopic_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/_run_tests_rostopic_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/_run_tests_rostopic_nosetests_test.test_rostopic_command_line_offline.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles/rebuild_cache.dir

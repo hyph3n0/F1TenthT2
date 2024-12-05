@@ -94,10 +94,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/run_tests_tf_rostest_test_test_broadcaster.launch.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/_run_tests_tf_rostest_test_test_broadcaster.launch.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/testBroadcaster.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/run_tests_tf_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/_run_tests_tf_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/run_tests_tf_nosetests_test.testPython.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/_run_tests_tf_nosetests_test.testPython.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/tf_speed_test.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/edit_cache.dir

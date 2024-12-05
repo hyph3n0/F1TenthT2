@@ -67,7 +67,7 @@ include CMakeFiles/_sensor_msgs_generate_messages_check_deps_CameraInfo.dir/comp
 include CMakeFiles/_sensor_msgs_generate_messages_check_deps_CameraInfo.dir/progress.make
 
 CMakeFiles/_sensor_msgs_generate_messages_check_deps_CameraInfo:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py sensor_msgs /home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/CameraInfo.msg sensor_msgs/RegionOfInterest:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py sensor_msgs /home/f1tenthteam2/pleasework/src/common_msgs/sensor_msgs/msg/CameraInfo.msg std_msgs/Header:sensor_msgs/RegionOfInterest
 
 _sensor_msgs_generate_messages_check_deps_CameraInfo: CMakeFiles/_sensor_msgs_generate_messages_check_deps_CameraInfo
 _sensor_msgs_generate_messages_check_deps_CameraInfo: CMakeFiles/_sensor_msgs_generate_messages_check_deps_CameraInfo.dir/build.make

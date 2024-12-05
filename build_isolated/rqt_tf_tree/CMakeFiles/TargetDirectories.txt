@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/run_tests_rqt_tf_tree.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/_run_tests_rqt_tf_tree.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/run_tests_rqt_tf_tree_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/_run_tests_rqt_tf_tree_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/run_tests_rqt_tf_tree_nosetests_test.dotcode_tf_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/_run_tests_rqt_tf_tree_nosetests_test.dotcode_tf_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/clean_test_results_rqt_tf_tree.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_tf_tree/CMakeFiles/rebuild_cache.dir

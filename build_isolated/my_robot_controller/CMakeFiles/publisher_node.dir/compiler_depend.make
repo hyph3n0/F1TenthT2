@@ -1261,8 +1261,34 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
   /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/topic.h \
   /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/node_handle.h \
   /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include/std_msgs/String.h \
-  /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include/ros/message_operations.h
+  /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include/ros/message_operations.h \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_wheel_controller.h \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_interface.h \
+  /home/f1tenthteam2/pleasework/src/serial/include/serial/serial.h \
+  /home/f1tenthteam2/pleasework/src/serial/include/serial/v8stdint.h \
+  /usr/include/boost/crc.hpp \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet.h \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/data_map.h \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet_factory.h \
+  /home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_step_difference.h \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc
 
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
+
+/usr/include/boost/crc.hpp:
+
+/home/f1tenthteam2/pleasework/src/serial/include/serial/v8stdint.h:
+
+/home/f1tenthteam2/pleasework/src/serial/include/serial/serial.h:
+
+/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_interface.h:
 
 /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/names.h:
 
@@ -1357,6 +1383,8 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
 /usr/include/boost/concept/detail/concept_undef.hpp:
 
 /usr/include/boost/preprocessor/seq/enum.hpp:
+
+/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet.h:
 
 /usr/include/boost/preprocessor/seq/size.hpp:
 
@@ -1782,6 +1810,8 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
 
 /usr/include/boost/predef/os/bsd/net.h:
 
+/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet_factory.h:
+
 /usr/include/boost/smart_ptr/detail/sp_thread_pause.hpp:
 
 /usr/include/boost/math/policies/policy.hpp:
@@ -2077,6 +2107,8 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
 /usr/include/c++/11/bits/ostream.tcc:
 
 /usr/include/c++/11/debug/assertions.h:
+
+/home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_wheel_controller.h:
 
 /usr/include/linux/close_range.h:
 
@@ -2956,6 +2988,8 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
 
 /usr/include/boost/mpl/iter_fold.hpp:
 
+/home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_step_difference.h:
+
 /usr/include/boost/predef/compiler/digitalmars.h:
 
 /usr/include/boost/mpl/advance.hpp:
@@ -3447,6 +3481,8 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o: /home/f1tenthteam2/pleas
 /usr/include/boost/date_time/date_generators.hpp:
 
 /usr/include/boost/thread/detail/thread_safety.hpp:
+
+/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/data_map.h:
 
 /usr/include/boost/iterator/iterator_concepts.hpp:
 

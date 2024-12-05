@@ -250,97 +250,6 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_roslaunch
-
-# Build rule for target.
-run_tests_roslaunch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roslaunch
-.PHONY : run_tests_roslaunch
-
-# fast build rule for target.
-run_tests_roslaunch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roslaunch.dir/build.make CMakeFiles/run_tests_roslaunch.dir/build
-.PHONY : run_tests_roslaunch/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roslaunch
-
-# Build rule for target.
-_run_tests_roslaunch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roslaunch
-.PHONY : _run_tests_roslaunch
-
-# fast build rule for target.
-_run_tests_roslaunch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslaunch.dir/build.make CMakeFiles/_run_tests_roslaunch.dir/build
-.PHONY : _run_tests_roslaunch/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_roslaunch_nosetests
-
-# Build rule for target.
-run_tests_roslaunch_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roslaunch_nosetests
-.PHONY : run_tests_roslaunch_nosetests
-
-# fast build rule for target.
-run_tests_roslaunch_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roslaunch_nosetests.dir/build.make CMakeFiles/run_tests_roslaunch_nosetests.dir/build
-.PHONY : run_tests_roslaunch_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roslaunch_nosetests
-
-# Build rule for target.
-_run_tests_roslaunch_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roslaunch_nosetests
-.PHONY : _run_tests_roslaunch_nosetests
-
-# fast build rule for target.
-_run_tests_roslaunch_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslaunch_nosetests.dir/build.make CMakeFiles/_run_tests_roslaunch_nosetests.dir/build
-.PHONY : _run_tests_roslaunch_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_roslaunch_nosetests_test.unit
-
-# Build rule for target.
-run_tests_roslaunch_nosetests_test.unit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roslaunch_nosetests_test.unit
-.PHONY : run_tests_roslaunch_nosetests_test.unit
-
-# fast build rule for target.
-run_tests_roslaunch_nosetests_test.unit/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roslaunch_nosetests_test.unit.dir/build.make CMakeFiles/run_tests_roslaunch_nosetests_test.unit.dir/build
-.PHONY : run_tests_roslaunch_nosetests_test.unit/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roslaunch_nosetests_test.unit
-
-# Build rule for target.
-_run_tests_roslaunch_nosetests_test.unit: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roslaunch_nosetests_test.unit
-.PHONY : _run_tests_roslaunch_nosetests_test.unit
-
-# fast build rule for target.
-_run_tests_roslaunch_nosetests_test.unit/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslaunch_nosetests_test.unit.dir/build.make CMakeFiles/_run_tests_roslaunch_nosetests_test.unit.dir/build
-.PHONY : _run_tests_roslaunch_nosetests_test.unit/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_roslaunch
-
-# Build rule for target.
-clean_test_results_roslaunch: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_roslaunch
-.PHONY : clean_test_results_roslaunch
-
-# fast build rule for target.
-clean_test_results_roslaunch/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_roslaunch.dir/build.make CMakeFiles/clean_test_results_roslaunch.dir/build
-.PHONY : clean_test_results_roslaunch/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -406,17 +315,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... _run_tests_roslaunch"
-	@echo "... _run_tests_roslaunch_nosetests"
-	@echo "... _run_tests_roslaunch_nosetests_test.unit"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_roslaunch"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... run_tests"
-	@echo "... run_tests_roslaunch"
-	@echo "... run_tests_roslaunch_nosetests"
-	@echo "... run_tests_roslaunch_nosetests_test.unit"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

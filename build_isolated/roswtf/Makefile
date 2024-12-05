@@ -341,58 +341,6 @@ clean_test_results_roswtf/fast:
 .PHONY : clean_test_results_roswtf/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_roswtf_nosetests
-
-# Build rule for target.
-run_tests_roswtf_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roswtf_nosetests
-.PHONY : run_tests_roswtf_nosetests
-
-# fast build rule for target.
-run_tests_roswtf_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roswtf_nosetests.dir/build.make CMakeFiles/run_tests_roswtf_nosetests.dir/build
-.PHONY : run_tests_roswtf_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roswtf_nosetests
-
-# Build rule for target.
-_run_tests_roswtf_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roswtf_nosetests
-.PHONY : _run_tests_roswtf_nosetests
-
-# fast build rule for target.
-_run_tests_roswtf_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roswtf_nosetests.dir/build.make CMakeFiles/_run_tests_roswtf_nosetests.dir/build
-.PHONY : _run_tests_roswtf_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_roswtf_nosetests_test
-
-# Build rule for target.
-run_tests_roswtf_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roswtf_nosetests_test
-.PHONY : run_tests_roswtf_nosetests_test
-
-# fast build rule for target.
-run_tests_roswtf_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roswtf_nosetests_test.dir/build.make CMakeFiles/run_tests_roswtf_nosetests_test.dir/build
-.PHONY : run_tests_roswtf_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roswtf_nosetests_test
-
-# Build rule for target.
-_run_tests_roswtf_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roswtf_nosetests_test
-.PHONY : _run_tests_roswtf_nosetests_test
-
-# fast build rule for target.
-_run_tests_roswtf_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roswtf_nosetests_test.dir/build.make CMakeFiles/_run_tests_roswtf_nosetests_test.dir/build
-.PHONY : _run_tests_roswtf_nosetests_test/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -459,8 +407,6 @@ help:
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
 	@echo "... _run_tests_roswtf"
-	@echo "... _run_tests_roswtf_nosetests"
-	@echo "... _run_tests_roswtf_nosetests_test"
 	@echo "... _run_tests_roswtf_rostest"
 	@echo "... _run_tests_roswtf_rostest_test_roswtf.test"
 	@echo "... clean_test_results"
@@ -469,8 +415,6 @@ help:
 	@echo "... doxygen"
 	@echo "... run_tests"
 	@echo "... run_tests_roswtf"
-	@echo "... run_tests_roswtf_nosetests"
-	@echo "... run_tests_roswtf_nosetests_test"
 	@echo "... run_tests_roswtf_rostest"
 	@echo "... run_tests_roswtf_rostest_test_roswtf.test"
 	@echo "... tests"

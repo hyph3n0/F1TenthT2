@@ -479,8 +479,8 @@ CMakeFiles/run_tests_roslint_roslint_package.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_roslint_roslint_package.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_roslint_roslint_package.dir/all: CMakeFiles/clean_test_results_roslint.dir/all
 CMakeFiles/_run_tests_roslint_roslint_package.dir/all: CMakeFiles/tests.dir/all
+CMakeFiles/_run_tests_roslint_roslint_package.dir/all: CMakeFiles/clean_test_results_roslint.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslint_roslint_package.dir/build.make CMakeFiles/_run_tests_roslint_roslint_package.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslint_roslint_package.dir/build.make CMakeFiles/_run_tests_roslint_roslint_package.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/roslint/CMakeFiles --progress-num= "Built target _run_tests_roslint_roslint_package"

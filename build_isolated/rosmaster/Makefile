@@ -250,97 +250,6 @@ _catkin_empty_exported_target/fast:
 .PHONY : _catkin_empty_exported_target/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_rosmaster
-
-# Build rule for target.
-run_tests_rosmaster: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosmaster
-.PHONY : run_tests_rosmaster
-
-# fast build rule for target.
-run_tests_rosmaster/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosmaster.dir/build.make CMakeFiles/run_tests_rosmaster.dir/build
-.PHONY : run_tests_rosmaster/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosmaster
-
-# Build rule for target.
-_run_tests_rosmaster: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosmaster
-.PHONY : _run_tests_rosmaster
-
-# fast build rule for target.
-_run_tests_rosmaster/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosmaster.dir/build.make CMakeFiles/_run_tests_rosmaster.dir/build
-.PHONY : _run_tests_rosmaster/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rosmaster_nosetests
-
-# Build rule for target.
-run_tests_rosmaster_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosmaster_nosetests
-.PHONY : run_tests_rosmaster_nosetests
-
-# fast build rule for target.
-run_tests_rosmaster_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosmaster_nosetests.dir/build.make CMakeFiles/run_tests_rosmaster_nosetests.dir/build
-.PHONY : run_tests_rosmaster_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosmaster_nosetests
-
-# Build rule for target.
-_run_tests_rosmaster_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosmaster_nosetests
-.PHONY : _run_tests_rosmaster_nosetests
-
-# fast build rule for target.
-_run_tests_rosmaster_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosmaster_nosetests.dir/build.make CMakeFiles/_run_tests_rosmaster_nosetests.dir/build
-.PHONY : _run_tests_rosmaster_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rosmaster_nosetests_test
-
-# Build rule for target.
-run_tests_rosmaster_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rosmaster_nosetests_test
-.PHONY : run_tests_rosmaster_nosetests_test
-
-# fast build rule for target.
-run_tests_rosmaster_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_rosmaster_nosetests_test.dir/build.make CMakeFiles/run_tests_rosmaster_nosetests_test.dir/build
-.PHONY : run_tests_rosmaster_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rosmaster_nosetests_test
-
-# Build rule for target.
-_run_tests_rosmaster_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rosmaster_nosetests_test
-.PHONY : _run_tests_rosmaster_nosetests_test
-
-# fast build rule for target.
-_run_tests_rosmaster_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosmaster_nosetests_test.dir/build.make CMakeFiles/_run_tests_rosmaster_nosetests_test.dir/build
-.PHONY : _run_tests_rosmaster_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_rosmaster
-
-# Build rule for target.
-clean_test_results_rosmaster: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_rosmaster
-.PHONY : clean_test_results_rosmaster
-
-# fast build rule for target.
-clean_test_results_rosmaster/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_rosmaster.dir/build.make CMakeFiles/clean_test_results_rosmaster.dir/build
-.PHONY : clean_test_results_rosmaster/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -406,17 +315,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... _run_tests_rosmaster"
-	@echo "... _run_tests_rosmaster_nosetests"
-	@echo "... _run_tests_rosmaster_nosetests_test"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_rosmaster"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... run_tests"
-	@echo "... run_tests_rosmaster"
-	@echo "... run_tests_rosmaster_nosetests"
-	@echo "... run_tests_rosmaster_nosetests_test"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

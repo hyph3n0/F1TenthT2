@@ -222,8 +222,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "test/CMakeFiles/_run_tests_rospack_gtest_rospack-utest.dir/DependInfo.cmake"
   "test/CMakeFiles/clean_test_results_rospack.dir/DependInfo.cmake"
   "test/CMakeFiles/rospack-prepare_test.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_rospack_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_rospack_nosetests.dir/DependInfo.cmake"
-  "test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/DependInfo.cmake"
-  "test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/DependInfo.cmake"
   )

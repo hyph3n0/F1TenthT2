@@ -283,62 +283,6 @@ clean_test_results_resource_retriever/fast:
 	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_resource_retriever.dir/build.make test/CMakeFiles/clean_test_results_resource_retriever.dir/build
 .PHONY : clean_test_results_resource_retriever/fast
 
-# Convenience name for target.
-test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/rule
-.PHONY : test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_resource_retriever_nosetests: test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/rule
-.PHONY : run_tests_resource_retriever_nosetests
-
-# fast build rule for target.
-run_tests_resource_retriever_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/build.make test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/build
-.PHONY : run_tests_resource_retriever_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_resource_retriever_nosetests: test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/rule
-.PHONY : _run_tests_resource_retriever_nosetests
-
-# fast build rule for target.
-_run_tests_resource_retriever_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/build.make test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/build
-.PHONY : _run_tests_resource_retriever_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/rule
-.PHONY : test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/rule
-
-# Convenience name for target.
-run_tests_resource_retriever_nosetests_test.py: test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/rule
-.PHONY : run_tests_resource_retriever_nosetests_test.py
-
-# fast build rule for target.
-run_tests_resource_retriever_nosetests_test.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/build.make test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/build
-.PHONY : run_tests_resource_retriever_nosetests_test.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/rule
-
-# Convenience name for target.
-_run_tests_resource_retriever_nosetests_test.py: test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/rule
-.PHONY : _run_tests_resource_retriever_nosetests_test.py
-
-# fast build rule for target.
-_run_tests_resource_retriever_nosetests_test.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/resource_retriever && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/build.make test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/build
-.PHONY : _run_tests_resource_retriever_nosetests_test.py/fast
-
 test.o: test.cpp.o
 .PHONY : test.o
 
@@ -379,14 +323,10 @@ help:
 	@echo "... _run_tests_resource_retriever"
 	@echo "... _run_tests_resource_retriever_gtest"
 	@echo "... _run_tests_resource_retriever_gtest_resource_retriever_utest"
-	@echo "... _run_tests_resource_retriever_nosetests"
-	@echo "... _run_tests_resource_retriever_nosetests_test.py"
 	@echo "... clean_test_results_resource_retriever"
 	@echo "... run_tests_resource_retriever"
 	@echo "... run_tests_resource_retriever_gtest"
 	@echo "... run_tests_resource_retriever_gtest_resource_retriever_utest"
-	@echo "... run_tests_resource_retriever_nosetests"
-	@echo "... run_tests_resource_retriever_nosetests_test.py"
 	@echo "... resource_retriever_utest"
 	@echo "... test.o"
 	@echo "... test.i"

@@ -203,14 +203,6 @@ test/clean: test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/clean
 test/clean: test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/clean
 test/clean: test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/clean
 test/clean: test/CMakeFiles/clean_test_results_cv_bridge.dir/clean
-test/clean: test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/clean
-test/clean: test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/clean
-test/clean: test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-test/clean: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-test/clean: test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-test/clean: test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-test/clean: test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
-test/clean: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
 .PHONY : test/clean
 
 #=============================================================================
@@ -936,7 +928,6 @@ test/CMakeFiles/cv_bridge-utest.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/run_tests_cv_bridge.dir/all: test/CMakeFiles/run_tests_cv_bridge_gtest.dir/all
-test/CMakeFiles/run_tests_cv_bridge.dir/all: test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge.dir/build.make test/CMakeFiles/run_tests_cv_bridge.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge.dir/build.make test/CMakeFiles/run_tests_cv_bridge.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target run_tests_cv_bridge"
@@ -963,7 +954,6 @@ test/CMakeFiles/run_tests_cv_bridge.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/_run_tests_cv_bridge.dir/all: test/CMakeFiles/_run_tests_cv_bridge_gtest.dir/all
-test/CMakeFiles/_run_tests_cv_bridge.dir/all: test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge.dir/build.make test/CMakeFiles/_run_tests_cv_bridge.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge.dir/build.make test/CMakeFiles/_run_tests_cv_bridge.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge"
@@ -1067,9 +1057,9 @@ test/CMakeFiles/run_tests_cv_bridge_gtest_cv_bridge-utest.dir/clean:
 # Target rules for target test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir
 
 # All Build rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/all: CMakeFiles/tests.dir/all
 test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/all: test/CMakeFiles/cv_bridge-utest.dir/all
 test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/all: test/CMakeFiles/clean_test_results_cv_bridge.dir/all
+test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_gtest_cv_bridge-utest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge_gtest_cv_bridge-utest"
@@ -1116,221 +1106,6 @@ clean_test_results_cv_bridge: test/CMakeFiles/clean_test_results_cv_bridge.dir/r
 test/CMakeFiles/clean_test_results_cv_bridge.dir/clean:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make test/CMakeFiles/clean_test_results_cv_bridge.dir/clean
 .PHONY : test/CMakeFiles/clean_test_results_cv_bridge.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_cv_bridge_nosetests.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/all
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target run_tests_cv_bridge_nosetests"
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests: test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests
-
-# clean rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/clean
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/all
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge_nosetests"
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests: test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/all:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target run_tests_cv_bridge_nosetests_enumerants.py"
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_enumerants.py
-
-# clean rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/all: CMakeFiles/tests.dir/all
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/all: test/CMakeFiles/clean_test_results_cv_bridge.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge_nosetests_enumerants.py"
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_enumerants.py
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/all:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target run_tests_cv_bridge_nosetests_conversions.py"
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_conversions.py
-
-# clean rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/all: CMakeFiles/tests.dir/all
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/all: test/CMakeFiles/clean_test_results_cv_bridge.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge_nosetests_conversions.py"
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_conversions.py
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/all:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target run_tests_cv_bridge_nosetests_python_bindings.py"
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_python_bindings.py
-
-# clean rule for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/all: CMakeFiles/tests.dir/all
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/all: test/CMakeFiles/clean_test_results_cv_bridge.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles --progress-num= "Built target _run_tests_cv_bridge_nosetests_python_bindings.py"
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 11
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/cv_bridge/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

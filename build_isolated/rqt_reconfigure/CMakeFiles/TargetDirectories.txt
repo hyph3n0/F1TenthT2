@@ -13,10 +13,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/run_tests_rqt_reconfigure_roslint_package.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/_run_tests_rqt_reconfigure_roslint_package.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/clean_test_results_rqt_reconfigure.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/run_tests_rqt_reconfigure_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/_run_tests_rqt_reconfigure_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/run_tests_rqt_reconfigure_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/_run_tests_rqt_reconfigure_nosetests_test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_reconfigure/CMakeFiles/rebuild_cache.dir

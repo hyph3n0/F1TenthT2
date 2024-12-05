@@ -45,10 +45,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/run_tests_resource_retriever_gtest_resource_retriever_utest.dir
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/_run_tests_resource_retriever_gtest_resource_retriever_utest.dir
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/clean_test_results_resource_retriever.dir
-/home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/run_tests_resource_retriever_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/resource_retriever/test/CMakeFiles/rebuild_cache.dir

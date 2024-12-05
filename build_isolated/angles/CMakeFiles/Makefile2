@@ -151,10 +151,6 @@ test/clean: test/CMakeFiles/_run_tests_angles_gtest.dir/clean
 test/clean: test/CMakeFiles/run_tests_angles_gtest_utest.dir/clean
 test/clean: test/CMakeFiles/_run_tests_angles_gtest_utest.dir/clean
 test/clean: test/CMakeFiles/clean_test_results_angles.dir/clean
-test/clean: test/CMakeFiles/run_tests_angles_nosetests.dir/clean
-test/clean: test/CMakeFiles/_run_tests_angles_nosetests.dir/clean
-test/clean: test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/clean
-test/clean: test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/clean
 .PHONY : test/clean
 
 #=============================================================================
@@ -449,7 +445,6 @@ test/CMakeFiles/utest.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/run_tests_angles.dir/all: test/CMakeFiles/run_tests_angles_gtest.dir/all
-test/CMakeFiles/run_tests_angles.dir/all: test/CMakeFiles/run_tests_angles_nosetests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles.dir/build.make test/CMakeFiles/run_tests_angles.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles.dir/build.make test/CMakeFiles/run_tests_angles.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target run_tests_angles"
@@ -476,7 +471,6 @@ test/CMakeFiles/run_tests_angles.dir/clean:
 
 # All Build rule for target.
 test/CMakeFiles/_run_tests_angles.dir/all: test/CMakeFiles/_run_tests_angles_gtest.dir/all
-test/CMakeFiles/_run_tests_angles.dir/all: test/CMakeFiles/_run_tests_angles_nosetests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles.dir/build.make test/CMakeFiles/_run_tests_angles.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles.dir/build.make test/CMakeFiles/_run_tests_angles.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target _run_tests_angles"
@@ -580,9 +574,9 @@ test/CMakeFiles/run_tests_angles_gtest_utest.dir/clean:
 # Target rules for target test/CMakeFiles/_run_tests_angles_gtest_utest.dir
 
 # All Build rule for target.
-test/CMakeFiles/_run_tests_angles_gtest_utest.dir/all: CMakeFiles/tests.dir/all
 test/CMakeFiles/_run_tests_angles_gtest_utest.dir/all: test/CMakeFiles/utest.dir/all
 test/CMakeFiles/_run_tests_angles_gtest_utest.dir/all: test/CMakeFiles/clean_test_results_angles.dir/all
+test/CMakeFiles/_run_tests_angles_gtest_utest.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_gtest_utest.dir/build.make test/CMakeFiles/_run_tests_angles_gtest_utest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_gtest_utest.dir/build.make test/CMakeFiles/_run_tests_angles_gtest_utest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target _run_tests_angles_gtest_utest"
@@ -629,111 +623,6 @@ clean_test_results_angles: test/CMakeFiles/clean_test_results_angles.dir/rule
 test/CMakeFiles/clean_test_results_angles.dir/clean:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_angles.dir/build.make test/CMakeFiles/clean_test_results_angles.dir/clean
 .PHONY : test/CMakeFiles/clean_test_results_angles.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_angles_nosetests.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_angles_nosetests.dir/all: test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests.dir/build.make test/CMakeFiles/run_tests_angles_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests.dir/build.make test/CMakeFiles/run_tests_angles_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target run_tests_angles_nosetests"
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_angles_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_angles_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_angles_nosetests: test/CMakeFiles/run_tests_angles_nosetests.dir/rule
-.PHONY : run_tests_angles_nosetests
-
-# clean rule for target.
-test/CMakeFiles/run_tests_angles_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests.dir/build.make test/CMakeFiles/run_tests_angles_nosetests.dir/clean
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_angles_nosetests.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_angles_nosetests.dir/all: test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target _run_tests_angles_nosetests"
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_angles_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_angles_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_angles_nosetests: test/CMakeFiles/_run_tests_angles_nosetests.dir/rule
-.PHONY : _run_tests_angles_nosetests
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_angles_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/all:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target run_tests_angles_nosetests_utest.py"
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule
-
-# Convenience name for target.
-run_tests_angles_nosetests_utest.py: test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : run_tests_angles_nosetests_utest.py
-
-# clean rule for target.
-test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/clean
-.PHONY : test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir/clean
-
-#=============================================================================
-# Target rules for target test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir
-
-# All Build rule for target.
-test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/all: CMakeFiles/tests.dir/all
-test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/all: test/CMakeFiles/clean_test_results_angles.dir/all
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles --progress-num= "Built target _run_tests_angles_nosetests_utest.py"
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/all
-
-# Build rule for subdir invocation for target.
-test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/angles/CMakeFiles 0
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule
-
-# Convenience name for target.
-_run_tests_angles_nosetests_utest.py: test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/rule
-.PHONY : _run_tests_angles_nosetests_utest.py
-
-# clean rule for target.
-test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/build.make test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/clean
-.PHONY : test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

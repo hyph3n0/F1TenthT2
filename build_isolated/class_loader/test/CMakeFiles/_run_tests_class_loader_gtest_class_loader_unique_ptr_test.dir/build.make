@@ -67,7 +67,7 @@ include test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_unique_ptr_te
 include test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_unique_ptr_test.dir/progress.make
 
 test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_unique_ptr_test:
-	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && ../catkin_generated/env_cached.sh /usr/bin/python /home/f1tenthteam2/pleasework/src/catkin/cmake/test/run_tests.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_unique_ptr_test.xml "/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/class_loader/class_loader_unique_ptr_test --gtest_output=xml:/home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_unique_ptr_test.xml"
+	cd /home/f1tenthteam2/pleasework/build_isolated/class_loader/test && ../catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/catkin/cmake/test/run_tests.py /home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_unique_ptr_test.xml "/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/class_loader/class_loader_unique_ptr_test --gtest_output=xml:/home/f1tenthteam2/pleasework/build_isolated/class_loader/test_results/class_loader/gtest-class_loader_unique_ptr_test.xml"
 
 _run_tests_class_loader_gtest_class_loader_unique_ptr_test: test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_unique_ptr_test
 _run_tests_class_loader_gtest_class_loader_unique_ptr_test: test/CMakeFiles/_run_tests_class_loader_gtest_class_loader_unique_ptr_test.dir/build.make

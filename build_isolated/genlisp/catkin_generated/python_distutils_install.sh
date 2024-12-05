@@ -24,7 +24,7 @@ echo_and_run mkdir -p "$DESTDIR/home/f1tenthteam2/pleasework/install_isolated/li
 echo_and_run /usr/bin/env \
     PYTHONPATH="/home/f1tenthteam2/pleasework/install_isolated/lib/python3/dist-packages:/home/f1tenthteam2/pleasework/build_isolated/genlisp/lib/python3/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/f1tenthteam2/pleasework/build_isolated/genlisp" \
-    "/usr/bin/python" \
+    "/usr/bin/python3" \
     "/home/f1tenthteam2/pleasework/src/genlisp/setup.py" \
     egg_info --egg-base /home/f1tenthteam2/pleasework/build_isolated/genlisp \
     build --build-base "/home/f1tenthteam2/pleasework/build_isolated/genlisp" \

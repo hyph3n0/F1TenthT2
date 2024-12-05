@@ -3,6 +3,6 @@ prefix=/home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher
 Name: robot_state_publisher
 Description: Description of robot_state_publisher
 Version: 1.15.2
-Cflags: -I/home/f1tenthteam2/pleasework/src/robot_state_publisher/include -I/usr/include/eigen3 -I/usr/include
-Libs: -L${prefix}/lib -lrobot_state_publisher_solver -ljoint_state_listener -lorocos-kdl
+Cflags: -I/home/f1tenthteam2/pleasework/src/robot_state_publisher/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include
+Libs: -L${prefix}/lib -lrobot_state_publisher_solver -ljoint_state_listener /usr/local/lib/liborocos-kdl.so.1.5.1
 Requires: kdl_parser roscpp rosconsole rostime sensor_msgs tf2_ros tf2_kdl

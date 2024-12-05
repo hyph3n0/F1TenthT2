@@ -93,8 +93,8 @@ bursty_tf_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: CMakeFiles/bursty_tf.dir/src/test/bursty_tf.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: CMakeFiles/bursty_tf.dir/build.make
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/libinteractive_markers.so
-/home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /usr/lib/aarch64-linux-gnu/liborocos-kdl.so
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /usr/local/lib/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/interactive_markers/lib/interactive_markers/bursty_tf: /home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so

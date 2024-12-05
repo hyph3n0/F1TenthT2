@@ -94,6 +94,7 @@ kdl_parser_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: CMakeFiles/kdl_parser.dir/build.make
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/lib/aarch64-linux-gnu/libtinyxml.so
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
+/home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/lib/aarch64-linux-gnu/liburdfdom_sensor.so
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/lib/aarch64-linux-gnu/liburdfdom_model_state.so
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so: /usr/lib/aarch64-linux-gnu/liburdfdom_model.so

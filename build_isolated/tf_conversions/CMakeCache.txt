@@ -323,7 +323,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -347,7 +347,7 @@ UBUNTU:BOOL=TRUE
 UBUNTU_JAMMY:BOOL=TRUE
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -357,9 +357,6 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
-
-//Path to a file.
-_path_name:FILEPATH=/home/f1tenthteam2/pleasework/src/geometry/tf_conversions/test/posemath.py
 
 //The directory containing a CMake configuration file for actionlib.
 actionlib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/actionlib/share/actionlib/cmake
@@ -465,7 +462,7 @@ message_generation_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message
 message_runtime_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message_runtime/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for orocos_kdl.
-orocos_kdl_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/orocos_kdl
+orocos_kdl_DIR:PATH=/usr/local/share/orocos_kdl/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/share/rosconsole/cmake
@@ -721,7 +718,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.12(3
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/tf_conversions/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main

@@ -355,7 +355,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -403,7 +403,7 @@ UBUNTU_JAMMY:BOOL=TRUE
 _file_name:FILEPATH=/home/f1tenthteam2/pleasework/src/navigation/map_server/test/rtest.xml
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -793,7 +793,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_SDL_image:INTERNAL=[/usr/lib/aarch64-linux-gnu/libS
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/map_server/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main

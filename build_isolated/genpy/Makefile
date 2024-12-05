@@ -263,97 +263,6 @@ generate_test_messages/fast:
 .PHONY : generate_test_messages/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_genpy
-
-# Build rule for target.
-run_tests_genpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_genpy
-.PHONY : run_tests_genpy
-
-# fast build rule for target.
-run_tests_genpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_genpy.dir/build.make CMakeFiles/run_tests_genpy.dir/build
-.PHONY : run_tests_genpy/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_genpy
-
-# Build rule for target.
-_run_tests_genpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_genpy
-.PHONY : _run_tests_genpy
-
-# fast build rule for target.
-_run_tests_genpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_genpy.dir/build.make CMakeFiles/_run_tests_genpy.dir/build
-.PHONY : _run_tests_genpy/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_genpy_nosetests
-
-# Build rule for target.
-run_tests_genpy_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_genpy_nosetests
-.PHONY : run_tests_genpy_nosetests
-
-# fast build rule for target.
-run_tests_genpy_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_genpy_nosetests.dir/build.make CMakeFiles/run_tests_genpy_nosetests.dir/build
-.PHONY : run_tests_genpy_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_genpy_nosetests
-
-# Build rule for target.
-_run_tests_genpy_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_genpy_nosetests
-.PHONY : _run_tests_genpy_nosetests
-
-# fast build rule for target.
-_run_tests_genpy_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_genpy_nosetests.dir/build.make CMakeFiles/_run_tests_genpy_nosetests.dir/build
-.PHONY : _run_tests_genpy_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_genpy_nosetests_test
-
-# Build rule for target.
-run_tests_genpy_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_genpy_nosetests_test
-.PHONY : run_tests_genpy_nosetests_test
-
-# fast build rule for target.
-run_tests_genpy_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_genpy_nosetests_test.dir/build.make CMakeFiles/run_tests_genpy_nosetests_test.dir/build
-.PHONY : run_tests_genpy_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_genpy_nosetests_test
-
-# Build rule for target.
-_run_tests_genpy_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_genpy_nosetests_test
-.PHONY : _run_tests_genpy_nosetests_test
-
-# fast build rule for target.
-_run_tests_genpy_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_genpy_nosetests_test.dir/build.make CMakeFiles/_run_tests_genpy_nosetests_test.dir/build
-.PHONY : _run_tests_genpy_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_genpy
-
-# Build rule for target.
-clean_test_results_genpy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_genpy
-.PHONY : clean_test_results_genpy
-
-# fast build rule for target.
-clean_test_results_genpy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_genpy.dir/build.make CMakeFiles/clean_test_results_genpy.dir/build
-.PHONY : clean_test_results_genpy/fast
-
-#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -419,18 +328,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... _catkin_empty_exported_target"
-	@echo "... _run_tests_genpy"
-	@echo "... _run_tests_genpy_nosetests"
-	@echo "... _run_tests_genpy_nosetests_test"
 	@echo "... clean_test_results"
-	@echo "... clean_test_results_genpy"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... generate_test_messages"
 	@echo "... run_tests"
-	@echo "... run_tests_genpy"
-	@echo "... run_tests_genpy_nosetests"
-	@echo "... run_tests_genpy_nosetests_test"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

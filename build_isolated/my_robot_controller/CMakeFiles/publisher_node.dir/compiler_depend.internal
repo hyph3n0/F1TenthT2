@@ -1263,4 +1263,16 @@ CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o
  /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/node_handle.h
  /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include/std_msgs/String.h
  /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include/ros/message_operations.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_wheel_controller.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_interface.h
+ /home/f1tenthteam2/pleasework/src/serial/include/serial/serial.h
+ /home/f1tenthteam2/pleasework/src/serial/include/serial/v8stdint.h
+ /usr/include/boost/crc.hpp
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/data_map.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet_factory.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_hw_interface/include/vesc_hw_interface/vesc_step_difference.h
+ /usr/include/c++/11/deque
+ /usr/include/c++/11/bits/stl_deque.h
+ /usr/include/c++/11/bits/deque.tcc
 

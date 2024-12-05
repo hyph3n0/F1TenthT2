@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/run_tests_rosunit.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/_run_tests_rosunit.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/run_tests_rosunit_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/_run_tests_rosunit_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/run_tests_rosunit_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/_run_tests_rosunit_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/clean_test_results_rosunit.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rosunit/CMakeFiles/rebuild_cache.dir

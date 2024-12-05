@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/run_tests_qt_dotgraph.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/_run_tests_qt_dotgraph.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/run_tests_qt_dotgraph_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/_run_tests_qt_dotgraph_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/run_tests_qt_dotgraph_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/_run_tests_qt_dotgraph_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/clean_test_results_qt_dotgraph.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/qt_dotgraph/CMakeFiles/rebuild_cache.dir

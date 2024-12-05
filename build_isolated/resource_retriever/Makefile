@@ -418,58 +418,6 @@ clean_test_results_resource_retriever/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_resource_retriever.dir/build.make test/CMakeFiles/clean_test_results_resource_retriever.dir/build
 .PHONY : clean_test_results_resource_retriever/fast
 
-#=============================================================================
-# Target rules for targets named run_tests_resource_retriever_nosetests
-
-# Build rule for target.
-run_tests_resource_retriever_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_resource_retriever_nosetests
-.PHONY : run_tests_resource_retriever_nosetests
-
-# fast build rule for target.
-run_tests_resource_retriever_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/build.make test/CMakeFiles/run_tests_resource_retriever_nosetests.dir/build
-.PHONY : run_tests_resource_retriever_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_resource_retriever_nosetests
-
-# Build rule for target.
-_run_tests_resource_retriever_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_resource_retriever_nosetests
-.PHONY : _run_tests_resource_retriever_nosetests
-
-# fast build rule for target.
-_run_tests_resource_retriever_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/build.make test/CMakeFiles/_run_tests_resource_retriever_nosetests.dir/build
-.PHONY : _run_tests_resource_retriever_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_resource_retriever_nosetests_test.py
-
-# Build rule for target.
-run_tests_resource_retriever_nosetests_test.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_resource_retriever_nosetests_test.py
-.PHONY : run_tests_resource_retriever_nosetests_test.py
-
-# fast build rule for target.
-run_tests_resource_retriever_nosetests_test.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/build.make test/CMakeFiles/run_tests_resource_retriever_nosetests_test.py.dir/build
-.PHONY : run_tests_resource_retriever_nosetests_test.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_resource_retriever_nosetests_test.py
-
-# Build rule for target.
-_run_tests_resource_retriever_nosetests_test.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_resource_retriever_nosetests_test.py
-.PHONY : _run_tests_resource_retriever_nosetests_test.py
-
-# fast build rule for target.
-_run_tests_resource_retriever_nosetests_test.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/build.make test/CMakeFiles/_run_tests_resource_retriever_nosetests_test.py.dir/build
-.PHONY : _run_tests_resource_retriever_nosetests_test.py/fast
-
 src/retriever.o: src/retriever.cpp.o
 .PHONY : src/retriever.o
 
@@ -511,8 +459,6 @@ help:
 	@echo "... _run_tests_resource_retriever"
 	@echo "... _run_tests_resource_retriever_gtest"
 	@echo "... _run_tests_resource_retriever_gtest_resource_retriever_utest"
-	@echo "... _run_tests_resource_retriever_nosetests"
-	@echo "... _run_tests_resource_retriever_nosetests_test.py"
 	@echo "... clean_test_results"
 	@echo "... clean_test_results_resource_retriever"
 	@echo "... download_extra_data"
@@ -521,8 +467,6 @@ help:
 	@echo "... run_tests_resource_retriever"
 	@echo "... run_tests_resource_retriever_gtest"
 	@echo "... run_tests_resource_retriever_gtest_resource_retriever_utest"
-	@echo "... run_tests_resource_retriever_nosetests"
-	@echo "... run_tests_resource_retriever_nosetests_test.py"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

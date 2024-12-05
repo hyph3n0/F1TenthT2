@@ -60,10 +60,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/test_kdl_tf.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/run_tests_tf_conversions_gtest_test_kdl_tf.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/_run_tests_tf_conversions_gtest_test_kdl_tf.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/run_tests_tf_conversions_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/_run_tests_tf_conversions_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/run_tests_tf_conversions_nosetests_test.posemath.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/_run_tests_tf_conversions_nosetests_test.posemath.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/tf_conversions/CMakeFiles/rebuild_cache.dir

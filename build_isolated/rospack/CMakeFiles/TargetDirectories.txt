@@ -49,10 +49,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/_run_tests_rospack_gtest_rospack-utest.dir
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/clean_test_results_rospack.dir
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/rospack-prepare_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/run_tests_rospack_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/_run_tests_rospack_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir
-/home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rospack/test/CMakeFiles/rebuild_cache.dir

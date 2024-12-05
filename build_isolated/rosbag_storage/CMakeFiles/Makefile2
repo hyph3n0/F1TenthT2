@@ -617,9 +617,9 @@ CMakeFiles/run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir
 
 # All Build rule for target.
+CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/all: CMakeFiles/test_aes_encryptor.dir/all
 CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/all: CMakeFiles/clean_test_results_rosbag_storage.dir/all
-CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/build.make CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/build.make CMakeFiles/_run_tests_rosbag_storage_gtest_test_aes_encryptor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rosbag_storage/CMakeFiles --progress-num= "Built target _run_tests_rosbag_storage_gtest_test_aes_encryptor"

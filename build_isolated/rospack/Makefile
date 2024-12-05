@@ -470,58 +470,6 @@ rospack-prepare_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rospack-prepare_test.dir/build.make test/CMakeFiles/rospack-prepare_test.dir/build
 .PHONY : rospack-prepare_test/fast
 
-#=============================================================================
-# Target rules for targets named run_tests_rospack_nosetests
-
-# Build rule for target.
-run_tests_rospack_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rospack_nosetests
-.PHONY : run_tests_rospack_nosetests
-
-# fast build rule for target.
-run_tests_rospack_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_rospack_nosetests.dir/build.make test/CMakeFiles/run_tests_rospack_nosetests.dir/build
-.PHONY : run_tests_rospack_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rospack_nosetests
-
-# Build rule for target.
-_run_tests_rospack_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rospack_nosetests
-.PHONY : _run_tests_rospack_nosetests
-
-# fast build rule for target.
-_run_tests_rospack_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_rospack_nosetests.dir/build.make test/CMakeFiles/_run_tests_rospack_nosetests.dir/build
-.PHONY : _run_tests_rospack_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_rospack_nosetests_test.test
-
-# Build rule for target.
-run_tests_rospack_nosetests_test.test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_rospack_nosetests_test.test
-.PHONY : run_tests_rospack_nosetests_test.test
-
-# fast build rule for target.
-run_tests_rospack_nosetests_test.test/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/build.make test/CMakeFiles/run_tests_rospack_nosetests_test.test.dir/build
-.PHONY : run_tests_rospack_nosetests_test.test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_rospack_nosetests_test.test
-
-# Build rule for target.
-_run_tests_rospack_nosetests_test.test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_rospack_nosetests_test.test
-.PHONY : _run_tests_rospack_nosetests_test.test
-
-# fast build rule for target.
-_run_tests_rospack_nosetests_test.test/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/build.make test/CMakeFiles/_run_tests_rospack_nosetests_test.test.dir/build
-.PHONY : _run_tests_rospack_nosetests_test.test/fast
-
 src/rospack.o: src/rospack.cpp.o
 .PHONY : src/rospack.o
 
@@ -683,8 +631,6 @@ help:
 	@echo "... _run_tests_rospack"
 	@echo "... _run_tests_rospack_gtest"
 	@echo "... _run_tests_rospack_gtest_rospack-utest"
-	@echo "... _run_tests_rospack_nosetests"
-	@echo "... _run_tests_rospack_nosetests_test.test"
 	@echo "... clean_test_results"
 	@echo "... clean_test_results_rospack"
 	@echo "... download_extra_data"
@@ -694,8 +640,6 @@ help:
 	@echo "... run_tests_rospack"
 	@echo "... run_tests_rospack_gtest"
 	@echo "... run_tests_rospack_gtest_rospack-utest"
-	@echo "... run_tests_rospack_nosetests"
-	@echo "... run_tests_rospack_nosetests_test.test"
 	@echo "... tests"
 	@echo "... uninstall"
 	@echo "... gmock"

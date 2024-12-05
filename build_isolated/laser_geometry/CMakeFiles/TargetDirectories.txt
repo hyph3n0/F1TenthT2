@@ -57,10 +57,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/run_tests_laser_geometry_gtest_projection_test.dir
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/_run_tests_laser_geometry_gtest_projection_test.dir
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/clean_test_results_laser_geometry.dir
-/home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/run_tests_laser_geometry_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/_run_tests_laser_geometry_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/run_tests_laser_geometry_nosetests_test.projection_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/_run_tests_laser_geometry_nosetests_test.projection_test.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/laser_geometry/CMakeFiles/rebuild_cache.dir

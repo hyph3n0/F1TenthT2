@@ -283,118 +283,6 @@ clean_test_results_cv_bridge/fast:
 	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make test/CMakeFiles/clean_test_results_cv_bridge.dir/build
 .PHONY : clean_test_results_cv_bridge/fast
 
-# Convenience name for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests: test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build
-.PHONY : run_tests_cv_bridge_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests: test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_enumerants.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_enumerants.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_enumerants.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_enumerants.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_enumerants.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_conversions.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_conversions.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_conversions.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_conversions.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_conversions.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_conversions.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_conversions.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-
-# Convenience name for target.
-run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : run_tests_cv_bridge_nosetests_python_bindings.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_python_bindings.py/fast
-
-# Convenience name for target.
-test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-
-# Convenience name for target.
-_run_tests_cv_bridge_nosetests_python_bindings.py: test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/rule
-.PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	cd /home/f1tenthteam2/pleasework/build_isolated/cv_bridge && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py/fast
-
 test_compression.o: test_compression.cpp.o
 .PHONY : test_compression.o
 
@@ -531,18 +419,10 @@ help:
 	@echo "... _run_tests_cv_bridge"
 	@echo "... _run_tests_cv_bridge_gtest"
 	@echo "... _run_tests_cv_bridge_gtest_cv_bridge-utest"
-	@echo "... _run_tests_cv_bridge_nosetests"
-	@echo "... _run_tests_cv_bridge_nosetests_conversions.py"
-	@echo "... _run_tests_cv_bridge_nosetests_enumerants.py"
-	@echo "... _run_tests_cv_bridge_nosetests_python_bindings.py"
 	@echo "... clean_test_results_cv_bridge"
 	@echo "... run_tests_cv_bridge"
 	@echo "... run_tests_cv_bridge_gtest"
 	@echo "... run_tests_cv_bridge_gtest_cv_bridge-utest"
-	@echo "... run_tests_cv_bridge_nosetests"
-	@echo "... run_tests_cv_bridge_nosetests_conversions.py"
-	@echo "... run_tests_cv_bridge_nosetests_enumerants.py"
-	@echo "... run_tests_cv_bridge_nosetests_python_bindings.py"
 	@echo "... cv_bridge-utest"
 	@echo "... test_compression.o"
 	@echo "... test_compression.i"

@@ -330,7 +330,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -365,9 +365,6 @@ RT_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.a
 //Enable debian style python package layout
 SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 
-//Path to a program.
-SIP_EXECUTABLE:FILEPATH=SIP_EXECUTABLE-NOTFOUND
-
 //Name of the computer/site where compile is being run
 SITE:STRING=f1tenthteam2-desktop
 
@@ -387,7 +384,7 @@ UBUNTU:BOOL=TRUE
 UBUNTU_JAMMY:BOOL=TRUE
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -494,9 +491,6 @@ qt_gui_cpp_LIB_DEPENDS:STATIC=general;/home/f1tenthteam2/pleasework/devel_isolat
 
 //Value Computed by CMake
 qt_gui_cpp_SOURCE_DIR:STATIC=/home/f1tenthteam2/pleasework/src/qt_gui_core/qt_gui_cpp
-
-//Dependencies for the target
-qt_gui_cpp_shiboken_LIB_DEPENDS:STATIC=general;qt_gui_cpp;general;/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/libclass_loader.so;general;/usr/lib/aarch64-linux-gnu/libPocoFoundation.so;general;/usr/lib/aarch64-linux-gnu/libdl.a;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so;general;/usr/lib/aarch64-linux-gnu/liblog4cxx.so;general;/usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so;general;/usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib/libcpp_common.so;general;/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;general;/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib/libroslib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib/librospack.so;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libtinyxml2.so;general;Boost::filesystem;general;Boost::system;general;/usr/lib/aarch64-linux-gnu/libshiboken2.cpython-310-aarch64-linux-gnu.so.5.15.2;general;/usr/lib/aarch64-linux-gnu/libpyside2.cpython-310-aarch64-linux-gnu.so.5.15.2;
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/share/rosconsole/cmake
@@ -712,7 +706,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding TinyXML
 FIND_PACKAGE_MESSAGE_DETAILS_TinyXML:INTERNAL=[/usr/lib/aarch64-linux-gnu/libtinyxml.so][/usr/include][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/qt_gui_cpp/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main

@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/install_isolated
+
+Name: vesc_hw_interface
+Description: Description of vesc_hw_interface
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lvesc_hw_interface
+Requires: roscpp serial hardware_interface joint_limits_interface controller_manager pluginlib urdf vesc_driver angles

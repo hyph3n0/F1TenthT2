@@ -263,6 +263,19 @@ roslib/fast:
 .PHONY : roslib/fast
 
 #=============================================================================
+# Target rules for targets named roslib-utest
+
+# Build rule for target.
+roslib-utest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 roslib-utest
+.PHONY : roslib-utest
+
+# fast build rule for target.
+roslib-utest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roslib-utest.dir/build.make CMakeFiles/roslib-utest.dir/build
+.PHONY : roslib-utest/fast
+
+#=============================================================================
 # Target rules for targets named run_tests_roslib
 
 # Build rule for target.
@@ -287,84 +300,6 @@ _run_tests_roslib: cmake_check_build_system
 _run_tests_roslib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslib.dir/build.make CMakeFiles/_run_tests_roslib.dir/build
 .PHONY : _run_tests_roslib/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_roslib_nosetests
-
-# Build rule for target.
-run_tests_roslib_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roslib_nosetests
-.PHONY : run_tests_roslib_nosetests
-
-# fast build rule for target.
-run_tests_roslib_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roslib_nosetests.dir/build.make CMakeFiles/run_tests_roslib_nosetests.dir/build
-.PHONY : run_tests_roslib_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roslib_nosetests
-
-# Build rule for target.
-_run_tests_roslib_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roslib_nosetests
-.PHONY : _run_tests_roslib_nosetests
-
-# fast build rule for target.
-_run_tests_roslib_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslib_nosetests.dir/build.make CMakeFiles/_run_tests_roslib_nosetests.dir/build
-.PHONY : _run_tests_roslib_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_roslib_nosetests_test
-
-# Build rule for target.
-run_tests_roslib_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_roslib_nosetests_test
-.PHONY : run_tests_roslib_nosetests_test
-
-# fast build rule for target.
-run_tests_roslib_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_roslib_nosetests_test.dir/build.make CMakeFiles/run_tests_roslib_nosetests_test.dir/build
-.PHONY : run_tests_roslib_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_roslib_nosetests_test
-
-# Build rule for target.
-_run_tests_roslib_nosetests_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_roslib_nosetests_test
-.PHONY : _run_tests_roslib_nosetests_test
-
-# fast build rule for target.
-_run_tests_roslib_nosetests_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslib_nosetests_test.dir/build.make CMakeFiles/_run_tests_roslib_nosetests_test.dir/build
-.PHONY : _run_tests_roslib_nosetests_test/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_roslib
-
-# Build rule for target.
-clean_test_results_roslib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_roslib
-.PHONY : clean_test_results_roslib
-
-# fast build rule for target.
-clean_test_results_roslib/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_roslib.dir/build.make CMakeFiles/clean_test_results_roslib.dir/build
-.PHONY : clean_test_results_roslib/fast
-
-#=============================================================================
-# Target rules for targets named roslib-utest
-
-# Build rule for target.
-roslib-utest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 roslib-utest
-.PHONY : roslib-utest
-
-# fast build rule for target.
-roslib-utest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/roslib-utest.dir/build.make CMakeFiles/roslib-utest.dir/build
-.PHONY : roslib-utest/fast
 
 #=============================================================================
 # Target rules for targets named run_tests_roslib_gtest
@@ -417,6 +352,19 @@ _run_tests_roslib_gtest_roslib-utest: cmake_check_build_system
 _run_tests_roslib_gtest_roslib-utest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_roslib_gtest_roslib-utest.dir/build.make CMakeFiles/_run_tests_roslib_gtest_roslib-utest.dir/build
 .PHONY : _run_tests_roslib_gtest_roslib-utest/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_roslib
+
+# Build rule for target.
+clean_test_results_roslib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_roslib
+.PHONY : clean_test_results_roslib
+
+# fast build rule for target.
+clean_test_results_roslib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_roslib.dir/build.make CMakeFiles/clean_test_results_roslib.dir/build
+.PHONY : clean_test_results_roslib/fast
 
 #=============================================================================
 # Target rules for targets named roslib-test_package
@@ -599,8 +547,6 @@ help:
 	@echo "... _run_tests_roslib_gtest"
 	@echo "... _run_tests_roslib_gtest_roslib-test_package"
 	@echo "... _run_tests_roslib_gtest_roslib-utest"
-	@echo "... _run_tests_roslib_nosetests"
-	@echo "... _run_tests_roslib_nosetests_test"
 	@echo "... clean_test_results"
 	@echo "... clean_test_results_roslib"
 	@echo "... download_extra_data"
@@ -610,8 +556,6 @@ help:
 	@echo "... run_tests_roslib_gtest"
 	@echo "... run_tests_roslib_gtest_roslib-test_package"
 	@echo "... run_tests_roslib_gtest_roslib-utest"
-	@echo "... run_tests_roslib_nosetests"
-	@echo "... run_tests_roslib_nosetests_test"
 	@echo "... tests"
 	@echo "... gmock"
 	@echo "... gmock_main"

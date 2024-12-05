@@ -30,4 +30,4 @@ PROJECT_NAME = 'ros_environment'
 PROJECT_BINARY_DIR = '/home/f1tenthteam2/pleasework/build_isolated/ros_environment'
 PROJECT_SOURCE_DIR = '/home/f1tenthteam2/pleasework/src/ros_environment'
 
-PYTHON_EXECUTABLE = '/usr/bin/python'
+PYTHON_EXECUTABLE = '/usr/bin/python3'

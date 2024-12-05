@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/run_tests_rqt_graph.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/_run_tests_rqt_graph.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/run_tests_rqt_graph_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/_run_tests_rqt_graph_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/run_tests_rqt_graph_nosetests_test.dotcode_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/_run_tests_rqt_graph_nosetests_test.dotcode_test.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/clean_test_results_rqt_graph.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/rqt_graph/CMakeFiles/rebuild_cache.dir

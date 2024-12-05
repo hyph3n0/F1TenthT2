@@ -11,10 +11,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/run_tests_roswtf_rostest_test_roswtf.test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/_run_tests_roswtf_rostest_test_roswtf.test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/clean_test_results_roswtf.dir
-/home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/run_tests_roswtf_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/_run_tests_roswtf_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/run_tests_roswtf_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/_run_tests_roswtf_nosetests_test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/roswtf/CMakeFiles/rebuild_cache.dir

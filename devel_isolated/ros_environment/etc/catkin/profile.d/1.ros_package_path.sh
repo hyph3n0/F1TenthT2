@@ -23,4 +23,4 @@ for workspace in workspaces:
 print(os.pathsep.join(paths))
 EOF
 )
-export ROS_PACKAGE_PATH="`/usr/bin/python -c \"$PYTHON_CODE_BUILD_ROS_PACKAGE_PATH\"`"
+export ROS_PACKAGE_PATH="`/usr/bin/python3 -c \"$PYTHON_CODE_BUILD_ROS_PACKAGE_PATH\"`"

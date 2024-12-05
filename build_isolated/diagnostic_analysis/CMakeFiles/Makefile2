@@ -106,13 +106,6 @@ clean: CMakeFiles/topic_tools_generate_messages_eus.dir/clean
 clean: CMakeFiles/topic_tools_generate_messages_lisp.dir/clean
 clean: CMakeFiles/topic_tools_generate_messages_nodejs.dir/clean
 clean: CMakeFiles/topic_tools_generate_messages_py.dir/clean
-clean: CMakeFiles/run_tests_diagnostic_analysis.dir/clean
-clean: CMakeFiles/_run_tests_diagnostic_analysis.dir/clean
-clean: CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/clean
-clean: CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/clean
-clean: CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-clean: CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-clean: CMakeFiles/clean_test_results_diagnostic_analysis.dir/clean
 clean: gtest/clean
 .PHONY : clean
 
@@ -220,7 +213,7 @@ CMakeFiles/tests.dir/clean:
 # Target rules for target CMakeFiles/run_tests.dir
 
 # All Build rule for target.
-CMakeFiles/run_tests.dir/all: CMakeFiles/_run_tests_diagnostic_analysis.dir/all
+CMakeFiles/run_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target run_tests"
@@ -1075,189 +1068,6 @@ CMakeFiles/topic_tools_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/topic_tools_generate_messages_py.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/run_tests_diagnostic_analysis.dir
-
-# All Build rule for target.
-CMakeFiles/run_tests_diagnostic_analysis.dir/all: CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis.dir/build.make CMakeFiles/run_tests_diagnostic_analysis.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis.dir/build.make CMakeFiles/run_tests_diagnostic_analysis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target run_tests_diagnostic_analysis"
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/run_tests_diagnostic_analysis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_diagnostic_analysis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis.dir/rule
-
-# Convenience name for target.
-run_tests_diagnostic_analysis: CMakeFiles/run_tests_diagnostic_analysis.dir/rule
-.PHONY : run_tests_diagnostic_analysis
-
-# clean rule for target.
-CMakeFiles/run_tests_diagnostic_analysis.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis.dir/build.make CMakeFiles/run_tests_diagnostic_analysis.dir/clean
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/_run_tests_diagnostic_analysis.dir
-
-# All Build rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis.dir/all: CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target _run_tests_diagnostic_analysis"
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/_run_tests_diagnostic_analysis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_diagnostic_analysis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis.dir/rule
-
-# Convenience name for target.
-_run_tests_diagnostic_analysis: CMakeFiles/_run_tests_diagnostic_analysis.dir/rule
-.PHONY : _run_tests_diagnostic_analysis
-
-# clean rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis.dir/clean
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir
-
-# All Build rule for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/all: CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target run_tests_diagnostic_analysis_nosetests"
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/rule
-
-# Convenience name for target.
-run_tests_diagnostic_analysis_nosetests: CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/rule
-.PHONY : run_tests_diagnostic_analysis_nosetests
-
-# clean rule for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/clean
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir
-
-# All Build rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/all: CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target _run_tests_diagnostic_analysis_nosetests"
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/rule
-
-# Convenience name for target.
-_run_tests_diagnostic_analysis_nosetests: CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/rule
-.PHONY : _run_tests_diagnostic_analysis_nosetests
-
-# clean rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/clean
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir
-
-# All Build rule for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py"
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule
-
-# Convenience name for target.
-run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py: CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule
-.PHONY : run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# clean rule for target.
-CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-.PHONY : CMakeFiles/run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir
-
-# All Build rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all: CMakeFiles/tests.dir/all
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all: CMakeFiles/clean_test_results_diagnostic_analysis.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py"
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule
-
-# Convenience name for target.
-_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py: CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/rule
-.PHONY : _run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py
-
-# clean rule for target.
-CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/build.make CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-.PHONY : CMakeFiles/_run_tests_diagnostic_analysis_nosetests_test.bag_csv_test.py.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/clean_test_results_diagnostic_analysis.dir
-
-# All Build rule for target.
-CMakeFiles/clean_test_results_diagnostic_analysis.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_diagnostic_analysis.dir/build.make CMakeFiles/clean_test_results_diagnostic_analysis.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_diagnostic_analysis.dir/build.make CMakeFiles/clean_test_results_diagnostic_analysis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num= "Built target clean_test_results_diagnostic_analysis"
-.PHONY : CMakeFiles/clean_test_results_diagnostic_analysis.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/clean_test_results_diagnostic_analysis.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean_test_results_diagnostic_analysis.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles 0
-.PHONY : CMakeFiles/clean_test_results_diagnostic_analysis.dir/rule
-
-# Convenience name for target.
-clean_test_results_diagnostic_analysis: CMakeFiles/clean_test_results_diagnostic_analysis.dir/rule
-.PHONY : clean_test_results_diagnostic_analysis
-
-# clean rule for target.
-CMakeFiles/clean_test_results_diagnostic_analysis.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_diagnostic_analysis.dir/build.make CMakeFiles/clean_test_results_diagnostic_analysis.dir/clean
-.PHONY : CMakeFiles/clean_test_results_diagnostic_analysis.dir/clean
-
-#=============================================================================
 # Target rules for target gtest/googlemock/CMakeFiles/gmock.dir
 
 # All Build rule for target.
@@ -1287,8 +1097,8 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_analysis/CMakeFiles --progress-num=3,4 "Built target gmock_main"

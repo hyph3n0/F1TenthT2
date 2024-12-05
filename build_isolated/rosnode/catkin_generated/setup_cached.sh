@@ -9,7 +9,6 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rosnode:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rosnode/lib:$LD_LIBRARY_PATH"
-export PATH="/home/f1tenthteam2/pleasework/devel_isolated/rosnode/bin:$PATH"
 export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rosnode/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/rosnode/lib/python3/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/rosnode/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"

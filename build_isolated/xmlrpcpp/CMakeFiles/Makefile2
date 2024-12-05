@@ -217,10 +217,10 @@ CMakeFiles/download_extra_data.dir/clean:
 # Target rules for target CMakeFiles/tests.dir
 
 # All Build rule for target.
+CMakeFiles/tests.dir/all: test/CMakeFiles/xmlrpcvalue_base64.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_base64.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/HelloTest.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_dispatch_live.dir/all
-CMakeFiles/tests.dir/all: test/CMakeFiles/xmlrpcvalue_base64.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_ulimit.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_client.dir/all
 CMakeFiles/tests.dir/all: test/CMakeFiles/test_dispatch.dir/all
@@ -409,8 +409,8 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/xmlrpcpp/CMakeFiles --progress-num=9,10 "Built target gmock_main"
@@ -665,8 +665,8 @@ test/CMakeFiles/run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/clean:
 # Target rules for target test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir
 
 # All Build rule for target.
-test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/all: CMakeFiles/tests.dir/all
 test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/all: test/CMakeFiles/xmlrpcvalue_base64.dir/all
+test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/all: CMakeFiles/tests.dir/all
 test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/all: test/CMakeFiles/clean_test_results_xmlrpcpp.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/build.make test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/build.make test/CMakeFiles/_run_tests_xmlrpcpp_gtest_xmlrpcvalue_base64.dir/build

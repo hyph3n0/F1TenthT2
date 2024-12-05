@@ -67,7 +67,7 @@ include CMakeFiles/generate_test_messages.dir/compiler_depend.make
 include CMakeFiles/generate_test_messages.dir/progress.make
 
 CMakeFiles/generate_test_messages:
-	catkin_generated/env_cached.sh /usr/bin/python /home/f1tenthteam2/pleasework/src/genpy/test/msg/generate_test_messages.py
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genpy/test/msg/generate_test_messages.py
 
 generate_test_messages: CMakeFiles/generate_test_messages
 generate_test_messages: CMakeFiles/generate_test_messages.dir/build.make

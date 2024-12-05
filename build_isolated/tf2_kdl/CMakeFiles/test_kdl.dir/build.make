@@ -112,6 +112,7 @@ test_kdl_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
+/home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: gtest/lib/libgtest.so.1.11.0
 /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl: CMakeFiles/test_kdl.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/tf2_kdl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/f1tenthteam2/pleasework/devel_isolated/tf2_kdl/lib/tf2_kdl/test_kdl"

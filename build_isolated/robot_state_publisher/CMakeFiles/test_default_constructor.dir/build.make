@@ -131,7 +131,8 @@ test_default_constructor_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
-/home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/local/lib/liborocos-kdl.so
+/home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/local/lib/liborocos-kdl.so.1.5.1
+/home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor: CMakeFiles/test_default_constructor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/f1tenthteam2/pleasework/devel_isolated/robot_state_publisher/lib/robot_state_publisher/test_default_constructor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_default_constructor.dir/link.txt --verbose=$(VERBOSE)

@@ -5,13 +5,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/_catkin_empty_exported_target.dir
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/generate_test_messages.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/run_tests_genpy.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/_run_tests_genpy.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/run_tests_genpy_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/_run_tests_genpy_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/run_tests_genpy_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/_run_tests_genpy_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/clean_test_results_genpy.dir
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/genpy/CMakeFiles/rebuild_cache.dir

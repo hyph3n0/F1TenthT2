@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.pdb"
+  "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so"
+  "CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o"
+  "CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/vesc_driver_nodelet.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

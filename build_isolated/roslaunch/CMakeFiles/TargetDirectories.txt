@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/run_tests_roslaunch.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/_run_tests_roslaunch.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/run_tests_roslaunch_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/_run_tests_roslaunch_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/run_tests_roslaunch_nosetests_test.unit.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/_run_tests_roslaunch_nosetests_test.unit.dir
-/home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/clean_test_results_roslaunch.dir
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/roslaunch/CMakeFiles/rebuild_cache.dir

@@ -323,7 +323,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -350,7 +350,7 @@ UBUNTU_JAMMY:BOOL=TRUE
 _file_name:FILEPATH=/home/f1tenthteam2/pleasework/src/robot_state_publisher/test/test_default_constructor.launch
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -459,7 +459,7 @@ joint_state_listener_LIB_DEPENDS:STATIC=general;robot_state_publisher_solver;gen
 kdl_parser_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/share/kdl_parser/cmake
 
 //Path to a library.
-lib:FILEPATH=/usr/local/lib/liborocos-kdl.so
+lib:FILEPATH=/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message_filters/share/message_filters/cmake
@@ -471,7 +471,7 @@ message_generation_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message
 message_runtime_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message_runtime/share/message_runtime/cmake
 
 //The directory containing a CMake configuration file for orocos_kdl.
-orocos_kdl_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/orocos_kdl
+orocos_kdl_DIR:PATH=/usr/local/share/orocos_kdl/cmake
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/pluginlib/share/pluginlib/cmake
@@ -486,7 +486,7 @@ robot_state_publisher_IS_TOP_LEVEL:STATIC=ON
 robot_state_publisher_SOURCE_DIR:STATIC=/home/f1tenthteam2/pleasework/src/robot_state_publisher
 
 //Dependencies for the target
-robot_state_publisher_solver_LIB_DEPENDS:STATIC=general;/home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so;general;/home/f1tenthteam2/pleasework/devel_isolated/urdf/lib/liburdf.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_model.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_world.so;general;/usr/lib/aarch64-linux-gnu/libtinyxml.so;general;/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/libclass_loader.so;general;/usr/lib/aarch64-linux-gnu/libPocoFoundation.so;general;/usr/lib/aarch64-linux-gnu/libdl.a;general;/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib/libroslib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib/librospack.so;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;/usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libtinyxml2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole_bridge/lib/librosconsole_bridge.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so;general;/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib/libroscpp.so;general;/usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so;general;/usr/lib/aarch64-linux-gnu/liblog4cxx.so;general;/usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib/libroscpp_serialization.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so;general;/usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib/libcpp_common.so;general;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;general;/usr/local/lib/liborocos-kdl.so;general;orocos-kdl;
+robot_state_publisher_solver_LIB_DEPENDS:STATIC=general;/home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so;general;/home/f1tenthteam2/pleasework/devel_isolated/urdf/lib/liburdf.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_model.so;general;/usr/lib/aarch64-linux-gnu/liburdfdom_world.so;general;/usr/lib/aarch64-linux-gnu/libtinyxml.so;general;/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib/libclass_loader.so;general;/usr/lib/aarch64-linux-gnu/libPocoFoundation.so;general;/usr/lib/aarch64-linux-gnu/libdl.a;general;/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib/libroslib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib/librospack.so;general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;/usr/lib/aarch64-linux-gnu/libboost_program_options.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libtinyxml2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole_bridge/lib/librosconsole_bridge.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so;general;/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib/libroscpp.so;general;/usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so;general;/usr/lib/aarch64-linux-gnu/liblog4cxx.so;general;/usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib/libroscpp_serialization.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so;general;/usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib/libcpp_common.so;general;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;general;/usr/local/lib/liborocos-kdl.so.1.5.1;general;orocos-kdl;
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/share/rosconsole/cmake
@@ -750,7 +750,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.12(3
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main

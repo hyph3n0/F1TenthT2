@@ -44,10 +44,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/run_tests_angles_gtest_utest.dir
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/_run_tests_angles_gtest_utest.dir
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/clean_test_results_angles.dir
-/home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/run_tests_angles_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/_run_tests_angles_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/run_tests_angles_nosetests_utest.py.dir
-/home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/_run_tests_angles_nosetests_utest.py.dir
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/angles/test/CMakeFiles/rebuild_cache.dir

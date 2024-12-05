@@ -25,6 +25,7 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/aarch64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
@@ -116,6 +117,10 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/c++/11/ext/alloc_traits.h \
   /usr/include/c++/11/bits/alloc_traits.h \
   /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/cstdlib \
   /usr/include/stdlib.h \
@@ -147,8 +152,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/asm-generic/errno-base.h \
   /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/boost/shared_array.hpp \
   /usr/include/boost/smart_ptr/shared_array.hpp \
@@ -201,6 +204,8 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/c++/11/bits/atomic_base.h \
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
   /usr/include/boost/assert.hpp \
   /usr/include/assert.h \
   /usr/include/boost/checked_delete.hpp \
@@ -225,6 +230,21 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/boost/exception/exception.hpp \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
   /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
   /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
   /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp \
@@ -235,10 +255,7 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp \
   /usr/include/boost/config/pragma_message.hpp \
   /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
   /usr/include/boost/smart_ptr/detail/local_sp_deleter.hpp \
   /usr/include/boost/smart_ptr/detail/local_counted_base.hpp \
@@ -246,15 +263,10 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/string.h \
   /usr/include/strings.h \
   /home/f1tenthteam2/pleasework/src/ros/roslib/include/ros/package.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
   /usr/include/c++/11/bits/stl_map.h \
   /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
   /home/f1tenthteam2/pleasework/src/rosconsole/include/ros/console.h \
   /home/f1tenthteam2/pleasework/src/rosconsole/include/ros/console_backend.h \
   /home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/macros.h \
@@ -297,6 +309,20 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
   /home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/exception.h \
   /home/f1tenthteam2/pleasework/src/roscpp_core/rostime/include/ros/duration.h \
   /usr/include/c++/11/math.h \
@@ -325,7 +351,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/boost/config/no_tr1/cmath.hpp \
   /usr/include/c++/11/cfloat \
   /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h \
-  /usr/include/c++/11/limits \
   /usr/include/boost/math/tools/user.hpp \
   /usr/include/boost/math/policies/error_handling.hpp \
   /usr/include/c++/11/iomanip \
@@ -338,6 +363,7 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
   /usr/include/c++/11/cstring \
   /usr/include/boost/config/no_tr1/complex.hpp \
   /usr/include/c++/11/complex \
@@ -695,15 +721,15 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
   /usr/include/log4cxx/log4cxx.h \
   /usr/include/log4cxx/boost-std-configuration.h \
   /usr/include/c++/11/shared_mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/log4cxx/helpers/transcoder.h \
   /usr/include/log4cxx/helpers/object.h \
   /usr/include/log4cxx/helpers/class.h \
   /usr/include/log4cxx/helpers/classregistration.h \
   /usr/include/c++/11/mutex \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /home/f1tenthteam2/pleasework/src/rosconsole/include/rosconsole/macros_generated.h \
   /usr/include/aarch64-linux-gnu/curl/curl.h \
@@ -768,10 +794,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/bits/unique_lock.h:
 
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/ratio:
-
 /usr/include/c++/11/mutex:
 
 /usr/include/log4cxx/helpers/classregistration.h:
@@ -780,13 +802,13 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/log4cxx/helpers/transcoder.h:
 
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/ratio:
+
 /usr/include/c++/11/shared_mutex:
 
 /usr/include/log4cxx/boost-std-configuration.h:
-
-/usr/include/aarch64-linux-gnu/curl/system.h:
-
-/usr/include/log4cxx/logstring.h:
 
 /usr/include/boost/predef/platform/android.h:
 
@@ -822,8 +844,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/type_traits/is_abstract.hpp:
 
-/usr/include/boost/type_traits/is_arithmetic.hpp:
-
 /usr/include/boost/type_traits/is_array.hpp:
 
 /usr/include/boost/type_traits/detail/yes_no_type.hpp:
@@ -837,8 +857,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /usr/include/boost/type_traits/is_void.hpp:
-
-/usr/include/boost/type_traits/declval.hpp:
 
 /usr/include/boost/version.hpp:
 
@@ -920,10 +938,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/back_fwd.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
-
-/usr/include/boost/mpl/vector/aux_/back.hpp:
-
 /usr/include/boost/mpl/vector/aux_/push_back.hpp:
 
 /usr/include/boost/mpl/vector/aux_/pop_front.hpp:
@@ -976,19 +990,63 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
 
-/usr/include/c++/11/bits/stl_map.h:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
 
-/usr/include/boost/mpl/aux_/na_fwd.hpp:
+/usr/include/boost/mpl/or.hpp:
 
-/usr/include/c++/11/bits/stl_bvector.h:
+/usr/include/boost/mpl/logical.hpp:
 
-/usr/include/boost/mpl/bool_fwd.hpp:
+/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
-/usr/include/string.h:
+/usr/include/boost/mpl/iter_fold_if.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/usr/include/boost/mpl/remove_if.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/mpl/aux_/template_arity.hpp:
+
+/usr/include/boost/mpl/aux_/config/bcc.hpp:
+
+/usr/include/boost/mpl/aux_/full_lambda.hpp:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/boost/mpl/protect.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/config/bind.hpp:
+
+/usr/include/boost/mpl/bind_fwd.hpp:
+
+/usr/include/boost/mpl/bind.hpp:
+
+/usr/include/boost/mpl/lambda.hpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
 
 /usr/include/c++/11/stdexcept:
 
-/usr/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+/usr/include/boost/predef/make.h:
+
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+
+/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+
+/usr/include/c++/11/cstddef:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+
+/usr/include/boost/mpl/size_fwd.hpp:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
@@ -1002,17 +1060,27 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/debug/error.hpp:
 
-/usr/include/boost/predef/make.h:
+/usr/include/c++/11/bits/stl_bvector.h:
 
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
+/usr/include/boost/mpl/bool_fwd.hpp:
 
-/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:
+/usr/include/boost/type_traits/is_arithmetic.hpp:
 
-/usr/include/c++/11/cstddef:
+/usr/include/c++/11/bits/unordered_map.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+/usr/include/boost/config/workaround.hpp:
 
-/usr/include/boost/mpl/size_fwd.hpp:
+/usr/include/c++/11/iostream:
+
+/usr/include/boost/mpl/aux_/config/gpu.hpp:
+
+/usr/include/boost/predef/detail/test.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/boost/preprocessor/variadic/elem.hpp:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
 
@@ -1038,8 +1106,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/msvc_never_true.hpp:
 
-/usr/include/boost/core/checked_delete.hpp:
-
 /usr/include/boost/preprocessor/punctuation/comma_if.hpp:
 
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
@@ -1049,8 +1115,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/mpl/iterator_range.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/locale.h:
-
-/home/f1tenthteam2/pleasework/src/rosconsole/include/ros/console.h:
 
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
@@ -1063,6 +1127,10 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
 
 /usr/include/c++/11/bits/invoke.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/boost/preprocessor/facilities/empty.hpp:
 
 /usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
 
@@ -1092,8 +1160,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/platform.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
-
 /usr/include/asm-generic/sockios.h:
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
@@ -1103,8 +1169,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/mpl/aux_/clear_impl.hpp:
 
 /usr/include/boost/config/helper_macros.hpp:
-
-/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h:
 
@@ -1146,6 +1210,12 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/wctype.h:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
+
+/usr/include/boost/mpl/vector/aux_/back.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
 /usr/include/boost/config.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
@@ -1154,13 +1224,13 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/shared_array.hpp:
 
-/usr/include/boost/mpl/aux_/full_lambda.hpp:
-
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/c++/11/bits/functional_hash.h:
-
 /usr/include/asm-generic/errno.h:
+
+/usr/include/boost/mpl/and.hpp:
+
+/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
 
@@ -1202,19 +1272,37 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/int_fwd.hpp:
 
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/usr/include/boost/config/platform/linux.hpp:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/boost/mpl/aux_/config/adl.hpp:
+
+/usr/include/boost/mpl/less_equal.hpp:
+
+/usr/include/aarch64-linux-gnu/sys/select.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/usr/include/c++/11/bits/move.h:
 
 /usr/include/log4cxx/level.h:
 
 /usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
-
 /usr/include/c++/11/typeinfo:
+
+/usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/locale.h:
 
@@ -1225,6 +1313,12 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/curl/system.h:
+
+/usr/include/log4cxx/logstring.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -1242,9 +1336,27 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/list/aux_/item.hpp:
 
+/usr/include/c++/11/bits/quoted_string.h:
+
 /usr/include/linux/close_range.h:
 
 /usr/include/c++/11/debug/assertions.h:
+
+/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/include/c++/11/array:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/boost/type_traits/declval.hpp:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/bits/concept_check.h:
 
 /usr/include/boost/mpl/aux_/arity_spec.hpp:
 
@@ -1266,14 +1378,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
 
-/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/usr/include/boost/mpl/and.hpp:
-
-/usr/include/boost/mpl/aux_/config/pp_counter.hpp:
-
-/usr/include/c++/11/cstdint:
-
 /usr/include/endian.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
@@ -1283,8 +1387,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/c++/11/ext/new_allocator.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h:
 
 /usr/include/c++/11/tuple:
 
@@ -1306,11 +1408,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/locale:
 
-/usr/include/boost/mpl/aux_/config/bcc.hpp:
+/usr/include/c++/11/bits/move.h:
 
-/usr/include/boost/mpl/remove_if.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+/usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/aarch64-linux-gnu/bits/fp-fast.h:
 
@@ -1319,6 +1419,8 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/c++/11/exception:
 
 /usr/include/aarch64-linux-gnu/bits/iscanonical.h:
+
+/home/f1tenthteam2/pleasework/src/rosconsole/include/ros/console.h:
 
 /usr/include/pthread.h:
 
@@ -1330,13 +1432,19 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/exception.h:
-
 /usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/usr/include/c++/11/debug/debug.h:
 
 /usr/include/boost/mpl/size.hpp:
 
 /usr/include/aarch64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
 
 /usr/include/boost/mpl/next.hpp:
 
@@ -1366,13 +1474,15 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/boost/mpl/always.hpp:
+
+/usr/include/linux/limits.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
+
 /usr/include/c++/11/initializer_list:
 
 /usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/usr/include/boost/mpl/aux_/has_begin.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -1386,13 +1496,17 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/config/ttp.hpp:
 
-/usr/include/boost/smart_ptr/shared_ptr.hpp:
+/usr/include/aarch64-linux-gnu/bits/timesize.h:
 
-/usr/include/c++/11/bits/stl_multimap.h:
+/usr/include/boost/predef/architecture/x86/32.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+/usr/include/boost/smart_ptr/shared_ptr.hpp:
 
 /usr/include/aarch64-linux-gnu/asm/errno.h:
 
-/usr/include/boost/mpl/logical.hpp:
+/usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -1401,12 +1515,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
 
 /usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/boost/mpl/less_equal.hpp:
-
-/usr/include/aarch64-linux-gnu/sys/select.h:
-
-/home/f1tenthteam2/pleasework/src/ros/roslib/include/ros/package.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
 
@@ -1464,12 +1572,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/aarch64-linux-gnu/bits/time64.h:
 
-/usr/include/boost/config/workaround.hpp:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/boost/mpl/aux_/config/gpu.hpp:
-
 /usr/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/include/c++/11/bits/functexcept.h:
@@ -1496,19 +1598,23 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+/usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/c++/11/version:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h:
 
-/usr/include/c++/11/array:
+/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
+/usr/include/boost/mpl/aux_/has_type.hpp:
 
-/usr/include/c++/11/clocale:
+/usr/include/c++/11/bits/stringfwd.h:
 
-/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+/usr/include/c++/11/cstdint:
 
 /usr/include/c++/11/new:
 
@@ -1524,21 +1630,13 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/bits/exception.h:
 
-/usr/include/boost/mpl/aux_/inserter_algorithm.hpp:
-
-/usr/include/c++/11/map:
-
 /usr/include/c++/11/bits/range_access.h:
-
-/usr/include/strings.h:
-
-/usr/include/aarch64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/bits/istream.tcc:
 
-/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/macros.h:
-
 /usr/include/aarch64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/c++/11/pstl/pstl_config.h:
 
 /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -1556,6 +1654,8 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
+/usr/include/c++/11/unordered_map:
+
 /usr/include/log4cxx/log4cxx.h:
 
 /usr/include/c++/11/cctype:
@@ -1568,23 +1668,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
-/usr/include/aarch64-linux-gnu/bits/timesize.h:
-
-/usr/include/boost/predef/architecture/x86/32.h:
-
 /usr/include/boost/mpl/aux_/contains_impl.hpp:
 
 /usr/include/c++/11/algorithm:
-
-/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
-
-/usr/include/boost/config/platform/linux.hpp:
-
-/usr/include/c++/11/bits/locale_conv.h:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls.h:
 
@@ -1624,6 +1710,12 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/repetition/repeat.hpp:
 
+/usr/include/boost/core/checked_delete.hpp:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/boost/mpl/apply_fwd.hpp:
+
 /usr/include/aarch64-linux-gnu/bits/setjmp.h:
 
 /usr/include/boost/mpl/find_if.hpp:
@@ -1646,13 +1738,7 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
-/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/c++/11/version:
-
-/usr/include/aarch64-linux-gnu/bits/byteswap.h:
+/usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/bits/allocated_ptr.h:
 
@@ -1688,6 +1774,8 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
+/usr/include/c++/11/tr1/beta_function.tcc:
+
 /usr/include/aarch64-linux-gnu/bits/types/FILE.h:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
@@ -1696,13 +1784,27 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/c++/11/ext/aligned_buffer.h:
 
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+/usr/include/string.h:
 
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
+/usr/include/aarch64-linux-gnu/bits/sched.h:
 
-/usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/strings.h:
 
-/usr/include/boost/mpl/aux_/config/adl.hpp:
+/home/f1tenthteam2/pleasework/src/ros/roslib/include/ros/package.h:
+
+/usr/include/boost/mpl/aux_/inserter_algorithm.hpp:
+
+/usr/include/c++/11/map:
+
+/usr/include/boost/mpl/aux_/has_begin.hpp:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/usr/include/boost/mpl/aux_/na_fwd.hpp:
 
 /usr/include/c++/11/istream:
 
@@ -1735,16 +1837,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/config/no_tr1/complex.hpp:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/boost/preprocessor/facilities/empty.hpp:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/boost/predef/detail/test.h:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/boost/preprocessor/variadic/elem.hpp:
 
 /usr/include/c++/11/ostream:
 
@@ -1780,9 +1872,51 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/largest_int.hpp:
 
+/usr/include/c++/11/bits/enable_special_members.h:
+
 /usr/include/boost/preprocessor/control/iif.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h:
+
+/usr/include/boost/mpl/list/list0.hpp:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/boost/preprocessor/list/reverse.hpp:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/boost/mpl/aux_/static_cast.hpp:
+
+/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/exception.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/home/f1tenthteam2/pleasework/src/roscpp_core/cpp_common/include/ros/macros.h:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/boost/mpl/list/aux_/tag.hpp:
+
+/usr/include/boost/mpl/not_equal_to.hpp:
+
+/usr/include/boost/mpl/aux_/has_tag.hpp:
 
 /usr/include/boost/mpl/O1_size.hpp:
 
@@ -1796,8 +1930,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/limits.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp:
 
 /usr/include/aarch64-linux-gnu/sys/cdefs.h:
@@ -1807,6 +1939,12 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/aarch64-linux-gnu/bits/local_lim.h:
 
 /usr/include/aarch64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/boost/mpl/vector/vector20.hpp:
+
+/usr/include/boost/mpl/bool.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/aarch64-linux-gnu/bits/cpu-set.h:
 
@@ -1833,12 +1971,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/aarch64-linux-gnu/bits/wchar.h:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/float.h:
-
-/usr/include/c++/11/limits:
-
-/usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h:
-
-/usr/include/boost/mpl/list/list0.hpp:
 
 /usr/include/boost/math/tools/user.hpp:
 
@@ -1870,9 +2002,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/config/integral.hpp:
 
-/usr/include/boost/mpl/deref.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/usr/include/boost/mpl/deref.hpp:
 
 /usr/include/boost/mpl/list.hpp:
 
@@ -1882,15 +2014,11 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/list/list20.hpp:
 
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
 /usr/include/boost/mpl/limits/list.hpp:
 
 /usr/include/boost/mpl/aux_/na.hpp:
-
-/usr/include/boost/mpl/vector/vector20.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/boost/mpl/bool.hpp:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -1924,8 +2052,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/list/detail/fold_right.hpp:
 
-/usr/include/boost/mpl/aux_/static_cast.hpp:
-
 /usr/include/boost/mpl/list/aux_/push_front.hpp:
 
 /usr/include/boost/mpl/next_prior.hpp:
@@ -1940,8 +2066,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/config/lambda.hpp:
 
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
-
 /usr/include/boost/mpl/aux_/arity.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/params.hpp:
@@ -1952,9 +2076,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/comma_if.hpp:
 
-/usr/include/c++/11/bits/streambuf.tcc:
-
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
 
 /usr/include/boost/preprocessor/control/if.hpp:
 
@@ -1967,6 +2091,8 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/preprocessor/repeat.hpp:
 
 /usr/include/boost/type_traits/is_complete.hpp:
+
+/usr/include/c++/11/string_view:
 
 /usr/include/boost/mpl/aux_/lambda_spec.hpp:
 
@@ -1982,6 +2108,10 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
 
+/usr/include/boost/mpl/pair.hpp:
+
+/usr/include/boost/preprocessor/logical/bitand.hpp:
+
 /usr/include/boost/preprocessor/control/while.hpp:
 
 /usr/include/boost/math/tools/promotion.hpp:
@@ -1992,11 +2122,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/identity.hpp:
 
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
 /usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/boost/mpl/protect.hpp:
 
 /usr/include/boost/preprocessor/empty.hpp:
 
@@ -2022,15 +2150,9 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/preprocessor/detail/check.hpp:
 
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
 /home/f1tenthteam2/pleasework/src/rosconsole/include/ros/console_backend.h:
 
 /usr/include/boost/preprocessor/variadic/size.hpp:
-
-/usr/include/boost/mpl/identity.hpp:
-
-/usr/include/boost/mpl/aux_/template_arity.hpp:
 
 /usr/include/boost/preprocessor/tuple/rem.hpp:
 
@@ -2041,14 +2163,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_support.hpp:
-
-/usr/include/boost/mpl/list/aux_/tag.hpp:
-
-/usr/include/boost/mpl/not_equal_to.hpp:
-
-/usr/include/boost/mpl/aux_/has_tag.hpp:
-
-/usr/include/boost/mpl/or.hpp:
 
 /usr/include/boost/mpl/list/aux_/pop_front.hpp:
 
@@ -2132,8 +2246,6 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/apply.hpp:
 
-/usr/include/boost/mpl/apply_fwd.hpp:
-
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h:
@@ -2146,44 +2258,10 @@ CMakeFiles/resource_retriever.dir/src/retriever.cpp.o: /home/f1tenthteam2/please
 
 /usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
+/usr/include/c++/11/bits/node_handle.h:
+
 /usr/include/boost/mpl/arg.hpp:
 
 /usr/include/boost/mpl/aux_/na_assert.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
-
-/usr/include/boost/mpl/lambda.hpp:
-
-/usr/include/boost/mpl/bind.hpp:
-
-/usr/include/boost/preprocessor/logical/bitand.hpp:
-
-/usr/include/boost/mpl/pair.hpp:
-
-/usr/include/boost/mpl/bind_fwd.hpp:
-
-/usr/include/boost/mpl/aux_/config/bind.hpp:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/boost/mpl/aux_/has_type.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/usr/include/boost/mpl/iter_fold_if.hpp:
-
-/usr/include/linux/limits.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/boost/mpl/always.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/boost/mpl/aux_/msvc_eti_base.hpp:

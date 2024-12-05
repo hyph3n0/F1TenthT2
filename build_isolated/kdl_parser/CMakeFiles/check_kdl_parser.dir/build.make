@@ -93,6 +93,7 @@ check_kdl_parser_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: CMakeFiles/check_kdl_parser.dir/src/check_kdl_parser.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: CMakeFiles/check_kdl_parser.dir/build.make
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/libkdl_parser.so
+/home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: /usr/local/lib/liborocos-kdl.so.1.5.1
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: /usr/lib/aarch64-linux-gnu/libtinyxml.so
 /home/f1tenthteam2/pleasework/devel_isolated/kdl_parser/lib/kdl_parser/check_kdl_parser: /usr/lib/aarch64-linux-gnu/libtinyxml2.so

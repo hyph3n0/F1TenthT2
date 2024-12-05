@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/run_tests_roscreate.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/_run_tests_roscreate.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/run_tests_roscreate_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/_run_tests_roscreate_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/run_tests_roscreate_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/_run_tests_roscreate_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/clean_test_results_roscreate.dir
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/roscreate/CMakeFiles/rebuild_cache.dir

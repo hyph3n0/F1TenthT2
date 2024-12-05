@@ -613,110 +613,6 @@ clean_test_results_cv_bridge/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/clean_test_results_cv_bridge.dir/build.make test/CMakeFiles/clean_test_results_cv_bridge.dir/build
 .PHONY : clean_test_results_cv_bridge/fast
 
-#=============================================================================
-# Target rules for targets named run_tests_cv_bridge_nosetests
-
-# Build rule for target.
-run_tests_cv_bridge_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_cv_bridge_nosetests
-.PHONY : run_tests_cv_bridge_nosetests
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests.dir/build
-.PHONY : run_tests_cv_bridge_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_cv_bridge_nosetests
-
-# Build rule for target.
-_run_tests_cv_bridge_nosetests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_cv_bridge_nosetests
-.PHONY : _run_tests_cv_bridge_nosetests
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_cv_bridge_nosetests_enumerants.py
-
-# Build rule for target.
-run_tests_cv_bridge_nosetests_enumerants.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_cv_bridge_nosetests_enumerants.py
-.PHONY : run_tests_cv_bridge_nosetests_enumerants.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_enumerants.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_cv_bridge_nosetests_enumerants.py
-
-# Build rule for target.
-_run_tests_cv_bridge_nosetests_enumerants.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_cv_bridge_nosetests_enumerants.py
-.PHONY : _run_tests_cv_bridge_nosetests_enumerants.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_enumerants.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_enumerants.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_enumerants.py/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_cv_bridge_nosetests_conversions.py
-
-# Build rule for target.
-run_tests_cv_bridge_nosetests_conversions.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_cv_bridge_nosetests_conversions.py
-.PHONY : run_tests_cv_bridge_nosetests_conversions.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_conversions.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_conversions.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_conversions.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_cv_bridge_nosetests_conversions.py
-
-# Build rule for target.
-_run_tests_cv_bridge_nosetests_conversions.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_cv_bridge_nosetests_conversions.py
-.PHONY : _run_tests_cv_bridge_nosetests_conversions.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_conversions.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_conversions.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_conversions.py/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_cv_bridge_nosetests_python_bindings.py
-
-# Build rule for target.
-run_tests_cv_bridge_nosetests_python_bindings.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_cv_bridge_nosetests_python_bindings.py
-.PHONY : run_tests_cv_bridge_nosetests_python_bindings.py
-
-# fast build rule for target.
-run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-.PHONY : run_tests_cv_bridge_nosetests_python_bindings.py/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_cv_bridge_nosetests_python_bindings.py
-
-# Build rule for target.
-_run_tests_cv_bridge_nosetests_python_bindings.py: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_cv_bridge_nosetests_python_bindings.py
-.PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py
-
-# fast build rule for target.
-_run_tests_cv_bridge_nosetests_python_bindings.py/fast:
-	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build.make test/CMakeFiles/_run_tests_cv_bridge_nosetests_python_bindings.py.dir/build
-.PHONY : _run_tests_cv_bridge_nosetests_python_bindings.py/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -733,10 +629,6 @@ help:
 	@echo "... _run_tests_cv_bridge"
 	@echo "... _run_tests_cv_bridge_gtest"
 	@echo "... _run_tests_cv_bridge_gtest_cv_bridge-utest"
-	@echo "... _run_tests_cv_bridge_nosetests"
-	@echo "... _run_tests_cv_bridge_nosetests_conversions.py"
-	@echo "... _run_tests_cv_bridge_nosetests_enumerants.py"
-	@echo "... _run_tests_cv_bridge_nosetests_python_bindings.py"
 	@echo "... clean_test_results"
 	@echo "... clean_test_results_cv_bridge"
 	@echo "... download_extra_data"
@@ -750,10 +642,6 @@ help:
 	@echo "... run_tests_cv_bridge"
 	@echo "... run_tests_cv_bridge_gtest"
 	@echo "... run_tests_cv_bridge_gtest_cv_bridge-utest"
-	@echo "... run_tests_cv_bridge_nosetests"
-	@echo "... run_tests_cv_bridge_nosetests_conversions.py"
-	@echo "... run_tests_cv_bridge_nosetests_enumerants.py"
-	@echo "... run_tests_cv_bridge_nosetests_python_bindings.py"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... sensor_msgs_generate_messages_lisp"

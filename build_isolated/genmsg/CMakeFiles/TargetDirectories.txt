@@ -4,13 +4,6 @@
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/clean_test_results.dir
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/doxygen.dir
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/_catkin_empty_exported_target.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/run_tests_genmsg.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/_run_tests_genmsg.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/run_tests_genmsg_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/_run_tests_genmsg_nosetests.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/run_tests_genmsg_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/_run_tests_genmsg_nosetests_test.dir
-/home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/clean_test_results_genmsg.dir
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/test.dir
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/edit_cache.dir
 /home/f1tenthteam2/pleasework/build_isolated/genmsg/CMakeFiles/rebuild_cache.dir

@@ -320,7 +320,7 @@ LSB_FOUND:BOOL=TRUE
 LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 
 //Path to a program.
-NOSETESTS:FILEPATH=/usr/bin/nosetests3
+NOSETESTS:FILEPATH=NOSETESTS-NOTFOUND
 
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python3
@@ -347,7 +347,7 @@ UBUNTU_JAMMY:BOOL=TRUE
 _file_name:FILEPATH=/home/f1tenthteam2/pleasework/src/interactive_markers/test/cpp_server_client.test
 
 //Path to a file.
-_gmock_INCLUDES:FILEPATH=/usr/src/googletest/googlemock/include/gmock/gmock.h
+_gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
 //Path to a file.
 _gmock_SOURCES:FILEPATH=/usr/src/gmock/src/gmock.cc
@@ -453,13 +453,13 @@ interactive_markers_BINARY_DIR:STATIC=/home/f1tenthteam2/pleasework/build_isolat
 interactive_markers_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-interactive_markers_LIB_DEPENDS:STATIC=general;/usr/lib/aarch64-linux-gnu/liborocos-kdl.so;general;/usr/local/lib/liborocos-kdl.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so;general;/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib/libroscpp.so;general;/usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so;general;/usr/lib/aarch64-linux-gnu/liblog4cxx.so;general;/usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib/libroscpp_serialization.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so;general;/usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib/libcpp_common.so;general;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;
+interactive_markers_LIB_DEPENDS:STATIC=general;/usr/local/lib/liborocos-kdl.so;general;/usr/local/lib/liborocos-kdl.so.1.5.1;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2_ros/lib/libtf2_ros.so;general;/home/f1tenthteam2/pleasework/devel_isolated/actionlib/lib/libactionlib.so;general;/home/f1tenthteam2/pleasework/devel_isolated/message_filters/lib/libmessage_filters.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib/libroscpp.so;general;/usr/lib/aarch64-linux-gnu/libboost_chrono.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_log4cxx.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib/librosconsole_backend_interface.so;general;/usr/lib/aarch64-linux-gnu/liblog4cxx.so;general;/usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so;general;/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so;general;/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib/libroscpp_serialization.so;general;/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so;general;/usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0;general;/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib/libcpp_common.so;general;/usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0;general;/usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0;
 
 //Value Computed by CMake
 interactive_markers_SOURCE_DIR:STATIC=/home/f1tenthteam2/pleasework/src/interactive_markers
 
 //Path to a library.
-lib:FILEPATH=/usr/local/lib/liborocos-kdl.so
+lib:FILEPATH=/home/f1tenthteam2/pleasework/devel_isolated/tf2/lib/libtf2.so
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message_filters/share/message_filters/cmake
@@ -715,7 +715,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3][v3.10.12(3
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 GMOCK_FROM_SOURCE_FOUND:INTERNAL=TRUE
-GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/src/googletest/googlemock/include
+GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/f1tenthteam2/pleasework/build_isolated/interactive_markers/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main
