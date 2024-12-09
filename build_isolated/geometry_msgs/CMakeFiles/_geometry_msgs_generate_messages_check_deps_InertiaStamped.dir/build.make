@@ -67,7 +67,7 @@ include CMakeFiles/_geometry_msgs_generate_messages_check_deps_InertiaStamped.di
 include CMakeFiles/_geometry_msgs_generate_messages_check_deps_InertiaStamped.dir/progress.make
 
 CMakeFiles/_geometry_msgs_generate_messages_check_deps_InertiaStamped:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py geometry_msgs /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/InertiaStamped.msg geometry_msgs/Inertia:geometry_msgs/Vector3:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py geometry_msgs /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/InertiaStamped.msg geometry_msgs/Inertia:std_msgs/Header:geometry_msgs/Vector3
 
 _geometry_msgs_generate_messages_check_deps_InertiaStamped: CMakeFiles/_geometry_msgs_generate_messages_check_deps_InertiaStamped
 _geometry_msgs_generate_messages_check_deps_InertiaStamped: CMakeFiles/_geometry_msgs_generate_messages_check_deps_InertiaStamped.dir/build.make

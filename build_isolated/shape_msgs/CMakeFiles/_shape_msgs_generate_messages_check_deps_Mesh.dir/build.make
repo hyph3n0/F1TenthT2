@@ -67,7 +67,7 @@ include CMakeFiles/_shape_msgs_generate_messages_check_deps_Mesh.dir/compiler_de
 include CMakeFiles/_shape_msgs_generate_messages_check_deps_Mesh.dir/progress.make
 
 CMakeFiles/_shape_msgs_generate_messages_check_deps_Mesh:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py shape_msgs /home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg geometry_msgs/Point:shape_msgs/MeshTriangle
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py shape_msgs /home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg shape_msgs/MeshTriangle:geometry_msgs/Point
 
 _shape_msgs_generate_messages_check_deps_Mesh: CMakeFiles/_shape_msgs_generate_messages_check_deps_Mesh
 _shape_msgs_generate_messages_check_deps_Mesh: CMakeFiles/_shape_msgs_generate_messages_check_deps_Mesh.dir/build.make

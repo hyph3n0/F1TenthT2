@@ -75,8 +75,8 @@ CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from diagnostic_msgs/DiagnosticArray.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p diagnostic_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/msg
 
@@ -98,8 +98,8 @@ CMakeFiles/diagnostic_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework
 
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv
-/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from diagnostic_msgs/SelfTest.srv"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv -Idiagnostic_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p diagnostic_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/share/common-lisp/ros/diagnostic_msgs/srv
 

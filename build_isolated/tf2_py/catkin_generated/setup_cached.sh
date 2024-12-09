@@ -7,9 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/tf2_py:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/tf2_py/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/tf2_py/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/tf2_py/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/tf2_py/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/geometry2/tf2_py:$ROS_PACKAGE_PATH"

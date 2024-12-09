@@ -585,3 +585,184 @@ gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3c55c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3c55c.dir/build.make CMakeFiles/cmTC_3c55c.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3c55c.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_3c55c.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3c55c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c55c.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_3c55c.dir/src.cxx.o -o cmTC_3c55c 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e922e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e922e.dir/build.make CMakeFiles/cmTC_e922e.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e922e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_e922e.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e922e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e922e.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_e922e.dir/src.cxx.o -o cmTC_e922e 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_51162/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_51162.dir/build.make CMakeFiles/cmTC_51162.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51162.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_51162.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51162
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51162.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_51162.dir/src.cxx.o -o cmTC_51162 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bcdba/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_bcdba.dir/build.make CMakeFiles/cmTC_bcdba.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bcdba.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_bcdba.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bcdba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcdba.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_bcdba.dir/src.cxx.o -o cmTC_bcdba 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_017a9/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_017a9.dir/build.make CMakeFiles/cmTC_017a9.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_017a9.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_017a9.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_017a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_017a9.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_017a9.dir/src.cxx.o -o cmTC_017a9 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d473/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_3d473.dir/build.make CMakeFiles/cmTC_3d473.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d473.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_3d473.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d473
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d473.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_3d473.dir/src.cxx.o -o cmTC_3d473 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_db19f/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_db19f.dir/build.make CMakeFiles/cmTC_db19f.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db19f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_db19f.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db19f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db19f.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_db19f.dir/src.cxx.o -o cmTC_db19f 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e508b/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_e508b.dir/build.make CMakeFiles/cmTC_e508b.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e508b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_e508b.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e508b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e508b.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_e508b.dir/src.cxx.o -o cmTC_e508b 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0dcaa/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_0dcaa.dir/build.make CMakeFiles/cmTC_0dcaa.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0dcaa.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_0dcaa.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0dcaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0dcaa.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_0dcaa.dir/src.cxx.o -o cmTC_0dcaa 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48efa/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_48efa.dir/build.make CMakeFiles/cmTC_48efa.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48efa.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_48efa.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48efa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48efa.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_48efa.dir/src.cxx.o -o cmTC_48efa 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1d6e0/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_1d6e0.dir/build.make CMakeFiles/cmTC_1d6e0.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d6e0.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_1d6e0.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1d6e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d6e0.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_1d6e0.dir/src.cxx.o -o cmTC_1d6e0 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/robot_state_publisher/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

@@ -7,6 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/rosbag_storage:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/rosbag_storage/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/ros_comm/rosbag_storage:$ROS_PACKAGE_PATH"

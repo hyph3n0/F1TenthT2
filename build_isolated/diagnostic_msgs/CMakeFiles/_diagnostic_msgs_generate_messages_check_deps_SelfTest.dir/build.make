@@ -67,7 +67,7 @@ include CMakeFiles/_diagnostic_msgs_generate_messages_check_deps_SelfTest.dir/co
 include CMakeFiles/_diagnostic_msgs_generate_messages_check_deps_SelfTest.dir/progress.make
 
 CMakeFiles/_diagnostic_msgs_generate_messages_check_deps_SelfTest:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py diagnostic_msgs /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv diagnostic_msgs/KeyValue:diagnostic_msgs/DiagnosticStatus
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py diagnostic_msgs /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv diagnostic_msgs/DiagnosticStatus:diagnostic_msgs/KeyValue
 
 _diagnostic_msgs_generate_messages_check_deps_SelfTest: CMakeFiles/_diagnostic_msgs_generate_messages_check_deps_SelfTest
 _diagnostic_msgs_generate_messages_check_deps_SelfTest: CMakeFiles/_diagnostic_msgs_generate_messages_check_deps_SelfTest.dir/build.make

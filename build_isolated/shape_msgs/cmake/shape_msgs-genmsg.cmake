@@ -19,7 +19,7 @@ add_custom_target(shape_msgs_generate_messages ALL)
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg" NAME_WE)
 add_custom_target(_shape_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shape_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg" "geometry_msgs/Point:shape_msgs/MeshTriangle"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "shape_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg" "shape_msgs/MeshTriangle:geometry_msgs/Point"
 )
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg" NAME_WE)
@@ -46,7 +46,7 @@ add_custom_target(_shape_msgs_generate_messages_check_deps_${_filename}
 _generate_msg_cpp(shape_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg;/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/shape_msgs
 )
 _generate_msg_cpp(shape_msgs
@@ -103,7 +103,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shape_msgs_generate_messages_cpp)
 _generate_msg_eus(shape_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg;/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/shape_msgs
 )
 _generate_msg_eus(shape_msgs
@@ -160,7 +160,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shape_msgs_generate_messages_eus)
 _generate_msg_lisp(shape_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg;/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/shape_msgs
 )
 _generate_msg_lisp(shape_msgs
@@ -217,7 +217,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shape_msgs_generate_messages_lisp)
 _generate_msg_nodejs(shape_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg;/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/shape_msgs
 )
 _generate_msg_nodejs(shape_msgs
@@ -274,7 +274,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS shape_msgs_generate_messages_nodejs
 _generate_msg_py(shape_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg;/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/shape_msgs
 )
 _generate_msg_py(shape_msgs

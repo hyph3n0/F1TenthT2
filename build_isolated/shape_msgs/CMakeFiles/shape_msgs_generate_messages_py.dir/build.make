@@ -74,8 +74,8 @@ CMakeFiles/shape_msgs_generate_messages_py: /home/f1tenthteam2/pleasework/devel_
 
 /home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg/_Mesh.py: /home/f1tenthteam2/pleasework/src/genpy/scripts/genmsg_py.py
 /home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg/_Mesh.py: /home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg
-/home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg/_Mesh.py: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg/_Mesh.py: /home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/MeshTriangle.msg
+/home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg/_Mesh.py: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/shape_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG shape_msgs/Mesh"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genpy/scripts/genmsg_py.py /home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg/Mesh.msg -Ishape_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/shape_msgs/msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p shape_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/shape_msgs/lib/python3/dist-packages/shape_msgs/msg
 

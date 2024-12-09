@@ -1,0 +1,8 @@
+prefix=/home/f1tenthteam2/pleasework/devel_isolated/timestamp_tools
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.9
+Cflags: -I/home/f1tenthteam2/pleasework/src/driver_common/timestamp_tools/include
+Libs: -L${prefix}/lib 
+Requires: roslib roscpp roscpp

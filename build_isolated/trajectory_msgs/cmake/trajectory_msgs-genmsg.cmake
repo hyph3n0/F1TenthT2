@@ -29,12 +29,12 @@ add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" NAME_WE)
 add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" "trajectory_msgs/MultiDOFJointTrajectoryPoint:geometry_msgs/Transform:geometry_msgs/Vector3:std_msgs/Header:geometry_msgs/Twist:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" "trajectory_msgs/MultiDOFJointTrajectoryPoint:geometry_msgs/Quaternion:geometry_msgs/Transform:std_msgs/Header:geometry_msgs/Twist:geometry_msgs/Vector3"
 )
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg" NAME_WE)
 add_custom_target(_trajectory_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg" "geometry_msgs/Vector3:geometry_msgs/Twist:geometry_msgs/Transform:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trajectory_msgs" "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg" "geometry_msgs/Transform:geometry_msgs/Quaternion:geometry_msgs/Twist:geometry_msgs/Vector3"
 )
 
 #
@@ -58,13 +58,13 @@ _generate_msg_cpp(trajectory_msgs
 _generate_msg_cpp(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_cpp(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/trajectory_msgs
 )
 
@@ -115,13 +115,13 @@ _generate_msg_eus(trajectory_msgs
 _generate_msg_eus(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_eus(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/trajectory_msgs
 )
 
@@ -172,13 +172,13 @@ _generate_msg_lisp(trajectory_msgs
 _generate_msg_lisp(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_lisp(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/trajectory_msgs
 )
 
@@ -229,13 +229,13 @@ _generate_msg_nodejs(trajectory_msgs
 _generate_msg_nodejs(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_nodejs(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/trajectory_msgs
 )
 
@@ -286,13 +286,13 @@ _generate_msg_py(trajectory_msgs
 _generate_msg_py(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectory.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/trajectory_msgs
 )
 _generate_msg_py(trajectory_msgs
   "/home/f1tenthteam2/pleasework/src/common_msgs/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg"
+  "/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg;/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/trajectory_msgs
 )
 

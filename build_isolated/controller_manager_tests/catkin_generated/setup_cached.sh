@@ -7,9 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_tests:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_tests/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_tests/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_tests/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_tests/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/ros_control/controller_manager_tests:$ROS_PACKAGE_PATH"

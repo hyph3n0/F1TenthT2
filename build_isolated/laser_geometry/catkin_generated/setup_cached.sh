@@ -7,9 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PYTHONPATH="/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/laser_geometry/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/laser_geometry:$ROS_PACKAGE_PATH"

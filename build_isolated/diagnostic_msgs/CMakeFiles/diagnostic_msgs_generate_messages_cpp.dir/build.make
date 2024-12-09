@@ -82,8 +82,8 @@ CMakeFiles/diagnostic_msgs_generate_messages_cpp: /home/f1tenthteam2/pleasework/
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
-/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/DiagnosticArray.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from diagnostic_msgs/DiagnosticArray.msg"
 	cd /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs && /home/f1tenthteam2/pleasework/build_isolated/diagnostic_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticArray.msg -Idiagnostic_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p diagnostic_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs -e /home/f1tenthteam2/pleasework/src/gencpp/scripts
@@ -103,8 +103,8 @@ CMakeFiles/diagnostic_msgs_generate_messages_cpp: /home/f1tenthteam2/pleasework/
 
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/gen_cpp.py
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/srv/SelfTest.srv
-/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/DiagnosticStatus.msg
+/home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/common_msgs/diagnostic_msgs/msg/KeyValue.msg
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/msg.h.template
 /home/f1tenthteam2/pleasework/devel_isolated/diagnostic_msgs/include/diagnostic_msgs/SelfTest.h: /home/f1tenthteam2/pleasework/src/gencpp/scripts/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/diagnostic_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from diagnostic_msgs/SelfTest.srv"

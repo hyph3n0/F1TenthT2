@@ -104,25 +104,25 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Accel.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from geometry_msgs/AccelStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovariance.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Accel.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from geometry_msgs/AccelWithCovariance.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovariance.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovarianceStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovariance.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Accel.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from geometry_msgs/AccelWithCovarianceStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/AccelWithCovarianceStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -135,8 +135,8 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/InertiaStamped.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Inertia.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from geometry_msgs/InertiaStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/InertiaStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -166,15 +166,15 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PolygonStamped.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Polygon.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point32.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point32.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from geometry_msgs/PolygonStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PolygonStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating Lisp code from geometry_msgs/Pose.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -185,36 +185,36 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseArray.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating Lisp code from geometry_msgs/PoseArray.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseArray.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating Lisp code from geometry_msgs/PoseStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseWithCovariance.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating Lisp code from geometry_msgs/PoseWithCovariance.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseWithCovariance.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseWithCovarianceStamped.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Pose.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Point.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseWithCovariance.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating Lisp code from geometry_msgs/PoseWithCovarianceStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/PoseWithCovarianceStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
@@ -240,10 +240,10 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TransformStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Quaternion.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Transform.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating Lisp code from geometry_msgs/TransformStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TransformStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -256,8 +256,8 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistStamped.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating Lisp code from geometry_msgs/TwistStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -270,10 +270,10 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistWithCovarianceStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistWithCovariance.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Twist.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistWithCovariance.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating Lisp code from geometry_msgs/TwistWithCovarianceStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/TwistWithCovarianceStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -284,8 +284,8 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3Stamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating Lisp code from geometry_msgs/Vector3Stamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3Stamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 
@@ -297,9 +297,9 @@ CMakeFiles/geometry_msgs_generate_messages_lisp: /home/f1tenthteam2/pleasework/d
 
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/WrenchStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Wrench.msg
 /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp: /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/Vector3.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/geometry_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating Lisp code from geometry_msgs/WrenchStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genlisp/scripts/gen_lisp.py /home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg/WrenchStamped.msg -Igeometry_msgs:/home/f1tenthteam2/pleasework/src/common_msgs/geometry_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p geometry_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/geometry_msgs/share/common-lisp/ros/geometry_msgs/msg
 

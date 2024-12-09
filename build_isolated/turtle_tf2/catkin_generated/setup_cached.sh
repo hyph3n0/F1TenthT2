@@ -7,8 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/lib/pkgconfig:$PKG_CONFIG_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/f1tenthteam2/pleasework/devel_isolated/turtle_tf2/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/f1tenthteam2/pleasework/src/geometry_tutorials/turtle_tf2:$ROS_PACKAGE_PATH"

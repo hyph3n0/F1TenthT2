@@ -602,3 +602,184 @@ gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMa
 
 Source file was:
 int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b6f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b6f3.dir/build.make CMakeFiles/cmTC_9b6f3.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b6f3.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_9b6f3.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9b6f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b6f3.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_9b6f3.dir/src.cxx.o -o cmTC_9b6f3 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d8ffe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d8ffe.dir/build.make CMakeFiles/cmTC_d8ffe.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8ffe.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_d8ffe.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d8ffe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ffe.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_d8ffe.dir/src.cxx.o -o cmTC_d8ffe 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f0ddf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f0ddf.dir/build.make CMakeFiles/cmTC_f0ddf.dir/build
+gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0ddf.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_f0ddf.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f0ddf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0ddf.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_f0ddf.dir/src.cxx.o -o cmTC_f0ddf 
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86fde/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_86fde.dir/build.make CMakeFiles/cmTC_86fde.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86fde.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_86fde.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86fde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86fde.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_86fde.dir/src.cxx.o -o cmTC_86fde 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8bc3/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_c8bc3.dir/build.make CMakeFiles/cmTC_c8bc3.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c8bc3.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_c8bc3.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c8bc3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8bc3.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_c8bc3.dir/src.cxx.o -o cmTC_c8bc3 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bfb6b/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_bfb6b.dir/build.make CMakeFiles/cmTC_bfb6b.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfb6b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_bfb6b.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bfb6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfb6b.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_bfb6b.dir/src.cxx.o -o cmTC_bfb6b 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c3ad/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_6c3ad.dir/build.make CMakeFiles/cmTC_6c3ad.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6c3ad.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_6c3ad.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6c3ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c3ad.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_6c3ad.dir/src.cxx.o -o cmTC_6c3ad 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46039/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_46039.dir/build.make CMakeFiles/cmTC_46039.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46039.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_46039.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46039.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_46039.dir/src.cxx.o -o cmTC_46039 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1a27/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_a1a27.dir/build.make CMakeFiles/cmTC_a1a27.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a1a27.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_a1a27.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a1a27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1a27.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_a1a27.dir/src.cxx.o -o cmTC_a1a27 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3933e/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_3933e.dir/build.make CMakeFiles/cmTC_3933e.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3933e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_3933e.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3933e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3933e.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_3933e.dir/src.cxx.o -o cmTC_3933e 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX17 succeeded with the following output:
+Change Dir: /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19e7e/fast && gmake[1]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_19e7e.dir/build.make CMakeFiles/cmTC_19e7e.dir/build
+gmake[2]: Entering directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19e7e.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX17  -std=c++17 -o CMakeFiles/cmTC_19e7e.dir/src.cxx.o -c /home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_19e7e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19e7e.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_19e7e.dir/src.cxx.o -o cmTC_19e7e 
+gmake[2]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/f1tenthteam2/pleasework/build_isolated/tf/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
