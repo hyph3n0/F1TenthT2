@@ -28,12 +28,12 @@ public:
 
         // Get topic names from the params.yaml file
         // Using a separate file for defining parameters is useful for keeping all our parameter definitions in one place 
-        std::string drive_topic, key_topic;
-        n.getParam("drive_topic", drive_topic); // It's called mux_topic because the f1tenth simulator uses a mux to toggle between manual and autonomous control
+        std::string ackermann_cmd_topic, key_topic;
+        n.getParam("drive_topic", ackermann_cmd_topic); // It's called mux_topic because the f1tenth simulator uses a mux to toggle between manual and autonomous control
         n.getParam("keyboard_topic", key_topic);
 
         // Set up the publisher. This is where you specify the topic of the publisher. The message format corresponds to the drive command format.
-        drive_cmd_pub = n.advertise<ackermann_msgs::AckermannDriveStamped>(drive_topic, 10);
+        drive_cmd_pub = n.advertise<ackermann_msgs::AckermannDriveStamped>(ackermann_cmd_topic, 10);
 
         // Set up the subscriber. This is where you specify the topic the subscriber listens to.
         // This is also where you specify the name of the function that will run every time a message is received on the subscribed topic. Here it is called key_callback, which is a naming convention.
@@ -48,26 +48,20 @@ public:
         
         // example
          if (msg.data == "w") {
-            desired_velocity += 0.1;
-         }
-         if(msg.data == "s"){
             desired_velocity -= 0.1;
          }
-         if(msg.data == "a"){
-            desired_steer -= 0.1;
+         if(msg.data == "s"){
+            desired_velocity += 0.1;
          }
-         if(msg.data == "d"){
-            desired_steer += 0.1;
+         if(msg.data == "a" && desired_steer < 0.5){
+            desired_steer += 0.01;
+         }
+         if(msg.data == "d" && desired_steer > -0.5){
+            desired_steer -= 0.01;
          }
          if(msg.data ==" "){
-            if(desired_velocity > 0){
-                desired_velocity -= 0.1;
-            }
-            if(desired_velocity < 0){
-                desired_velocity +=0.1;
-
-            }
-
+                desired_velocity = 0.0;
+                desired_steer = 0.0;
          }
          
 

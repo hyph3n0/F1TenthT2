@@ -76,8 +76,8 @@ CMakeFiles/ackermann_msgs_generate_messages_nodejs: /home/f1tenthteam2/pleasewor
 
 /home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js: /home/f1tenthteam2/pleasework/src/gennodejs/scripts/gen_nodejs.py
 /home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js: /home/f1tenthteam2/pleasework/src/ackermann_msgs/msg/AckermannDriveStamped.msg
-/home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js: /home/f1tenthteam2/pleasework/src/ackermann_msgs/msg/AckermannDrive.msg
 /home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js: /home/f1tenthteam2/pleasework/src/std_msgs/msg/Header.msg
+/home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js: /home/f1tenthteam2/pleasework/src/ackermann_msgs/msg/AckermannDrive.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/ackermann_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ackermann_msgs/AckermannDriveStamped.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/gennodejs/scripts/gen_nodejs.py /home/f1tenthteam2/pleasework/src/ackermann_msgs/msg/AckermannDriveStamped.msg -Iackermann_msgs:/home/f1tenthteam2/pleasework/src/ackermann_msgs/msg -Istd_msgs:/home/f1tenthteam2/pleasework/src/std_msgs/msg -p ackermann_msgs -o /home/f1tenthteam2/pleasework/devel_isolated/ackermann_msgs/share/gennodejs/ros/ackermann_msgs/msg
 

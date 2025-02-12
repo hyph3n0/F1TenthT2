@@ -67,7 +67,7 @@ include CMakeFiles/_wiimote_generate_messages_check_deps_State.dir/compiler_depe
 include CMakeFiles/_wiimote_generate_messages_check_deps_State.dir/progress.make
 
 CMakeFiles/_wiimote_generate_messages_check_deps_State:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py wiimote /home/f1tenthteam2/pleasework/src/joystick_drivers/wiimote/msg/State.msg geometry_msgs/Vector3:wiimote/IrSourceInfo:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py wiimote /home/f1tenthteam2/pleasework/src/joystick_drivers/wiimote/msg/State.msg std_msgs/Header:wiimote/IrSourceInfo:geometry_msgs/Vector3
 
 _wiimote_generate_messages_check_deps_State: CMakeFiles/_wiimote_generate_messages_check_deps_State
 _wiimote_generate_messages_check_deps_State: CMakeFiles/_wiimote_generate_messages_check_deps_State.dir/build.make

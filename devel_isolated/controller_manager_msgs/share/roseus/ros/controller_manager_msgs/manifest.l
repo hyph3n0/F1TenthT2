@@ -5,7 +5,5 @@
 ;;  FROM /home/f1tenthteam2/pleasework/src/ros_control/controller_manager_msgs/./package.xml (0.20.0)
 ;; USING /home/f1tenthteam2/pleasework/src/geneus/src/geneus/geneus_main.py /home/f1tenthteam2/pleasework/src/geneus/./package.xml (3.0.0)
 ;;
-(ros::load-ros-package "roscpp")
-(ros::load-ros-package "rosgraph_msgs")
 (ros::load-ros-package "std_msgs")
 (ros::load-ros-package "controller_manager_msgs")

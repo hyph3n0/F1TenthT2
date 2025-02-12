@@ -355,29 +355,8 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
-//The directory containing a CMake configuration file for angles.
-angles_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/angles/share/angles/cmake
-
-//The directory containing a CMake configuration file for bond.
-bond_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/bond/share/bond/cmake
-
-//The directory containing a CMake configuration file for bondcpp.
-bondcpp_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/share/bondcpp/cmake
-
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/catkin/share/catkin/cmake
-
-//The directory containing a CMake configuration file for class_loader.
-class_loader_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/class_loader/share/class_loader/cmake
-
-//The directory containing a CMake configuration file for controller_interface.
-controller_interface_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/controller_interface/share/controller_interface/cmake
-
-//The directory containing a CMake configuration file for controller_manager.
-controller_manager_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/controller_manager/share/controller_manager/cmake
-
-//The directory containing a CMake configuration file for controller_manager_msgs.
-controller_manager_msgs_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/controller_manager_msgs/share/controller_manager_msgs/cmake
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/share/cpp_common/cmake
@@ -455,14 +434,8 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
 
-//The directory containing a CMake configuration file for hardware_interface.
-hardware_interface_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/hardware_interface/share/hardware_interface/cmake
-
-//The directory containing a CMake configuration file for joint_limits_interface.
-joint_limits_interface_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/joint_limits_interface/share/joint_limits_interface/cmake
-
 //Path to a library.
-lib:FILEPATH=/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib/libbondcpp.so
+lib:FILEPATH=/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/message_runtime/share/message_runtime/cmake
@@ -476,17 +449,8 @@ my_robot_controller_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 my_robot_controller_SOURCE_DIR:STATIC=/home/f1tenthteam2/pleasework/src/my_robot_controller
 
-//The directory containing a CMake configuration file for nodelet.
-nodelet_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/nodelet/share/nodelet/cmake
-
-//The directory containing a CMake configuration file for pluginlib.
-pluginlib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/pluginlib/share/pluginlib/cmake
-
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/share/rosconsole/cmake
-
-//The directory containing a CMake configuration file for rosconsole_bridge.
-rosconsole_bridge_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosconsole_bridge/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/roscpp/share/roscpp/cmake
@@ -500,38 +464,17 @@ roscpp_traits_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/roscpp_trait
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rosgraph_msgs/share/rosgraph_msgs/cmake
 
-//The directory containing a CMake configuration file for roslib.
-roslib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/roslib/share/roslib/cmake
-
-//The directory containing a CMake configuration file for rospack.
-rospack_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rospack/share/rospack/cmake
-
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rospy/share/rospy/cmake
 
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/rostime/share/rostime/cmake
 
-//The directory containing a CMake configuration file for serial.
-serial_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/serial/share/serial/cmake
-
-//The directory containing a CMake configuration file for smclib.
-smclib_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/smclib/share/smclib/cmake
-
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/std_msgs/share/std_msgs/cmake
 
-//The directory containing a CMake configuration file for urdf.
-urdf_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/urdf/share/urdf/cmake
-
-//The directory containing a CMake configuration file for vesc_driver.
-vesc_driver_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/share/vesc_driver/cmake
-
 //The directory containing a CMake configuration file for vesc_hw_interface.
-vesc_hw_interface_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/vesc_hw_interface/share/vesc_hw_interface/cmake
-
-//The directory containing a CMake configuration file for vesc_msgs.
-vesc_msgs_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/vesc_msgs/share/vesc_msgs/cmake
+vesc_hw_interface_DIR:PATH=vesc_hw_interface_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/share/xmlrpcpp/cmake

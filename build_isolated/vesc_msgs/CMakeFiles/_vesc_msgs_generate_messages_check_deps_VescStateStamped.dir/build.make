@@ -67,7 +67,7 @@ include CMakeFiles/_vesc_msgs_generate_messages_check_deps_VescStateStamped.dir/
 include CMakeFiles/_vesc_msgs_generate_messages_check_deps_VescStateStamped.dir/progress.make
 
 CMakeFiles/_vesc_msgs_generate_messages_check_deps_VescStateStamped:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py vesc_msgs /home/f1tenthteam2/pleasework/src/vesc/vesc_msgs/msg/VescStateStamped.msg vesc_msgs/VescState:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py vesc_msgs /home/f1tenthteam2/pleasework/src/vesc/vesc_msgs/msg/VescStateStamped.msg std_msgs/Header:vesc_msgs/VescState
 
 _vesc_msgs_generate_messages_check_deps_VescStateStamped: CMakeFiles/_vesc_msgs_generate_messages_check_deps_VescStateStamped
 _vesc_msgs_generate_messages_check_deps_VescStateStamped: CMakeFiles/_vesc_msgs_generate_messages_check_deps_VescStateStamped.dir/build.make

@@ -149,25 +149,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/vesc_driver/vesc_driver_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/vesc_driver/vesc_driver_node")
     file(RPATH_CHECK
@@ -179,7 +160,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/vesc_driver/vesc_driver_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/vesc_driver/vesc_driver_node"
-         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib:/home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib:/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib:/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib:/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:/home/f1tenthteam2/pleasework/devel_isolated/serial/lib:"
+         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib:/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib:/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib:/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/serial/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/vesc_driver/vesc_driver_node")
@@ -199,7 +180,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver_nodelet.so"
-         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib:/home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib:/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib:/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib:/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:/home/f1tenthteam2/pleasework/devel_isolated/serial/lib:"
+         OLD_RPATH "/home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib:/home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/class_loader/lib:/home/f1tenthteam2/pleasework/devel_isolated/roslib/lib:/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/rosconsole/lib:/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib:/home/f1tenthteam2/pleasework/devel_isolated/serial/lib:/home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib:/home/f1tenthteam2/pleasework/devel_isolated/rostime/lib:/home/f1tenthteam2/pleasework/devel_isolated/cpp_common/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libvesc_driver_nodelet.so")
@@ -211,7 +192,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/vesc_driver" TYPE DIRECTORY FILES "/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/vesc_driver" TYPE DIRECTORY FILES "/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -219,7 +200,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vesc_driver/launch" TYPE DIRECTORY FILES "/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vesc_driver/launch" TYPE DIRECTORY FILES "/home/f1tenthteam2/pleasework/src/vesc/vesc_driver/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -627,19 +627,6 @@ vesc_msgs_generate_messages_py/fast:
 .PHONY : vesc_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named vesc_driver
-
-# Build rule for target.
-vesc_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vesc_driver
-.PHONY : vesc_driver
-
-# fast build rule for target.
-vesc_driver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/build
-.PHONY : vesc_driver/fast
-
-#=============================================================================
 # Target rules for targets named vesc_driver_node
 
 # Build rule for target.
@@ -664,6 +651,123 @@ vesc_driver_nodelet: cmake_check_build_system
 vesc_driver_nodelet/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/build
 .PHONY : vesc_driver_nodelet/fast
+
+#=============================================================================
+# Target rules for targets named roslint
+
+# Build rule for target.
+roslint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 roslint
+.PHONY : roslint
+
+# fast build rule for target.
+roslint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roslint.dir/build.make CMakeFiles/roslint.dir/build
+.PHONY : roslint/fast
+
+#=============================================================================
+# Target rules for targets named roslint_vesc_driver
+
+# Build rule for target.
+roslint_vesc_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 roslint_vesc_driver
+.PHONY : roslint_vesc_driver
+
+# fast build rule for target.
+roslint_vesc_driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/roslint_vesc_driver.dir/build.make CMakeFiles/roslint_vesc_driver.dir/build
+.PHONY : roslint_vesc_driver/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_vesc_driver
+
+# Build rule for target.
+run_tests_vesc_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_vesc_driver
+.PHONY : run_tests_vesc_driver
+
+# fast build rule for target.
+run_tests_vesc_driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_vesc_driver.dir/build.make CMakeFiles/run_tests_vesc_driver.dir/build
+.PHONY : run_tests_vesc_driver/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_vesc_driver
+
+# Build rule for target.
+_run_tests_vesc_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_vesc_driver
+.PHONY : _run_tests_vesc_driver
+
+# fast build rule for target.
+_run_tests_vesc_driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_vesc_driver.dir/build.make CMakeFiles/_run_tests_vesc_driver.dir/build
+.PHONY : _run_tests_vesc_driver/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_vesc_driver_roslint
+
+# Build rule for target.
+run_tests_vesc_driver_roslint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_vesc_driver_roslint
+.PHONY : run_tests_vesc_driver_roslint
+
+# fast build rule for target.
+run_tests_vesc_driver_roslint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_vesc_driver_roslint.dir/build.make CMakeFiles/run_tests_vesc_driver_roslint.dir/build
+.PHONY : run_tests_vesc_driver_roslint/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_vesc_driver_roslint
+
+# Build rule for target.
+_run_tests_vesc_driver_roslint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_vesc_driver_roslint
+.PHONY : _run_tests_vesc_driver_roslint
+
+# fast build rule for target.
+_run_tests_vesc_driver_roslint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_vesc_driver_roslint.dir/build.make CMakeFiles/_run_tests_vesc_driver_roslint.dir/build
+.PHONY : _run_tests_vesc_driver_roslint/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_vesc_driver_roslint_package
+
+# Build rule for target.
+run_tests_vesc_driver_roslint_package: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests_vesc_driver_roslint_package
+.PHONY : run_tests_vesc_driver_roslint_package
+
+# fast build rule for target.
+run_tests_vesc_driver_roslint_package/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests_vesc_driver_roslint_package.dir/build.make CMakeFiles/run_tests_vesc_driver_roslint_package.dir/build
+.PHONY : run_tests_vesc_driver_roslint_package/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_vesc_driver_roslint_package
+
+# Build rule for target.
+_run_tests_vesc_driver_roslint_package: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _run_tests_vesc_driver_roslint_package
+.PHONY : _run_tests_vesc_driver_roslint_package
+
+# fast build rule for target.
+_run_tests_vesc_driver_roslint_package/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_vesc_driver_roslint_package.dir/build.make CMakeFiles/_run_tests_vesc_driver_roslint_package.dir/build
+.PHONY : _run_tests_vesc_driver_roslint_package/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_vesc_driver
+
+# Build rule for target.
+clean_test_results_vesc_driver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean_test_results_vesc_driver
+.PHONY : clean_test_results_vesc_driver
+
+# fast build rule for target.
+clean_test_results_vesc_driver/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_test_results_vesc_driver.dir/build.make CMakeFiles/clean_test_results_vesc_driver.dir/build
+.PHONY : clean_test_results_vesc_driver/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -722,7 +826,8 @@ src/vesc_driver.o: src/vesc_driver.cpp.o
 
 # target to build an object file
 src/vesc_driver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_driver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o
 .PHONY : src/vesc_driver.cpp.o
 
 src/vesc_driver.i: src/vesc_driver.cpp.i
@@ -730,7 +835,8 @@ src/vesc_driver.i: src/vesc_driver.cpp.i
 
 # target to preprocess a source file
 src/vesc_driver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_driver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i
 .PHONY : src/vesc_driver.cpp.i
 
 src/vesc_driver.s: src/vesc_driver.cpp.s
@@ -738,7 +844,8 @@ src/vesc_driver.s: src/vesc_driver.cpp.s
 
 # target to generate assembly for a file
 src/vesc_driver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_driver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s
 .PHONY : src/vesc_driver.cpp.s
 
 src/vesc_driver_node.o: src/vesc_driver_node.cpp.o
@@ -794,7 +901,8 @@ src/vesc_interface.o: src/vesc_interface.cpp.o
 
 # target to build an object file
 src/vesc_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_interface.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o
 .PHONY : src/vesc_interface.cpp.o
 
 src/vesc_interface.i: src/vesc_interface.cpp.i
@@ -802,7 +910,8 @@ src/vesc_interface.i: src/vesc_interface.cpp.i
 
 # target to preprocess a source file
 src/vesc_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_interface.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i
 .PHONY : src/vesc_interface.cpp.i
 
 src/vesc_interface.s: src/vesc_interface.cpp.s
@@ -810,7 +919,8 @@ src/vesc_interface.s: src/vesc_interface.cpp.s
 
 # target to generate assembly for a file
 src/vesc_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_interface.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s
 .PHONY : src/vesc_interface.cpp.s
 
 src/vesc_packet.o: src/vesc_packet.cpp.o
@@ -818,7 +928,8 @@ src/vesc_packet.o: src/vesc_packet.cpp.o
 
 # target to build an object file
 src/vesc_packet.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o
 .PHONY : src/vesc_packet.cpp.o
 
 src/vesc_packet.i: src/vesc_packet.cpp.i
@@ -826,7 +937,8 @@ src/vesc_packet.i: src/vesc_packet.cpp.i
 
 # target to preprocess a source file
 src/vesc_packet.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i
 .PHONY : src/vesc_packet.cpp.i
 
 src/vesc_packet.s: src/vesc_packet.cpp.s
@@ -834,7 +946,8 @@ src/vesc_packet.s: src/vesc_packet.cpp.s
 
 # target to generate assembly for a file
 src/vesc_packet.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s
 .PHONY : src/vesc_packet.cpp.s
 
 src/vesc_packet_factory.o: src/vesc_packet_factory.cpp.o
@@ -842,7 +955,8 @@ src/vesc_packet_factory.o: src/vesc_packet_factory.cpp.o
 
 # target to build an object file
 src/vesc_packet_factory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet_factory.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o
 .PHONY : src/vesc_packet_factory.cpp.o
 
 src/vesc_packet_factory.i: src/vesc_packet_factory.cpp.i
@@ -850,7 +964,8 @@ src/vesc_packet_factory.i: src/vesc_packet_factory.cpp.i
 
 # target to preprocess a source file
 src/vesc_packet_factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet_factory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i
 .PHONY : src/vesc_packet_factory.cpp.i
 
 src/vesc_packet_factory.s: src/vesc_packet_factory.cpp.s
@@ -858,7 +973,8 @@ src/vesc_packet_factory.s: src/vesc_packet_factory.cpp.s
 
 # target to generate assembly for a file
 src/vesc_packet_factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver.dir/build.make CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_node.dir/build.make CMakeFiles/vesc_driver_node.dir/src/vesc_packet_factory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vesc_driver_nodelet.dir/build.make CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s
 .PHONY : src/vesc_packet_factory.cpp.s
 
 # Help Target
@@ -874,12 +990,16 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... _run_tests_vesc_driver"
+	@echo "... _run_tests_vesc_driver_roslint"
+	@echo "... _run_tests_vesc_driver_roslint_package"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_eus"
 	@echo "... bond_generate_messages_lisp"
 	@echo "... bond_generate_messages_nodejs"
 	@echo "... bond_generate_messages_py"
 	@echo "... clean_test_results"
+	@echo "... clean_test_results_vesc_driver"
 	@echo "... download_extra_data"
 	@echo "... doxygen"
 	@echo "... nodelet_generate_messages_cpp"
@@ -897,7 +1017,12 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... roslint"
+	@echo "... roslint_vesc_driver"
 	@echo "... run_tests"
+	@echo "... run_tests_vesc_driver"
+	@echo "... run_tests_vesc_driver_roslint"
+	@echo "... run_tests_vesc_driver_roslint_package"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... std_msgs_generate_messages_lisp"
@@ -913,7 +1038,6 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... vesc_driver"
 	@echo "... vesc_driver_node"
 	@echo "... vesc_driver_nodelet"
 	@echo "... src/vesc_driver.o"

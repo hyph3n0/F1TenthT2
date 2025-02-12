@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "std_msgs;message_runtime".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "vesc_msgs"
 PROJECT_SPACE_DIR = "/home/f1tenthteam2/pleasework/install_isolated"
-PROJECT_VERSION = "1.0.0"
+PROJECT_VERSION = "1.1.0"

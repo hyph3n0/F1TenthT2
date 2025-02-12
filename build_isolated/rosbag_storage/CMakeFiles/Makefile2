@@ -460,8 +460,8 @@ CMakeFiles/rosbag_default_encryption_plugins.dir/clean:
 # Target rules for target CMakeFiles/test_aes_encryptor.dir
 
 # All Build rule for target.
-CMakeFiles/test_aes_encryptor.dir/all: CMakeFiles/rosbag_storage.dir/all
 CMakeFiles/test_aes_encryptor.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/test_aes_encryptor.dir/all: CMakeFiles/rosbag_storage.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aes_encryptor.dir/build.make CMakeFiles/test_aes_encryptor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_aes_encryptor.dir/build.make CMakeFiles/test_aes_encryptor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rosbag_storage/CMakeFiles --progress-num=25,26,27 "Built target test_aes_encryptor"
@@ -697,8 +697,8 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rosbag_storage/CMakeFiles --progress-num=3,4 "Built target gmock_main"

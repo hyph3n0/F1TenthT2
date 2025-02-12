@@ -83,16 +83,79 @@ CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_driver_nodelet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s
 
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/flags.make
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_driver.cpp
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o -MF CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o.d -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o -c /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_driver.cpp
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_driver.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_driver.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/flags.make
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_interface.cpp
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o -MF CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o.d -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o -c /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_interface.cpp
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_interface.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_interface.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/flags.make
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet.cpp
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o -MF CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o.d -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o -c /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet.cpp
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/flags.make
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet_factory.cpp
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: CMakeFiles/vesc_driver_nodelet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o -MF CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o.d -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o -c /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet_factory.cpp
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet_factory.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i
+
+CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/src/vesc_packet_factory.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s
+
 # Object files for target vesc_driver_nodelet
 vesc_driver_nodelet_OBJECTS = \
-"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o"
+"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o" \
+"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o" \
+"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o" \
+"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o" \
+"CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o"
 
 # External object files for target vesc_driver_nodelet
 vesc_driver_nodelet_EXTERNAL_OBJECTS =
 
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/build.make
-/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/nodelet/lib/libnodeletlib.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/bondcpp/lib/libbondcpp.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libuuid.so
@@ -113,6 +176,9 @@ vesc_driver_nodelet_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_regex.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp/lib/libxmlrpcpp.so
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/serial/lib/libserial.so
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/librt.a
+/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpthread.a
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/roscpp_serialization/lib/libroscpp_serialization.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/rostime/lib/librostime.so
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_date_time.so.1.74.0
@@ -120,11 +186,8 @@ vesc_driver_nodelet_EXTERNAL_OBJECTS =
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_system.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.74.0
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
-/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /home/f1tenthteam2/pleasework/devel_isolated/serial/lib/libserial.so
-/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/librt.a
-/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpthread.a
 /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so: CMakeFiles/vesc_driver_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/vesc_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/libvesc_driver_nodelet.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vesc_driver_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1166,6 +1166,8 @@ CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o: \
  /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/topic.h \
  /home/f1tenthteam2/pleasework/src/ros_comm/roscpp/include/ros/node_handle.h \
  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_driver.h \
+ /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include/std_msgs/Float64.h \
+ /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include/ros/message_operations.h \
  /usr/include/boost/optional.hpp /usr/include/boost/optional/optional.hpp \
  /usr/include/boost/core/explicit_operator_bool.hpp \
  /usr/include/boost/optional/bad_optional_access.hpp \
@@ -1189,15 +1191,6 @@ CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o: \
  /usr/include/boost/optional/detail/optional_reference_spec.hpp \
  /usr/include/boost/optional/detail/optional_relops.hpp \
  /usr/include/boost/optional/detail/optional_swap.hpp \
- /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include/std_msgs/Float64.h \
- /home/f1tenthteam2/pleasework/src/roscpp_core/roscpp_traits/include/ros/message_operations.h \
- /home/f1tenthteam2/pleasework/devel_isolated/vesc_msgs/include/vesc_msgs/VescStateStamped.h \
- /home/f1tenthteam2/pleasework/devel_isolated/std_msgs/include/std_msgs/Header.h \
- /home/f1tenthteam2/pleasework/devel_isolated/vesc_msgs/include/vesc_msgs/VescState.h \
  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_interface.h \
- /home/f1tenthteam2/pleasework/src/serial/include/serial/serial.h \
- /home/f1tenthteam2/pleasework/src/serial/include/serial/v8stdint.h \
- /usr/include/boost/crc.hpp \
  /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet.h \
- /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/data_map.h \
- /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/vesc_packet_factory.h
+ /home/f1tenthteam2/pleasework/src/vesc/vesc_driver/include/vesc_driver/crc.h

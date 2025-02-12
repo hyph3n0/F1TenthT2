@@ -67,7 +67,7 @@ include CMakeFiles/_visualization_msgs_generate_messages_check_deps_ImageMarker.
 include CMakeFiles/_visualization_msgs_generate_messages_check_deps_ImageMarker.dir/progress.make
 
 CMakeFiles/_visualization_msgs_generate_messages_check_deps_ImageMarker:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py visualization_msgs /home/f1tenthteam2/pleasework/src/common_msgs/visualization_msgs/msg/ImageMarker.msg geometry_msgs/Point:std_msgs/Header:std_msgs/ColorRGBA
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py visualization_msgs /home/f1tenthteam2/pleasework/src/common_msgs/visualization_msgs/msg/ImageMarker.msg std_msgs/Header:std_msgs/ColorRGBA:geometry_msgs/Point
 
 _visualization_msgs_generate_messages_check_deps_ImageMarker: CMakeFiles/_visualization_msgs_generate_messages_check_deps_ImageMarker
 _visualization_msgs_generate_messages_check_deps_ImageMarker: CMakeFiles/_visualization_msgs_generate_messages_check_deps_ImageMarker.dir/build.make

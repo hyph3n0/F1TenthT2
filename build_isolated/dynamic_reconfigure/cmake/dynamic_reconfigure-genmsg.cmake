@@ -24,7 +24,7 @@ add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg" NAME_WE)
 add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg" "dynamic_reconfigure/IntParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/StrParameter:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/BoolParameter"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg" "dynamic_reconfigure/StrParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/IntParameter:dynamic_reconfigure/BoolParameter"
 )
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg" NAME_WE)
@@ -44,7 +44,7 @@ add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg" NAME_WE)
 add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg" "dynamic_reconfigure/IntParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/ParamDescription:dynamic_reconfigure/StrParameter:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/BoolParameter:dynamic_reconfigure/Group:dynamic_reconfigure/Config"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg" "dynamic_reconfigure/StrParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/ParamDescription:dynamic_reconfigure/Group:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/IntParameter:dynamic_reconfigure/Config:dynamic_reconfigure/BoolParameter"
 )
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg" NAME_WE)
@@ -69,7 +69,7 @@ add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv" NAME_WE)
 add_custom_target(_dynamic_reconfigure_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv" "dynamic_reconfigure/IntParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/StrParameter:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/BoolParameter:dynamic_reconfigure/Config"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "dynamic_reconfigure" "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv" "dynamic_reconfigure/StrParameter:dynamic_reconfigure/GroupState:dynamic_reconfigure/DoubleParameter:dynamic_reconfigure/IntParameter:dynamic_reconfigure/Config:dynamic_reconfigure/BoolParameter"
 )
 
 #
@@ -87,7 +87,7 @@ _generate_msg_cpp(dynamic_reconfigure
 _generate_msg_cpp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_cpp(dynamic_reconfigure
@@ -111,7 +111,7 @@ _generate_msg_cpp(dynamic_reconfigure
 _generate_msg_cpp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_cpp(dynamic_reconfigure
@@ -143,7 +143,7 @@ _generate_msg_cpp(dynamic_reconfigure
 _generate_srv_cpp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/dynamic_reconfigure
 )
 
@@ -200,7 +200,7 @@ _generate_msg_eus(dynamic_reconfigure
 _generate_msg_eus(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_eus(dynamic_reconfigure
@@ -224,7 +224,7 @@ _generate_msg_eus(dynamic_reconfigure
 _generate_msg_eus(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_eus(dynamic_reconfigure
@@ -256,7 +256,7 @@ _generate_msg_eus(dynamic_reconfigure
 _generate_srv_eus(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/dynamic_reconfigure
 )
 
@@ -313,7 +313,7 @@ _generate_msg_lisp(dynamic_reconfigure
 _generate_msg_lisp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_lisp(dynamic_reconfigure
@@ -337,7 +337,7 @@ _generate_msg_lisp(dynamic_reconfigure
 _generate_msg_lisp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_lisp(dynamic_reconfigure
@@ -369,7 +369,7 @@ _generate_msg_lisp(dynamic_reconfigure
 _generate_srv_lisp(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/dynamic_reconfigure
 )
 
@@ -426,7 +426,7 @@ _generate_msg_nodejs(dynamic_reconfigure
 _generate_msg_nodejs(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_nodejs(dynamic_reconfigure
@@ -450,7 +450,7 @@ _generate_msg_nodejs(dynamic_reconfigure
 _generate_msg_nodejs(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_nodejs(dynamic_reconfigure
@@ -482,7 +482,7 @@ _generate_msg_nodejs(dynamic_reconfigure
 _generate_srv_nodejs(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/dynamic_reconfigure
 )
 
@@ -539,7 +539,7 @@ _generate_msg_py(dynamic_reconfigure
 _generate_msg_py(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_py(dynamic_reconfigure
@@ -563,7 +563,7 @@ _generate_msg_py(dynamic_reconfigure
 _generate_msg_py(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ConfigDescription.msg"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/ParamDescription.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Group.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_reconfigure
 )
 _generate_msg_py(dynamic_reconfigure
@@ -595,7 +595,7 @@ _generate_msg_py(dynamic_reconfigure
 _generate_srv_py(dynamic_reconfigure
   "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/srv/Reconfigure.srv"
   "${MSG_I_FLAGS}"
-  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg"
+  "/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/StrParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/GroupState.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/DoubleParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/IntParameter.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/Config.msg;/home/f1tenthteam2/pleasework/src/dynamic_reconfigure/msg/BoolParameter.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/dynamic_reconfigure
 )
 

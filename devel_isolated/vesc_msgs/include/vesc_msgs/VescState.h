@@ -279,7 +279,7 @@ struct Definition< ::vesc_msgs::VescState_<ContainerAllocator> >
 "float64 temperature_pcb      # temperature of printed circuit board (degrees Celsius)\n"
 "float64 current_motor        # motor current (ampere)\n"
 "float64 current_input        # input current (ampere)\n"
-"float64 speed                # motor velocity (rad/s)\n"
+"float64 speed                # motor electrical speed (revolutions per minute) \n"
 "float64 duty_cycle           # duty cycle (0 to 1)\n"
 "float64 charge_drawn         # electric charge drawn from input (ampere-hour)\n"
 "float64 charge_regen         # electric charge regenerated to input (ampere-hour)\n"

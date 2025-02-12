@@ -530,9 +530,9 @@ gtest/googletest/CMakeFiles/gtest_main.dir/clean:
 # Target rules for target test/CMakeFiles/rospack-utest.dir
 
 # All Build rule for target.
+test/CMakeFiles/rospack-utest.dir/all: CMakeFiles/rospack.dir/all
 test/CMakeFiles/rospack-utest.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/rospack-utest.dir/all: test/CMakeFiles/rospack-prepare_test.dir/all
-test/CMakeFiles/rospack-utest.dir/all: CMakeFiles/rospack.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rospack-utest.dir/build.make test/CMakeFiles/rospack-utest.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rospack-utest.dir/build.make test/CMakeFiles/rospack-utest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rospack/CMakeFiles --progress-num=14,15 "Built target rospack-utest"

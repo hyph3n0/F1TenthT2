@@ -830,9 +830,9 @@ CMakeFiles/run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir
 
 # All Build rule for target.
+CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/all: CMakeFiles/clean_test_results_timestamp_tools.dir/all
 CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/all: CMakeFiles/test_trigger_matcher.dir/all
-CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/all: CMakeFiles/clean_test_results_timestamp_tools.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/build.make CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/build.make CMakeFiles/_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/timestamp_tools/CMakeFiles --progress-num= "Built target _run_tests_timestamp_tools_gtest_test_trigger_matcher"
@@ -910,8 +910,8 @@ gtest/googlemock/CMakeFiles/gmock.dir/clean:
 # Target rules for target gtest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googlemock/CMakeFiles/gmock.dir/all
+gtest/googlemock/CMakeFiles/gmock_main.dir/all: gtest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/timestamp_tools/CMakeFiles --progress-num=3,4 "Built target gmock_main"

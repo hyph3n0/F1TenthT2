@@ -67,7 +67,7 @@ include CMakeFiles/_control_msgs_generate_messages_check_deps_PointHeadGoal.dir/
 include CMakeFiles/_control_msgs_generate_messages_check_deps_PointHeadGoal.dir/progress.make
 
 CMakeFiles/_control_msgs_generate_messages_check_deps_PointHeadGoal:
-	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py control_msgs /home/f1tenthteam2/pleasework/devel_isolated/control_msgs/share/control_msgs/msg/PointHeadGoal.msg geometry_msgs/Point:geometry_msgs/PointStamped:geometry_msgs/Vector3:std_msgs/Header
+	catkin_generated/env_cached.sh /usr/bin/python3 /home/f1tenthteam2/pleasework/src/genmsg/scripts/genmsg_check_deps.py control_msgs /home/f1tenthteam2/pleasework/devel_isolated/control_msgs/share/control_msgs/msg/PointHeadGoal.msg std_msgs/Header:geometry_msgs/Vector3:geometry_msgs/PointStamped:geometry_msgs/Point
 
 _control_msgs_generate_messages_check_deps_PointHeadGoal: CMakeFiles/_control_msgs_generate_messages_check_deps_PointHeadGoal
 _control_msgs_generate_messages_check_deps_PointHeadGoal: CMakeFiles/_control_msgs_generate_messages_check_deps_PointHeadGoal.dir/build.make

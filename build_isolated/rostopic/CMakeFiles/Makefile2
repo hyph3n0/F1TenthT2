@@ -425,8 +425,8 @@ CMakeFiles/run_tests_rostopic_rostest_test_rostopic.test.dir/clean:
 # Target rules for target CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir
 
 # All Build rule for target.
-CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/all: CMakeFiles/tests.dir/all
 CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/all: CMakeFiles/clean_test_results_rostopic.dir/all
+CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/all: CMakeFiles/tests.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/build.make CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/build.make CMakeFiles/_run_tests_rostopic_rostest_test_rostopic.test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/f1tenthteam2/pleasework/build_isolated/rostopic/CMakeFiles --progress-num= "Built target _run_tests_rostopic_rostest_test_rostopic.test"

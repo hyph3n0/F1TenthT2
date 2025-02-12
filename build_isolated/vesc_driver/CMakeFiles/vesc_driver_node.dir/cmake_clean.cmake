@@ -1,8 +1,16 @@
 file(REMOVE_RECURSE
   "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/vesc_driver/vesc_driver_node"
   "/home/f1tenthteam2/pleasework/devel_isolated/vesc_driver/lib/vesc_driver/vesc_driver_node.pdb"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_driver.cpp.o"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_driver.cpp.o.d"
   "CMakeFiles/vesc_driver_node.dir/src/vesc_driver_node.cpp.o"
   "CMakeFiles/vesc_driver_node.dir/src/vesc_driver_node.cpp.o.d"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_interface.cpp.o"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_interface.cpp.o.d"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_packet.cpp.o"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_packet.cpp.o.d"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_packet_factory.cpp.o"
+  "CMakeFiles/vesc_driver_node.dir/src/vesc_packet_factory.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
