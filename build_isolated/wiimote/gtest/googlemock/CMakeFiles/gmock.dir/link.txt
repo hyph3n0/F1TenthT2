@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -fPIE -fPIC -O2 -D_FORTIFY_SOURCE=2 -fstack-protector -Wformat -Wformat-security -Wall  -z noexecstack -z relro -z now  -shared -Wl,-soname,libgmock.so.1.11.0 -o ../lib/libgmock.so.1.11.0 CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/f1tenthteam2/pleasework/build_isolated/wiimote/gtest/lib ../lib/libgtest.so.1.11.0 

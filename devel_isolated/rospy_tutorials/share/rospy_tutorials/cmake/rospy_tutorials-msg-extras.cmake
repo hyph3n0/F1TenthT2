@@ -1,2 +1,0 @@
-set(rospy_tutorials_MESSAGE_FILES "/home/f1tenthteam2/pleasework/src/ros_tutorials/rospy_tutorials/msg/Floats.msg;/home/f1tenthteam2/pleasework/src/ros_tutorials/rospy_tutorials/msg/HeaderString.msg")
-set(rospy_tutorials_SERVICE_FILES "/home/f1tenthteam2/pleasework/src/ros_tutorials/rospy_tutorials/srv/AddTwoInts.srv;/home/f1tenthteam2/pleasework/src/ros_tutorials/rospy_tutorials/srv/BadTwoInts.srv")

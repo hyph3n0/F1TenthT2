@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_logger_level
-
-Name: rqt_logger_level
-Description: Description of rqt_logger_level
-Version: 0.4.12
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

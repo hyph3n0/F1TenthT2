@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: kdl_parser
-Description: Description of kdl_parser
-Version: 1.14.2
-Cflags: -I${prefix}/include -I/usr/local/include -I/usr/include/eigen3 -I/usr/include
-Libs: -L${prefix}/lib -lkdl_parser /usr/local/lib/liborocos-kdl.so.1.5.1 /usr/lib/aarch64-linux-gnu/libtinyxml.so /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-Requires: rosconsole urdf

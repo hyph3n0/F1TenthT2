@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: python_qt_binding
-Description: Description of python_qt_binding
-Version: 0.4.4
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/xmlrpcpp
-
-Name: xmlrpcpp
-Description: Description of xmlrpcpp
-Version: 1.17.0
-Cflags: -I/home/f1tenthteam2/pleasework/src/ros_comm/xmlrpcpp/include
-Libs: -L${prefix}/lib -lxmlrpcpp
-Requires: cpp_common rostime

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: controller_manager_tests
-Description: Description of controller_manager_tests
-Version: 0.20.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

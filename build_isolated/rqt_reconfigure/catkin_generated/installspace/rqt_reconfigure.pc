@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: rqt_reconfigure
-Description: Description of rqt_reconfigure
-Version: 0.5.5
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

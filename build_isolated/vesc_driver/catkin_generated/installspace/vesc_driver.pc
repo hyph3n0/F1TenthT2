@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: vesc_driver
-Description: Description of vesc_driver
-Version: 1.1.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: nodelet pluginlib std_msgs vesc_msgs serial

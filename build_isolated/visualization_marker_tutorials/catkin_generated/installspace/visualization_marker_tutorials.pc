@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/install_isolated
-
-Name: visualization_marker_tutorials
-Description: Description of visualization_marker_tutorials
-Version: 0.11.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp visualization_msgs

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rosparam
-
-Name: rosparam
-Description: Description of rosparam
-Version: 1.17.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

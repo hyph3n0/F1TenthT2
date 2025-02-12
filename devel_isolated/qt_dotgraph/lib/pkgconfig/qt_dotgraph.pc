@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/qt_dotgraph
-
-Name: qt_dotgraph
-Description: Description of qt_dotgraph
-Version: 0.4.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

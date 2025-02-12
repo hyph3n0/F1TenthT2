@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/f1tenthteam2/pleasework/src/rospack/test
-# Build directory: /home/f1tenthteam2/pleasework/build_isolated/rospack/test
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-add_test(_ctest_rospack_gtest_rospack-utest "/home/f1tenthteam2/pleasework/build_isolated/rospack/catkin_generated/env_cached.sh" "/usr/bin/python3" "/home/f1tenthteam2/pleasework/src/catkin/cmake/test/run_tests.py" "/home/f1tenthteam2/pleasework/build_isolated/rospack/test_results/rospack/gtest-rospack-utest.xml" "--working-dir" "/home/f1tenthteam2/pleasework/build_isolated/rospack/test" "--return-code" "/home/f1tenthteam2/pleasework/devel_isolated/rospack/lib/rospack/rospack-utest --gtest_output=xml:/home/f1tenthteam2/pleasework/build_isolated/rospack/test_results/rospack/gtest-rospack-utest.xml")
-set_tests_properties(_ctest_rospack_gtest_rospack-utest PROPERTIES  _BACKTRACE_TRIPLES "/home/f1tenthteam2/pleasework/src/catkin/cmake/test/tests.cmake;160;add_test;/home/f1tenthteam2/pleasework/src/catkin/cmake/test/gtest.cmake;98;catkin_run_tests_target;/home/f1tenthteam2/pleasework/src/catkin/cmake/test/gtest.cmake;37;_catkin_add_google_test;/home/f1tenthteam2/pleasework/src/rospack/test/CMakeLists.txt;2;catkin_add_gtest;/home/f1tenthteam2/pleasework/src/rospack/test/CMakeLists.txt;0;")

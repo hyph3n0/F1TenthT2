@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/rqt_shell
-
-Name: rqt_shell
-Description: Description of rqt_shell
-Version: 0.4.11
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/f1tenthteam2/pleasework/devel_isolated/transmission_interface
-
-Name: transmission_interface
-Description: Description of transmission_interface
-Version: 0.20.0
-Cflags: -I/home/f1tenthteam2/pleasework/src/ros_control/transmission_interface/include -I/usr/include
-Libs: -L${prefix}/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins /usr/lib/aarch64-linux-gnu/libtinyxml.so
-Requires: hardware_interface pluginlib roscpp
