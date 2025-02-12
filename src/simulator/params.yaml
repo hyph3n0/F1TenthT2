@@ -90,7 +90,7 @@ obstacle_size: 2
 
 # The names of topics to listen and publish to
 joy_topic: "/joy"
-drive_topic: "/drive"
+drive_topic: "/ackermann_cmd"
 map_topic: "/map"
 distance_transform_topic: "/dt"
 scan_topic: "/scan"
