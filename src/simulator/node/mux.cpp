@@ -110,6 +110,13 @@ public:
         n.getParam("random_walker_mux_idx", random_walker_mux_idx);
         add_channel(rand_drive_topic, drive_topic, random_walker_mux_idx);
 
+        // Wall Follow
+        int wall_follow_mux_idx;
+        std::string wall_drive_topic;
+        n.getParam("wall_drive_topic", wall_drive_topic);
+        n.getParam("wall_follow_mux_idx", wall_follow_mux_idx);
+        add_channel(wall_drive_topic, drive_topic, wall_follow_mux_idx);
+
         // Channel for emergency braking
         int brake_mux_idx;
         std::string brake_drive_topic;

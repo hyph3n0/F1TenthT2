@@ -10,8 +10,9 @@
 #include <ackermann_msgs/AckermannDriveStamped.h>
 #include <ackermann_msgs/AckermannDrive.h>
 
-double desired_steer = 0;
 double desired_velocity = 0;
+double desired_steering = 0;
+
 class ManualControlNode {
 private:
     // Create a ROS node object. The name can be anything.
@@ -47,31 +48,28 @@ public:
         //--------- YOUR CODE GOES HERE -----------//
         
         // example
-         if (msg.data == "w") {
+        // if (msg.data == "w") {
+        //    desired_velocity = 2;
+        // }
+        // 
+        if (msg.data == "w")
+        {
             desired_velocity += 0.1;
-         }
-         if(msg.data == "s"){
+        }
+        if (msg.data == "s")
+        {
             desired_velocity -= 0.1;
-         }
-         if(msg.data == "a"){
-            desired_steer -= 0.1;
-         }
-         if(msg.data == "d"){
-            desired_steer += 0.1;
-         }
-         if(msg.data ==" "){
-            if(desired_velocity > 0){
-                desired_velocity -= 0.1;
-            }
-            if(desired_velocity < 0){
-                desired_velocity +=0.1;
+        }
+        if (msg.data == "a")
+        {
+            desired_steering += 0.1;
+        }
+        if (msg.data == "d")
+        {
+            desired_steering -= 0.1;
+        }
 
-            }
-
-         }
-         
-
-        publish(desired_velocity, desired_steer);
+        publish(desired_velocity, desired_steering);
     }
 
     void publish(double desired_velocity, double desired_steer) {

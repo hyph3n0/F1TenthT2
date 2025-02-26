@@ -40,6 +40,7 @@ private:
     int brake_mux_idx;
     // ***Add mux index for new planner here***
     // int new_mux_idx;
+    int wall_follow_mux_idx;
 
     // Mux controller array
     std::vector<bool> mux_controller;
@@ -53,6 +54,7 @@ private:
     int nav_button_idx;
     // ***Add button index for new planner here***
     // int new_button_idx;
+    int wall_follow_button_idx;
 
     // Key indices
     std::string joy_key_char;
@@ -62,6 +64,7 @@ private:
     std::string nav_key_char;
     // ***Add key char for new planner here***
     // int new_key_char;
+    std::string wall_follow_key_char;
 
     // Is ebrake on? (not engaged, but on)
     bool safety_on;
@@ -119,6 +122,7 @@ public:
         n.getParam("nav_mux_idx", nav_mux_idx);
         // ***Add mux index for new planner here***
         // n.getParam("new_mux_idx", new_mux_idx);
+        n.getParam("wall_follow_mux_idx", wall_follow_mux_idx);
 
         // Get button indices
         n.getParam("joy_button_idx", joy_button_idx);
@@ -128,6 +132,7 @@ public:
         n.getParam("nav_button_idx", nav_button_idx);
         // ***Add button index for new planner here***
         // n.getParam("new_button_idx", new_button_idx);
+        n.getParam("wall_follow_button_idx", wall_follow_button_idx);
 
         // Get key indices
         n.getParam("joy_key_char", joy_key_char);
@@ -137,6 +142,7 @@ public:
         n.getParam("nav_key_char", nav_key_char);
         // ***Add key char for new planner here***
         // n.getParam("new_key_char", new_key_char);
+        n.getParam("wall_follow_key_char", wall_follow_key_char);
 
         // Initialize the mux controller 
         n.getParam("mux_size", mux_size);
@@ -317,11 +323,13 @@ public:
         //  // new planner
         //  toggle_mux(new_mux_idx, "New Planner");
         // }
+        else if (msg.buttons[wall_follow_button_idx]) {
+            toggle_mux(wall_follow_mux_idx, "Wall Follow");
+        }
 
     }
 
     void key_callback(const std_msgs::String & msg) {
-        // Changing mux controller:
         if (msg.data == joy_key_char) {
             // joystick
             toggle_mux(joy_mux_idx, "Joystick");
@@ -341,7 +349,14 @@ public:
         } else if (msg.data == random_walk_key_char) {
             // random walker
             toggle_mux(random_walker_mux_idx, "Random Walker");
-        } else if (msg.data == nav_key_char) {
+        } 
+        // Changing mux controller:
+        else if (msg.data == wall_follow_key_char)
+        {
+            ROS_INFO("Wall follow turned on");
+            toggle_mux(wall_follow_mux_idx, "Wall Follow");
+        }
+        else if (msg.data == nav_key_char) {
             // nav
             toggle_mux(nav_mux_idx, "Navigation");
         }
@@ -349,8 +364,7 @@ public:
         // if (msg.data == new_key_char) {
         //  // new planner
         //  toggle_mux(new_mux_idx, "New Planner");
-        // }
-
+        // }        else if (msg.data == wall_follow_key_char)
     }
 
     void laser_callback(const sensor_msgs::LaserScan & msg) {
