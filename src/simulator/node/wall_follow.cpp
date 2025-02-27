@@ -31,7 +31,7 @@ private:
     double prevError = 0.0;
     double integral = 0.0;
     double prev_angle = 0.0;
-    double targetDistance = 0.5; // was 1 in simulation
+    double targetDistance = 0.75; // was 1 in simulation
     ackermann_msgs::AckermannDriveStamped drive_st_msg;
     ackermann_msgs::AckermannDrive drive_msg;
 
@@ -95,8 +95,8 @@ public:
   	drive_st_msg.drive = drive_msg;
   	drive_pub.publish(drive_st_msg);
 	//ROS_INFO("[ROBOT] Dist: %f", distance);
-	ROS_INFO("[ROBOT] 90: %f", a);
-	ROS_INFO("[ROBOT] 120: %f", b);
+	// ROS_INFO("[ROBOT] 90: %f", a);
+	// ROS_INFO("[ROBOT] 120: %f", b);
         //ROS_INFO("[ROBOT] Porp: %f", error*Kp);
         //ROS_INFO("[ROBOT] Integ: %f", integral*Ki);
         //ROS_INFO("[ROBOT] Deriv: %f", derivative*Kd);
