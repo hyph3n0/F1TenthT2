@@ -25,13 +25,13 @@ private:
     ros::Publisher drive_pub;
 
     // previous desired steering angle
-    const double Kp = 1;
-    const double Ki = 0;
-    const double Kd = 1;
+    const double Kp = 1.0; // just fucking around with coefficients
+    const double Ki = 0; // was 0.01
+    const double Kd = 0; // was 1
     double prevError = 0.0;
     double integral = 0.0;
     double prev_angle = 0.0;
-    double targetDistance = 0.75; // was 1 in simulation
+    double targetDistance = 0.6; // was 1 in simulation
     ackermann_msgs::AckermannDriveStamped drive_st_msg;
     ackermann_msgs::AckermannDrive drive_msg;
 
@@ -69,39 +69,66 @@ public:
 	double angle_increment = laser_msg.angle_increment;
 	double first_angle_degree = 45; // was 90
 	double first_angle_radian = first_angle_degree * M_PI / 180.0;
-	double second_angle_degree = 75; // was 120
+	double second_angle_degree = 90; // was 120
 	double second_angle_radian = second_angle_degree * M_PI / 180.0;
-	double theta = second_angle_radian - first_angle_radian;
-    	size_t first_index = static_cast<size_t>(first_angle_radian / angle_increment);
+    double third_angle_degree = 135;
+    double third_angle_radian = third_angle_degree * M_PI / 180.0;
+    double fourth_angle_degree = 180;
+    double fourth_angle_radian = fourth_angle_degree * M_PI / 180.0;
+	double theta = second_angle_radian - first_angle_radian; // was second then first
+    size_t first_index = static_cast<size_t>(first_angle_radian / angle_increment);
 	size_t second_index = static_cast<size_t>(second_angle_radian / angle_increment);
+    size_t third_index = static_cast<size_t>(third_angle_radian / angle_increment);
+    size_t fourth_index = static_cast<size_t>(fourth_angle_radian / angle_increment);
 	double a = laser_ranges[first_index];
 	double b = laser_ranges[second_index];
+    double c = laser_ranges[third_index];
+    double d = laser_ranges[fourth_index];
+    
 	double alpha = atan2(a * cos(theta) - b, a* sin(theta));
-	double distance = b * cos(alpha);
+	double D_t = b * cos(alpha);
 
-	double error = targetDistance - distance;
+    // predict future
+    double L = 0.025 * 1.0;
+    double D_t1 = D_t + L * sin(alpha);
+
+	double error = targetDistance - D_t1;
 	integral +=error;
-	if ( error * prevError < 0){
+	if ( error * prevError < 0 || abs(error - prevError) < 0.01){
 	    integral = 0;
 	}
 	double derivative = error - prevError;
 	double pidResult = Kp * error + Ki * integral + Kd * derivative;
-	double steering_angle = pidResult;
+    double steering_angle;
+    if (c < 1.5)
+    {
+        steering_angle = 1.5 * Kp * (d - b);
+        drive_msg.speed = 1.2;
+    }
+    else if (c > 3)
+    {
+        steering_angle = pidResult * 0.12;
+        drive_msg.speed = 2.4;
+    }
+    else
+    {
+	    steering_angle = pidResult;
+        drive_msg.speed = 1.2;
+    }
 	prevError = error;
 	prev_angle = steering_angle;
-        steering_angle = std::max(-max_steering_angle, std::min(max_steering_angle, steering_angle));
-  	drive_msg.speed = 1.;
-  	drive_msg.steering_angle = steering_angle;
+    steering_angle = std::max(-max_steering_angle, std::min(max_steering_angle, steering_angle));
+    drive_msg.steering_angle = steering_angle;
   	drive_st_msg.drive = drive_msg;
   	drive_pub.publish(drive_st_msg);
 	//ROS_INFO("[ROBOT] Dist: %f", distance);
 	// ROS_INFO("[ROBOT] 90: %f", a);
 	// ROS_INFO("[ROBOT] 120: %f", b);
-        //ROS_INFO("[ROBOT] Porp: %f", error*Kp);
-        //ROS_INFO("[ROBOT] Integ: %f", integral*Ki);
-        //ROS_INFO("[ROBOT] Deriv: %f", derivative*Kd);
-        //ROS_INFO("[ROBOT] E: %f", error);
-        //ROS_INFO("[ROBOT] angle: %f", steering_angle);
+        // ROS_INFO("[ROBOT] Porp: %f", error*Kp);
+        // ROS_INFO("[ROBOT] Integ: %f", integral*Ki);
+        // ROS_INFO("[ROBOT] Deriv: %f", derivative*Kd);
+        ROS_INFO("[ROBOT] Angle: %f", steering_angle);
+        // ROS_INFO("[ROBOT] E: %f", error);
     }
 };
 // end of class definition
