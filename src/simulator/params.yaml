@@ -1,38 +1,38 @@
 # The distance between the front and
 # rear axle of the racecar
-wheelbase: 0.3302 # meters
+wheelbase: 0.26 # meters
 # width of racecar
-width: 0.2032 # meters
+width: 0.2 # meters
 
 # steering delay
 buffer_length: 5
 
 # Limits on the speed and steering angle
 max_speed: 7. #  meters/second
-max_steering_angle: 0.4189 # radians
-max_accel: 7.51 # meters/second^2
-max_decel: 8.26 # meters/second^2
-max_steering_vel: 3.2 # radians/second
-friction_coeff: 0.523 # - (complete estimate)
+max_steering_angle: 0.26 # was 0.4189 radians
+max_accel: 5 # was 7.51 meters/second^2
+max_decel: 5 # was 8.26 meters/second^2
+max_steering_vel: 2 # radians/second
+friction_coeff: 0.4 # - was 0.523 (complete estimate)
 height_cg: 0.074 # m (roughly measured to be 3.25 in)
 l_cg2rear: 0.17145 # m (decently measured to be 6.75 in)
 l_cg2front: 0.15875 # m (decently measured to be 6.25 in)
 C_S_front: 4.718 #.79 # 1/rad ? (estimated weight/4)
 C_S_rear: 5.4562 #.79 # 1/rad ? (estimated weight/4)
-mass: 3.47 # kg (measured on car 'lidart')
+mass: 3 # kg (measured on car 'lidart')
 moment_inertia: .04712 # kg m^2 (estimated as a rectangle with width and height of car and evenly distributed mass, then shifted to account for center of mass location)
 
 # The rate at which the pose and the lidar publish
 update_pose_rate: 0.001
 
 # Lidar simulation parameters
-scan_beams: 1080
-scan_field_of_view: 6.2831853 #4.71 # radians
+scan_beams: 1081 # was 1600
+scan_field_of_view: 4.71 # was 6.28
 
 
 # The distance from the center of the
 # rear axis (base_link) to the lidar
-scan_distance_to_base_link: 0.275 # meters
+scan_distance_to_base_link: 0.155 # was 0.275 meters
 
 # The standard deviation of the noise applied
 # to the lidar simulation
@@ -44,10 +44,10 @@ scan_std_dev: 0.01 # meters
 map_free_threshold: 0.8
 
 # Time to collision cutoff value
-ttc_threshold: 0.01
+ttc_threshold: 0.03
 
 # Indices for mux controller
-mux_size: 5
+mux_size: 6
 joy_mux_idx: 0
 key_mux_idx: 1
 random_walker_mux_idx: 2
@@ -56,9 +56,11 @@ nav_mux_idx: 4
 # **Add index for new planning method here**
 # **(increase mux_size accordingly)**
 new_method_mux_idx: -1
+wall_follow_mux_idx: 5
+
 
 # Enables joystick if true
-joy: true
+joy: false
 # Joystick indices
 joy_speed_axis: 1
 joy_angle_axis: 3
@@ -80,6 +82,7 @@ random_walk_key_char: "r"
 nav_key_char: "n"
 # **Add button for new planning method here**
 new_key_char: "z"
+wall_follow_key_char: "p"
 
 # Keyboard driving params
 keyboard_speed: 1.8  # meters/second
@@ -90,7 +93,7 @@ obstacle_size: 2
 
 # The names of topics to listen and publish to
 joy_topic: "/joy"
-drive_topic: "/ackermann_cmd"
+drive_topic: "/drive"
 map_topic: "/map"
 distance_transform_topic: "/dt"
 scan_topic: "/scan"
@@ -110,6 +113,7 @@ brake_drive_topic: "/brake"
 nav_drive_topic: "/nav"
 # **Add name for new planning method here**
 new_drive_topic: "/new_drive"
+wall_drive_topic: "/wall_drive"
 
 # name of file to write collision log to 
 collision_file: "collision_file"

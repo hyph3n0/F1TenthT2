@@ -100,6 +100,7 @@ if(DEFINED CATKIN_DEVEL_PREFIX)
   install(DIRECTORY include/${PROJECT_NAME}/
       DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
   )
+
 endif()
 
 ######################################
